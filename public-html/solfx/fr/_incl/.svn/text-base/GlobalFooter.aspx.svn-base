@@ -1,0 +1,16 @@
+﻿	<div id="footer">
+		<ul id="ulFooter">
+			<li><a href="ExperienceVideo.aspx">Experience Video</a></li>
+			<li><a href="InteractiveDemo.aspx">Interactive Demo</a></li>
+			<li><a href="BeInTheKnow.aspx">Be in the know</a></li>
+			<li><a href="WhereToGetThem.aspx">Where To Get Them</a></li>
+		</ul>
+		<ul id="ulTerms">
+			<li><a href="#">Privacy</a> |</li>
+			<li><a href="#">Terms and Conditions</a></li>
+		</ul>
+		<p>Copyright<sup>&copy;</sup> 2009 Transitions Optical, Inc. All Rights Reserved.<br /> Transitions and the swirl are registered trademarks and Healthy sight in every light and Activated by Transitions are trademarks of Transitions Optical, Inc.</p>
+	</div>
+</div>
+</body>
+</html>

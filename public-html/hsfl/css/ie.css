@@ -1,0 +1,59 @@
+#hHSFL a {
+	background: url(../images/homeLink.jpg) 0 10px no-repeat;
+	display: block;
+	float: left;
+	height: 0;
+	padding-top: 67px;
+	overflow: hidden;
+	width: 173px;
+}
+#hHSFL a:hover {
+	background-position: 0 -50px;
+}
+#lnkEmailUs:hover, #lnkGetResources:hover {
+	background-position: 0 -30px;
+}
+#lnkEmailUs:active, #lnkGetResources:active {
+	background-position: 0 -60px;
+}
+#lnkGetResources {
+	background: url(../images/getResources.jpg) 0 0 no-repeat;
+}
+textarea.text {
+	background-attachment: fixed;
+}
+#pnlGetInvolved fieldset#fsForward {
+	overflow:hidden;
+}
+#pnlVisionCare, #pnlVisionWear {
+	margin-top:8px;
+	margin-bottom:10px;
+}
+#pnlVisionWear {
+	margin-left:-80px;
+}
+#enhanceAndProtect #pnlHeader {
+	overflow:hidden;
+}
+#pnlDonate {
+	padding:60px 10px 10px 35px;
+}
+div#TB_closeAjaxWindow{
+	padding:0px;
+	background: transparent url(../images/closeBtn2.gif) top left no-repeat;
+}
+#TB_window a:link, #TB_window a:visited, #TB_window a:hover, #TB_window a:active, #TB_window a:focus {
+	text-indent:-5000px;
+	background:transparent;
+	width:37px;
+	height:0;
+	padding-top:41px;
+	display:block;
+}
+#TB_ajaxContent{
+	clear:both;
+	padding:2px 0px 15px 15px;
+	overflow:hidden;
+	text-align:left;
+	line-height:1.4em;
+}

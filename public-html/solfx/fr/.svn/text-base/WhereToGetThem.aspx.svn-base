@@ -1,0 +1,41 @@
+﻿<%@ Page Language="VB" ContentType="text/html" ResponseEncoding="UTF-8" Debug="True" %>
+<%@ Import Namespace="System.Web.Mail" %>
+<%@ Import Namespace="System.IO" %>
+<%@ Import Namespace="System.Security.Principal" %>
+<%@ Import Namespace="System.Security.Permissions" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title>SolFX // Transitions SolFX</title>
+        <meta name="description" content="" />
+        <meta name="keywords" content="" />
+		<!--#include file="_incl/css-js.aspx"-->
+        <meta name="verify-v1" content="n/DRvBpJs+kXWktpQwyjnf7CC6RoMB9j5wCLh7MuV2A=" />
+	</head>
+	<body class="Whereto">
+	<!--#include file="_incl/GlobalHeader.aspx"-->
+	<div id="wrapper">
+	<div id="ajaxContainer">
+		<div id="content" class="whereToGetThem">
+			<h2>Where To Get Transitions SOLFX sunwear</h2>
+			<p id="pAskPro">Transitions Optical works with a number of partners to offer sunwear options that automatically change level of darkness &ndash; and even color &ndash; to provide optimal vision in sun and shade.</p>
+			<div id="pnlEyeCarePro">
+				<h3>Eyecare Professional</h3>
+				<p>Ask your eyecare professional about prescription and non-prescription Transitions SOLFX sunwear</p>
+				<a href="http://en-us.transitions.com/findECP.htm" target="_blank" class="lnkVisit">Visit site</a>
+			</div>
+			<div id="pnlDrivewear">
+				<h3>Drivewear</h3>
+				<p>Designed specifically to meet the unique visual demands of the driving task, Drivewear lenses combine Transitions technology and NuPolar<sup>&reg;</sup> polarization.</p>
+				<a href="http://www.drivewearlens.com/" target="_blank" class="lnkVisitDark">Visit site</a>
+			</div>
+			<div id="pnlOakley">
+				<h3>Oakley</h3>
+				<p>Transitions technology is blended with patented Oakley innovations for the best clarity, protection, and performance possible.</p>
+				<a href="http://oakley.com/innovation/optical_superiority/photochromic" target="_blank" class="lnkVisitDark">Visit site</a>
+			</div>
+		</div>
+	</div>
+	<!--#include file="_incl/GlobalCategoryNavigation.aspx"-->
+	<!--#include file="_incl/GlobalFooter.aspx"-->

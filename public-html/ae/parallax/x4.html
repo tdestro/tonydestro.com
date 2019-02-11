@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+ 	<link rel="stylesheet" type="text/css" href="styles/styles.css"/>
+</head>
+<body>
+	
+   <div id="aeobtsflx-x4" class="aeobtsflx-parallax aeobtsflx-x4 ">
+   		<img class="aspect" src="images/aeobtsflx-x4-bg.jpg">
+   	 	<ul id="aeobtsflx-scene" class="aeobtsflx-scene scene fill">
+      		<li class="layer expand-width" data-depth="0.75"><div class="heading"></div></li>
+      		<li class="layer expand-width" data-depth="0.50"><div class="eli"></div></li>
+      		<li class="layer expand-width exit" data-depth="0.25">
+      			<div class="shop-callout">
+      				<img src="images/aeobtsflx-x4-features.png"/>
+					<a href="#" class="button"><img src="images/aeobtsflx-x4-shop-button.png"/></a>
+      			</div>
+      		</li>      
+    	</ul>
+  </div>
+  
+  <!-- Scripts -->
+  <script src="js/parallax.min.js"></script>
+  <script>
+
+  var scene = document.getElementById('aeobtsflx-scene');
+  var parallax = new Parallax(scene, {
+  calibrateX: false,
+  calibrateY: false,
+  invertX: false,
+  invertY: true,
+  limitX: 45,
+  limitY: 35,
+  scalarX: 7,
+  scalarY: 5.5,
+  originX: .65,
+  originY: .65
+});
+
+  </script>
+  
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
+ <script type="text/javascript" src="js/parallax.min.js"></script> 
+ <script type="text/javascript" src="js/raF.min.js"></script> 
+ <script type="text/javascript" src="js/jcanvas.min.js"></script> 
+ 
+ 
+</body>
+</html>

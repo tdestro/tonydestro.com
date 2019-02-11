@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="rss.xsl"?>
+<rss version="2.0">
+	<channel>
+		<title>Transitions SolFX</title>
+		<link></link>
+		<description>Transitions Latest News</description>
+		<!--<item>
+			<title>Transitions Introduces Optometry Scholarship Program</title>
+			<link>http://healthysightforlife.org/press/nr_OptometryScholarships.pdf</link>
+			<description>50k PDF</description>
+			<pubDate>June 29, 2007</pubDate>
+		</item>-->
+	</channel>
+</rss>

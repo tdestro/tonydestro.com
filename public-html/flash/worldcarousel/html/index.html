@@ -1,0 +1,125 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Discover the World of Heinz</title>
+		<link rel="stylesheet" href="wizard.css" type="text/css">
+		<link rel="stylesheet" href="umbracoAutoForm.css" type="text/css">
+		<link rel="stylesheet" href="contentStyles.css" type="text/css">
+		<link rel="stylesheet" href="home.css" type="text/css">
+		<script type="text/javascript" src="DOMContentLoaded.js"></script>
+		<script type="text/javascript" src="jquery_002.js"></script>
+		<script type="text/javascript" src="jquery_003.js"></script>
+		<script type="text/javascript" src="rounded_corners_lite.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				var headerElement = document.getElementById("contentHeader");
+				if (headerElement != null) {
+					//set the header image for this page
+					var hdrImg = "";
+					//hdrImg = '../..' + hdrImg;
+					var hdrImgFinal =  'url(' + hdrImg + ')';
+					var hdr = headerElement
+					hdr.style.backgroundImage = hdrImgFinal;
+					hdr.style.backgroundPosition = "0px 0px";
+					hdr.style.backgroundRepeat = "no-repeat";
+					//add rounded borders to the content header div on all pages
+					//using the non-jquery version of curvy corners, bc there was a bug that needed fixed with the jquery version
+					settings = {
+						tl: { radius: 15 },
+						tr: { radius: 15 },
+						bl: { radius: 0 },
+						br: { radius: 0 },
+						antiAlias: true,
+						autoPad: true,
+						validTags: ["div"]
+					};
+					var headerDivObj = document.getElementById("contentHeader");
+					var hdrObject = new curvyCorners(settings, headerDivObj);
+					hdrObject.applyCornersToAll();
+				}
+			});
+		</script>
+		<script type="text/javascript" src="ui.js"></script>
+		<script type="text/javascript" src="SWFObject.js"></script>
+				<link rel="stylesheet" type="text/css" media="print" href="print.css">
+	</head>
+	<body id="home">
+   <div id="container">
+      <a href="#" title="Back to front page" id="headerHome">Home</a>
+      <div id="naviHolder">
+         <form method="get" name="search" action="#">
+            <ul id="globalnav">
+               <li id="hnz-home" class="selected"><a href="#" title="Go to Heinz">Heinz</a></li>
+               <li id="hnz-food"><a href="#" title="Go to Our Food">Our Food</a></li>
+               <li id="hnz-health"><a href="#" title="Go to Health &amp; Wellness">Health &amp; Wellness</a></li>
+               <li id="hnz-company"><a href="#" title="Go to Our Company">Our Company</a></li>
+               <li id="hnz-sustainability"><a href="#" title="Go to Sustainability">Sustainability</a></li>
+               <li id="hnz-searchbutton" class="searchcls"><input id="SiteSearch_2_btnSearch" value="" type="submit"></li>
+               <li id="hnz-searchfield" class="searchcls"><input id="search" alt="Enter Your Search Request" name="d" type="text"></li>
+            </ul>
+         </form>
+      </div>
+      <form name="ctl04" method="post" action="#" id="ctl04">
+         <div>
+            <input name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJOTkzNjk4NjQ4ZGRtItXwYs6csPytOMmaZFV+XO8ElA==" type="hidden">
+         </div>
+         <script src="ScriptResource.js" type="text/javascript"></script>
+         <div id="content" style="background: url(/web/20100102153950im_/http://media.heinz.com/) top left no-repeat;">
+            <div id="textContent">
+               <h1>Discover the World of Heinz</h1>
+               <h2>Serving up quality, taste, convenience and innovation like no other food company on Earth.</h2>
+               <div id="homepageFlash">
+                  <embed type="application/x-shockwave-flash" src="Discover%20the%20World%20of%20Heinz_files/heinzMenu.swf" style="undefined" id="Discover the world of Heinz" name="Discover the world of Heinz" bgcolor="#000000" quality="high" wmode="transparent" allowfullscreen="false" height="440" align="middle" width="837">
+               </div>
+               <script type="text/javascript">
+                  var so = new SWFObject("/flash/worldcarousel/menu/heinzMenu.swf", "Discover the world of Heinz", "837", "440", "9.0.124", "#336699");
+                  so.addParam("quality", "high");
+                  so.addParam("wmode", "transparent");
+                  so.addParam("allowFullScreen","false");
+                  so.addParam("bgcolor","#000000");
+                  so.addParam("align","middle");
+                  so.write("homepageFlash");
+               </script>
+               <div id="quickLinks">
+                  <div id="subBlock1">
+                     <a rel="0" href="#" class="lnkHealthWellness" target="_self" style="background-image: url(discoverheinzbrand.gif);">Discover Heinz Brands</a>
+                  </div>
+                  <div id="subBlock2">
+                     <a rel="0" href="#" class="lnkHealthWellness" target="_blank" style="background-image: url(csrreport_mid_main.gif);">Heinz 2009 CSR Report</a>
+                  </div>
+                  <div id="subBlock3">
+                     <a rel="0" href="#" target="_self" style="background-image: url(lookaround_2_mid_main.gif);">Heinz Corporate Video</a>
+                  </div>
+               </div>
+                          </div>
+         </div>
+         <div id="bottom">
+            <div id="footerNaviHolder">
+               <ul id="footerNaviList">
+                  <li class="firstChild"><a href="#">Media</a></li>
+                  <li><a href="#">Investor Relations</a></li>
+                  <li><a href="#">Careers</a></li>
+                  <li><a href="#">H. J. Heinz Company Foundation</a></li>
+                  <li><a href="#">Global Websites</a></li>
+                  <li><a href="#">Contact</a></li>
+               </ul>
+               <a href="#" class="lnkHome">Heinz</a>
+               <ul id="ulFooterLinks">
+                  <li><a href="#">Site Map</a></li>
+                  <li><a href="#">Privacy/Legal Policy</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                  <li><a href="#">Proxy Statement(s)</a></li>
+                  <li><a href="#">RSS Feeds</a></li>
+                  <li><a href="#">Heinz Stuff</a></li>
+               </ul>
+               <p>H. J. Heinz Company, Pittsburgh, PA 15230 USA © H. J. Heinz Company. All rights reserved.</p>
+            </div>
+         </div>
+         <script type="text/javascript">
+            //<![CDATA[
+            Sys.Application.initialize();
+            //]]>
+         </script>
+      </form>
+   </div>
+</body></html>

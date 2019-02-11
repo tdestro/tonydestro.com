@@ -1,0 +1,132 @@
+/***********************************
+Sets your window to see the coolness
+***********************************/
+body.awesome .slidingGalleryContainer {
+	position:relative;
+	overflow:hidden;
+	width: 802px;
+	/* sets area to display button divs */
+	padding: 0 50px; 
+}
+
+/*********************************
+Primary container for the buttons
+*********************************/
+.toggleButtonsLeft {
+	position:absolute;
+	top:0;
+	left:0;
+}
+.toggleButtonsRight {
+	position:absolute;
+	top:0;
+	left:865px;
+}
+/* global for the two buttons */
+a.previous, a.next, a.previousInnactive{ 
+	display:block;
+	width:37px;
+	height:300px;
+	background: #f9f9f9 url(../images/leftSliderBtn.jpg) 0 0 no-repeat;
+	outline: none;
+}
+/* puts right button on the right */
+a.next{
+	background: #f9f9f9 url(../images/rightSliderBtn.jpg) -71px 0 no-repeat;
+	float: right;
+}
+a:hover.next {
+	background-position: -35px 0;
+}
+a:hover.previous {
+	background-position: -36px 0;
+}
+a.next:active {
+	background-position: 1px 0;
+}
+a.previous:active {
+	background-position: -72px 0;
+}
+/******************************
+Global class for the main frame
+******************************/
+.panels{
+	position:relative;
+	/* dont edit */
+	width:50000px; 
+	left:0;
+	clear: both;
+}
+
+/***************************************
+Individual panel + add in html as needed
+***************************************/
+.panel{
+	position: relative;
+	width: 580px;
+	float:left;
+	height: 310px;
+	background: ;
+	padding: 0 12px 0 223px;
+}
+
+/************
+Global styles
+************/
+.panel h3 {
+	margin: 0;
+}
+.panel p {
+	margin-top: 0;
+}
+/****** Panel Backgrounds ******/
+#pnlBCAB {
+	background: url(../images/BCABlogo.jpg) 0 0 no-repeat;
+}
+#pnlCEC {
+	background: url(../images/CEClogo.jpg) 0 0 no-repeat;
+	padding: 0 60px 0 175px;
+}
+#pnlCPS {
+	background: url(../images/CPSlogo.jpg) 0 0 no-repeat;
+	padding: 0 0 0 305px;
+	width: 495px;
+}
+#pnlCPSEI {
+	background: url(../images/CPSEIlogo.jpg) 0 0 no-repeat;
+	padding: 0 38px 0 212px;
+}
+#pnlDCVR {
+	background: url(../images/Deickelogo.jpg) 0 0 no-repeat;
+	padding: 0 0 0 280px;
+	width: 531px;
+}
+#pnlEVF {
+	background: url(../images/EVFlogo.jpg) 0 0 no-repeat;
+}
+#pnlOrbis {
+	background: url(../images/ORBISlogo.jpg) 0 0 no-repeat;
+	padding: 0 104px 0 134px;
+}
+#pnlPBF {
+	background: url(../images/PBFlogo.jpg) 0 0 no-repeat;
+	padding: 0 56px 0 269px;
+	width: 490px;
+}
+#pnlVHI {
+	background: url(../images/VHIlogo.jpg) 0 0 no-repeat;
+	padding: 0 54px 0 182px;
+}
+#pnlPBA {
+	background: url(../images/PBAlogo.jpg) 0 0 no-repeat;
+	padding: 0 56px 0 269px;
+	width: 490px;
+}
+#pnlCNIB {
+	background: url(../images/CNIBlogo.jpg) 0 0 no-repeat;
+}
+#pnlEDF {
+	background: url(../images/EDFlogo.jpg) 0 0 no-repeat;
+	padding: 0 0 0 255px;
+	width: 500px;
+}

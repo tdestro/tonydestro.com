@@ -1,0 +1,1126 @@
+/* General styles to be applied site-wide */
+/* HTML Elements */
+body {
+	background: #dfe0db url(../images/bg.jpg) 0 0 repeat-x;
+	color: #676767;
+	font: normal 12px "lucida grande", arial, verdana, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+h1, h2, h3 {
+	color: #2b5395;
+}
+h2, h3 {
+	font-size: 20px;
+}
+a {
+	color: #3068a7;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+fieldset {
+	border: none;
+}
+legend {
+	margin: 0;
+	padding: 0;
+}
+fieldset span {
+	font-size: 20px;
+}
+label {
+	display: block;
+	font-size: 15px;
+}
+input.text {
+	background: url(../images/txtBg.jpg) 0 0 no-repeat;
+	border: 0;
+	font-size: 14px;
+	height: 21px;
+	padding: 7px;
+	width: 415px;
+}
+dd {
+	margin: 0;
+	padding: 0;
+}
+#container {
+	margin: 0 auto;
+	width: 961px;
+}
+#content {
+	clear: left;
+}
+#pnlHeader {
+	height: 308px;
+	padding: 25px;
+	width: 910px;
+}
+#pnlMainContent {
+	background: #f9f9f9 url(../images/dropShadow.jpg) 0 0 repeat-x;
+	padding: 25px;
+	width: 910px;
+}
+#pnlSecondary div {
+	border-top: 1px solid #dfe0dc;
+	float: left;
+	height: 118px;
+	overflow: hidden;
+	width: 480px;
+}
+#pnlSecondary div * {
+	margin-left: 312px;
+	margin-top: 0;
+	padding-right: 50px;
+}
+#pnlSecondary div a {
+	display: block;
+	margin: 0;
+	padding: 10px 0 0;
+}
+#pnlSecondary div a.lnkLearnMore {
+	margin-left: 308px;
+	padding-top: 23px;
+}
+#pnlSecondary h2 {
+	margin-bottom: 0;
+	margin-top: 9px;
+}
+div.left {
+	background: url(../images/secondaryLeftWoman.jpg) 0 0 no-repeat;
+}
+div.right {
+	background: url(../images/secondaryRightMan.jpg) 0 0 no-repeat;
+}
+/* Navigation */
+#ulMainNav {
+	clear: both;
+	float: left;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	width: 961px;
+}
+#ulMainNav li {
+	float: left;
+}
+#ulMainNav li a {
+	background: url(../images/mainNavBg.jpg) no-repeat;
+	display: block;
+	height: 0;
+	margin: 0;
+	overflow: hidden;
+	padding-top: 42px;
+}
+#ulMainNav li a#lnkEnhance {
+	width: 254px;
+}
+#ulMainNav li a#lnkAbout {
+	background-position: -254px 0;
+	width: 168px;
+}
+#ulMainNav li a#lnkGetInvolved {
+	background-position: -422px 0;
+	width: 147px;
+}
+#ulMainNav li a#lnkResources {
+	background-position: -569px 0;
+	width: 213px;
+}
+#ulMainNav li a#lnkScholarship {
+	background-position: -782px 0;
+	width: 178px;
+}
+/****** Main Nav Hover ******/
+#ulMainNav li a#lnkEnhance:hover {
+	background-position: 0 -52px;
+}
+#ulMainNav li a#lnkAbout:hover {
+	background-position: -254px -52px;
+}
+#ulMainNav li a#lnkGetInvolved:hover {
+	background-position: -422px -52px;
+}
+#ulMainNav li a#lnkResources:hover {
+	background-position: -569px -52px;
+}
+#ulMainNav li a#lnkScholarship:hover {
+	background-position: -783px -52px;
+}
+/****** Main Nav Click ******/
+#ulMainNav li a#lnkEnhance:active {
+	background-position: 0 -106px;
+}
+#ulMainNav li a#lnkAbout:active {
+	background-position: -254px -106px;
+}
+#ulMainNav li a#lnkGetInvolved:active {
+	background-position: -422px -106px;
+}
+#ulMainNav li a#lnkResources:active {
+	background-position: -569px -106px;
+}
+#ulMainNav li a#lnkScholarship:active {
+	background-position: -783px -106px;
+}
+/****** Main Nav Active *****/
+#enhanceAndProtect #ulMainNav li a#lnkEnhance {
+	background-position: 0 -159px;
+}
+#aboutTheFund #ulMainNav li a#lnkAbout {
+	background-position: -254px -159px;
+}
+#getInvolved #ulMainNav li a#lnkGetInvolved {
+	background-position: -422px -159px;
+}
+#professionalResources #ulMainNav li a#lnkResources {
+	background-position: -569px -159px;
+}
+#visionScholarships #ulMainNav li a#lnkScholarship {
+	background-position: -783px -159px;
+}
+/****** Global Nav ******/
+#ulCorpNav {
+	float: right;
+	list-style: none;
+}
+#ulCorpNav li {
+	float: left;
+	margin: 0 2px;
+}
+#ulCorpNav a {
+	background: url(../images/globalNav.jpg) no-repeat 0 0;
+	display: block;
+	height: 0;
+	overflow: hidden;
+	padding-top: 23px;
+	width: 65px;
+}
+#ulCorpNav a#lnkHome {
+	background-position: 0 0;
+}
+#ulCorpNav a#lnkNews {
+	background-position: -68px 0;
+}
+#ulCorpNav a#lnkContact {
+	background-position: -135px 0;
+}
+#ulCorpNav a#lnkHome:hover {
+	background-position: 0 -23px;
+}
+#ulCorpNav a#lnkNews:hover {
+	background-position: -68px -23px;
+}
+#ulCorpNav a#lnkContact:hover {
+	background-position: -135px -23px;
+}
+#ulCorpNav a#lnkHome:active {
+	background-position: 0 -46px;
+}
+#ulCorpNav a#lnkNews:active {
+	background-position: -68px -46px;
+}
+#ulCorpNav a#lnkContact:active {
+	background-position: -135px -46px;
+}
+#ulFooter {
+	background: url(../images/footerLogo.jpg) no-repeat center 40px;
+	clear: left;
+	list-style: none;
+	margin: 0 auto;
+	padding: 100px 0 0;
+	text-align: center;
+	width: 760px;
+}
+#ulFooter li {
+	border-right: 1px solid #aaaba9;
+	display: inline;
+	line-height: 35px;
+	margin: 0;
+	padding: 0 20px;
+}
+#ulFooter li.last {
+	border: none;
+}
+#ulFooter a {
+	color: #aaaba9;
+	font-family: arial, verdana, sans-serif;
+	text-decoration: none;
+}
+.nodisplay, .ui-tabs-hide { display: none; }
+.ui-tabs-panel {
+	clear: both;
+	padding: 25px;
+}
+#hHSFL {
+	float: left;
+	margin: 0;
+	width: 173px;
+}
+#hHSFL a {
+	background: url(../images/homeLogo.png) 0 10px no-repeat;
+	display: block;
+	float: left;
+	height: 0;
+	padding-top: 67px;
+	overflow: hidden;
+	width: 173px;
+}
+#hHSFL a:hover {
+	background-position: 0 -50px;
+}
+#pCopyright, #pLegal {
+	color: #aaaba9;
+	margin: 10px auto;
+	text-align: center;
+	width: 350px;
+}
+#pCopyright {
+	margin-top: 70px;
+}
+#pLegal {
+	font-size: 10px;
+}
+
+/** ABOUT THE FUND **/
+#aboutTheFund #pnlHeader {
+	background: url(../images/aboutHeader.jpg) 0 0 no-repeat;
+	padding-right: 0;
+	width: 935px;
+}
+#aboutTheFund #pnlHeader .content {
+	float: left;
+	width: 400px;
+}
+#pnlVideo {
+	background: url(../images/hsflvideo.jpg) 207px 94px no-repeat;
+	float: left;
+	height: 0;
+	overflow: hidden;
+	padding-left: 207px;
+	padding-top: 316px;
+	width: 318px;
+}
+#aboutTheFund #pnlMainContent {
+	background: #fff url(../images/whiteDropshadow.jpg) 0 0 repeat-x;
+	border-bottom: solid 1px #d7d5d5;
+	float: left;
+	padding: 50px 25px 35px;
+}
+#aboutTheFund #pnlMainContent .content {
+	float: left;
+	margin-right: 30px;
+	padding-top: 110px;
+	width: 430px;
+}
+#aboutTheFund #pnlMainContent #pnlLearn .content {
+	padding-top: 130px;
+}
+#aboutTheFund #pnlMainContent #pnlSeeYourBest .content {
+	padding-top: 125px;
+	margin-left: 30px;
+	width: 400px;
+}
+#aboutTheFund #pnlMainContent #pnlMissSeeing .content  {
+	padding-top: 70px;
+}
+.pStats {
+	font-size: 24px;
+}
+.flash-replaced {
+	float: left;
+	width: 450px;
+}
+#pnlLearn, #pnlSeeYourBest, #pnlMissSeeing {
+	float: left;
+	margin-top: 20px;
+	width: 910px;
+}
+#pnlSeeYourBest {
+	margin-top: 9px;
+}
+#pnlMissSeeing {
+	margin-bottom: 50px;
+	margin-top: 9px;
+}
+#pnlMissSeeingFlash {
+	padding-top: 44px;
+}
+#pnlLearn h4, #pnlSeeYourBest h4, #pnlMissSeeing h4 {
+	margin: 0;
+}
+#pnlLearn p, #pnlSeeYourBest p, #pnlMissSeeing p {
+	margin-top: 10px;
+}
+#pnlTestimonial {
+	background: #f5f4f2;
+	border-top: 1px solid #fff;
+	clear: left;
+	height: 218px;
+	padding-left: 25px;
+}
+#pnlTestimonial p {
+	float: left;
+	margin: 0;
+	width: 573px;
+}
+#pnlTestimonial #lnkWatchVideo {
+	background: url(../images/hsflAboutVideo.jpg) right 0 no-repeat;
+	display: block;
+	float: left;
+	height: 0;
+	overflow: hidden;
+	padding-left: 56px;
+	padding-top: 109px;
+	width: 258px;
+}
+/** ENHANCE AND PROTECT **/
+#enhanceAndProtect #pnlHeader {
+	background: url(../images/skyBg.jpg) 0 0 no-repeat;
+	height: 307px;
+}
+#enhanceAndProtect #pnlHeader h2, #enhanceAndProtect #pnlHeader p {
+	width: 400px;
+}
+#enhanceAndProtect #pnlHeader p {
+	margin: 0;
+	padding: 10px 0 5px;
+}
+#enhanceAndProtect #pnlHeader div {
+	float: left;
+	padding-top: 10px;
+	width: 300px;
+}
+#pnlVisionWear {
+	margin-left: -30px;
+}
+#enhanceAndProtect #pnlHeader div p {
+	font-size: 13px;
+	height: 123px;
+	margin-bottom: 12px;
+	width: 345px;
+}
+#lnkFindAProfessional {
+	background: url(../images/findAnECP.jpg) 0 0 no-repeat;
+	display: block;
+	height: 0;
+	overflow: hidden;
+	padding-top: 31px;
+	width: 289px;
+}
+#lnkFindAProfessional:hover {
+	background-position: 0 -31px;
+}
+#lnkFindAProfessional:active {
+	background-position: 0 -62px;
+}
+#lnkBuildEyeglasses  {
+	background: url(../images/buildPairofEyeglasses.jpg) 0 0 no-repeat;
+	display: block;
+	height: 0;
+	overflow: hidden;
+	padding-top: 30px;
+	width: 220px;
+}
+#lnkBuildEyeglasses:hover {
+	background-position: 0 -30px;
+}
+#lnkBuildEyeglasses:active {
+	background-position: 0 -60px;
+}
+#pnlVisionCare {
+	padding-right: 200px;
+}
+#enhanceAndProtect #pnlMainContent {
+	background: url(../images/flowersBg.jpg) 0 0 no-repeat;
+	height: 685px;
+}
+#pnlWellness {
+	background: #f9f9f9 url(../images/dropShadow.jpg) 0 0 repeat-x;
+}
+#pnlWellness h4 {
+	color: #2B5395;
+	font-size: 20px;
+	margin: 0;
+}
+#pnlTreatments {
+	float: left;
+}
+#pnlProfessionalVisits, #pnlRadiation {
+	float: left;
+	padding: 46px 0 0 0;
+	width: 400px;
+}
+#pnlRadiation {
+	padding-left: 75px;
+	width: 430px;
+}
+#pnlTreatments ol {
+	margin: 0 0 0 20px;
+	padding: 0;
+}
+#pnlProfessionalVisits p {
+	margin: 0;
+}
+#pnlProfessionalVisits p#pVisits {
+	margin-top: 6px;
+}
+#pnlProfessionalVisits .detail li {
+	margin: 10px 0;
+}
+#pnlWellness {
+	clear: left;
+	float: left;
+}
+#pnlWellness div {
+	height: 400px;
+	float: left;
+	padding: 25px;
+	width: 429px;
+}
+#pnlWellness #pnlMedications {
+	padding-top: 97px;
+}
+#pnlEarlyDetection {
+	border-right: 1px solid #fff;
+}
+#pnlMedications {
+	border-left: 1px solid #e2e7eb;
+}
+/** NEWS **/
+#news #pnlHeader {
+	background: url(../images/newsHeader.jpg) 0 0 no-repeat;
+}
+#news #pnlMainContent ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.newsItem {
+	background: url(../images/newsItembg.jpg) 0 0 no-repeat;
+	height: 109px;
+	margin: 10px 0;
+	padding: 10px;
+	width: 870px;
+}
+.date {
+	display: block;
+	float: right;
+	margin-bottom: 20px;
+	width: 150px;
+}
+.headline {
+	display: block;
+	float: left;
+	font-weight: bold;
+	height: 40px;
+	margin-bottom: 20px;
+	width: 700px;
+}
+.pdf {
+	background: url(../images/downloadIcon.jpg) 0 0 no-repeat;
+	clear: both;
+	color: #676767;
+	display: block;
+	font-weight: bold;
+	height: 20px;
+	padding: 0 0 0 25px;
+	text-decoration: none;
+}
+/** CONTACT US **/
+#contact #pnlMainContent {
+	background: url(../images/contactUsBg.jpg) 0 0 no-repeat;
+	height: 995px;
+}
+#contact #pnlMainContent h2 {
+	background: url(../images/headlines/contactUs.jpg) 0 0 no-repeat;
+	height: 0;
+	margin: 0;
+	overflow: hidden;
+	padding-top: 42px;
+}
+#ulContactUs {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#ulContactUs li {
+	float: left;
+	margin: 5px;
+}
+#ulContactUs label {
+	color: #fff;
+}
+#ulContactUs input {
+	border: none;
+	font-size: 14px;
+	padding: 8px;
+}
+#liFirstName input, #liLastName input {
+	background: url(../images/contactForm/name.jpg) 0 0 no-repeat;
+	height: 19px;
+	width: 194px;
+}
+#liEmail input, #liAddr1 input, #liAddr2 input, #liPhone input {
+	background: url(../images/contactForm/address.jpg) 0 0 no-repeat;
+	height: 19px;
+	width: 417px;
+}
+#liCity input {
+	background: url(../images/contactForm/city.jpg) 0 0 no-repeat;
+	height: 19px;
+	width: 194px;
+}
+#liState input {
+	background: url(../images/contactForm/state.jpg) 0 0 no-repeat;
+	height: 19px;
+	width: 60px;
+}
+#liZip input {
+	background: url(../images/contactForm/zip.jpg) 0 0 no-repeat;
+	height: 19px;
+	width: 70px;
+}
+#liAddr1, #liAddr2, #liCity, #liState, #liZip, #liPhone, #liComments, #liSubmit {
+	position: relative;
+}
+#liAddr1 {
+	top: 15px;
+}
+#liAddr2 {
+	left: -443px;
+	top: 104px;
+}
+#liCity, #liState, #liZip {
+	top: 123px;
+}
+#liPhone {
+	left: -402px;
+	top: 213px;
+}
+#liComments {
+	left: 443px;
+	top: -113px;
+}
+#liSubmit {
+	left: 290px;
+	top: 240px;
+}
+#ulContactUs textarea {
+	background: url(../images/contactForm/comments.jpg) 0 0 no-repeat;
+	border: none;
+	font: normal 14px "lucida grande", arial, verdana, sans-serif;
+	height: 286px;
+	padding: 5px;
+	width: 423px;
+}
+/** LEGAL PAGES **/
+#legal #pnlMainContent ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#legal li {
+	margin: 10px 0;
+}
+/** PROFESSIONAL RESOURCES **/
+#professionalResources #pnlHeader {
+	background: url(../images/resourcesHeader.jpg) 0 0 no-repeat;
+}
+#professionalResources #pnlMainContent {
+	background: #f9f9f9 url(../images/resourcesBg.jpg) 0 0 repeat-x;
+	float: left;
+}
+#professionalResources #pnlHeader p {
+	width: 400px;
+}
+#pnlResources p {
+	padding-top: 330px;
+}
+#pnlPartners {
+	background: #f9f9f9 url(../images/whitepapersBg.jpg) 0 0 no-repeat;
+	float: left;
+	height: 500px;
+	padding-right: 25px;
+	width: 435px;
+}
+#pnlPartners h3 {
+	margin-top: 0;
+}
+#pnlRequest {
+	float: left;
+	width: 430px;
+}
+#frmResources ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#pnlGrants {
+	float: left;
+	width: 430px;
+}
+#pnlHealthySightInstitute {
+	clear: both;
+}
+#pnlPartners p {
+	padding-top: 330px;
+}
+#pnlGrants a, #pnlHealthySightInstitute a {
+	background: url(../images/blueCircle.png) right -6px no-repeat;
+	color: #2f61b5;
+	font-size: 14px;
+	padding: 7px 40px 7px 0;
+	text-decoration: none;
+}
+#pnlGrants a:hover, #pnlHealthySightInstitute a:hover {
+	background-position: right -53px;
+}
+#pnlGrants a:hover, #pnlHealthySightInstitute a:hover {
+	background-position: right -103px;
+}
+#professionalResources #pnlSecondary {
+	clear: both;
+}
+#professionalResources #pnlSecondary div.left {
+	background: #DFE0DC url(../images/howWeSupport.jpg) 0 0 no-repeat;
+}
+#professionalResources #pnlSecondary div.left * {
+	margin-left: 0;
+	padding-left: 180px;
+}
+#professionalResources #pnlSecondary div.left a {
+	margin-left: 0;
+	padding-left: 0;
+}
+#professionalResources #pnlSecondary div.right {
+	background: #DFE0DC url(../images/HSIlogo.jpg) 0 0 no-repeat;
+}
+#professionalResources #pnlSecondary div.right * {
+	margin: 0;
+	padding-left: 10px;
+	padding-right: 170px;
+}
+#professionalResources #pnlSecondary div.right a.lnkLearnMore {
+	background-position: 10px 0;
+	display: block;
+	height: 0;
+	margin-top: 10px;
+	overflow: hidden;
+	padding-top: 22px;
+	width: 82px;
+}
+#professionalResources #pnlSecondary div.right a.lnkLearnMore:hover {
+	background-position: 10px -30px;
+}
+#professionalResources #pnlSecondary div.right a.lnkLearnMore:active {
+	background-position: 10px -61px;
+}
+/** ACCORDIONS AND TESTIMONIALS **/
+.accordion {
+	border: 1px solid #eaeaea;
+	margin: 0;
+	padding: 0;
+}
+.accordionItem {
+	background: #f0f0f0;
+	border-bottom: 1px solid #ddd;
+	border-top: 1px solid #fff;
+	color: #676767;
+	display: block;
+	padding: 10px;
+	text-decoration: none;
+}
+.accordionItem:hover {
+	cursor: pointer;
+}
+.accordionDetail {
+	height: 120px;
+	padding: 0 10px;
+}
+.accordionDetail a {
+	color: #3068a7;
+	text-decoration: none;
+}
+#testimonials .accordionDetail {
+	height: 200px;
+}
+#testimonials .grant {
+	height: 300px;
+}
+#testimonials #pnlHeader {
+	background: #f9f9f9 url(../images/testimonialHeader.jpg) 0 0 no-repeat;
+	height: 251px;
+}
+#ulTestimonials {
+	margin-bottom: 25px;
+}
+#ulTestimonials p {
+	width: 583px;
+}
+#pnlBCAB {
+	background: url(../images/BCABlogo.jpg) 685px 0 no-repeat;
+}
+#pnlCEC {
+	background: url(../images/CEClogo.jpg) 743px 0 no-repeat;
+}
+#pnlCPS {
+	background: url(../images/CPSlogo.jpg) 610px 0 no-repeat;
+}
+#pnlCPSEI {
+	background: url(../images/CPSEIlogo.jpg) 710px 0 no-repeat;
+}
+#pnlDCVR {
+	background: url(../images/Deickelogo.jpg) 640px 0 no-repeat;
+}
+#pnlEVF {
+	background: url(../images/EVFlogo.jpg) 690px 0 no-repeat;
+}
+#pnlMH {
+	background: url(../images/morehealth_logo.jpg) 693px 0 no-repeat;
+}
+#pnlOrbis {
+	background: url(../images/ORBISlogo.jpg) 793px 0 no-repeat;
+}
+#pnlPBF {
+	background: url(../images/PBFlogo.jpg) 650px 0 no-repeat;
+}
+#pnlVHI {
+	background: url(../images/VHIlogo.jpg) 738px 0 no-repeat;
+}
+#pnlPBA {
+	background: url(../images/PBAlogo.jpg) 665px 0 no-repeat;
+}
+#pnlCNIB {
+	background: url(../images/CNIBlogo.jpg) 704px 0 no-repeat;
+}
+#pnlEDF {
+	background: url(../images/EDFlogo.jpg) 665px 0 no-repeat;
+}
+/** VISION SCHOLARSHIPS **/
+#visionScholarships #pnlHeader {
+	background: url(../images/scholarshipsHeader.jpg) 0 0 no-repeat;
+}
+#visionScholarships #pnlMainContent {
+	float: left;
+}
+#pnlScholarships {
+	float: left;
+	padding-right: 15px;
+	width: 440px;
+}
+#pnlOutstanding {
+	float: left;
+	padding-bottom: 25px;
+	width: 455px;
+}
+#ulScholarships dd {
+	background: url(../images/scholarshipBg.jpg) 335px 0 no-repeat;
+}
+.lnkLearnMore {
+	background: url(../images/learnMoreBtn.jpg) 0 0 no-repeat;
+}
+/** HEADLINES **/
+#hOptimizeToday {
+	background: url(../images/headlines/homepage/optimize.jpg) 0 0 no-repeat;
+	height: 0;
+	overflow: hidden;
+	padding-top: 30px;
+	width: 300px;
+}
+#hPreserveTomorrow {
+	background: url(../images/headlines/homepage/preserver.jpg) 0 0 no-repeat;
+	height: 0;
+	overflow: hidden;
+	padding-top: 30px;
+	width: 336px;
+}
+#hEnhanceAndProtect {
+	background: url(../images/headlines/enhance&protect/howToEnhance.jpg) 0 0 no-repeat;
+	height: 0;
+	margin: 0;
+	overflow: hidden;
+	padding-top: 57px;
+}
+#pnlVisionCare h3 {
+	background: url(../images/headlines/enhance&protect/visionCare.jpg) 0 0 no-repeat;
+	height: 0;
+	margin: 8px 0 0;
+	overflow: hidden;
+	padding-top: 19px;
+}
+#pnlVisionWear h3 {
+	background: url(../images/headlines/enhance&protect/visionWear.jpg) 0 0 no-repeat;
+	height: 0;
+	margin: 8px 0 0;
+	overflow: hidden;
+	padding-top: 19px;
+}
+#pnlProfessionalVisits h3 {
+	background: url(../images/headlines/enhance&protect/eyecareProfessionalVisits.jpg) -3px 0 no-repeat;
+	height: 0;
+	margin: 0;
+	overflow: hidden;
+	padding-top: 31px;
+}
+#pnlRadiation h3 {
+	background: url(../images/headlines/enhance&protect/eyeProtection.jpg) -2px 0 no-repeat;
+	height: 0;
+	margin: 0;
+	overflow: hidden;
+	padding-top: 37px;
+}
+#pnlRadiation p { margin-top: 0; }
+#pnlWellness h3 {
+	background: url(../images/headlines/enhance&protect/eyecareOverallWellness.jpg) 0 0 no-repeat;
+	height: 0;
+	overflow: hidden;
+	padding-top: 31px;
+}
+#hEarlyDetection {
+	background: url(../images/headlines/enhance&protect/earlyDetection.jpg) 0 0 no-repeat;
+	height: 0;
+	overflow: hidden;
+	padding-top: 31px;
+}
+#hMedications {
+	background: url(../images/headlines/enhance&protect/medications.jpg) 0 0 no-repeat;
+	height: 0;
+	overflow: hidden;
+	padding-top: 25px;
+}
+#hAboutTheFund {
+	background: url(../images/headlines/about/abouttheHSFLFund.jpg) 0 0 no-repeat;
+	height: 0;
+	margin: -4px 0 0 -7px;
+	overflow: hidden;
+	padding-top: 59px;
+}
+#aboutTheFund #pnlHeader p {
+	margin-top: 0;
+}
+#hInEveryLight {
+	background: url(../images/headlines/about/healthySightEveryLight.jpg) 0 0 no-repeat;
+	height: 0;
+	margin: 19px 0 0 -1px;
+	overflow: hidden;
+	padding-top: 22px;
+}
+#hTodayAndLifetime {
+	background: url(../images/headlines/about/healthySightToday&Lifetime.jpg) 0 0 no-repeat;
+	height: 0;
+	margin-bottom: 15px;
+	overflow: hidden;
+	padding-top: 24px;
+}
+#aboutTheFund #pnlMainContent p {
+	margin-top: 10px;
+}
+#hLearnFrom {
+	background: url(../images/headlines/about/howMuchDoYouLearn.jpg) 0 0 no-repeat;
+	height: 0;
+	margin-bottom: 20px;
+	overflow: hidden;
+	padding-top: 51px;
+}
+#pnlLearn p.pStats, #pnlSeeYourBest p.pStats, #pnlMissSeeing p.pStats {
+	height: 0;
+	margin: 20px 0 !important;
+	overflow: hidden;
+	padding-top: 54px;
+}
+div.alt {
+	padding: 10px 63px;
+}
+#pnlLearn .pStats {
+	background: url(../images/headlines/about/1in4children.jpg) 0 0 no-repeat;
+}
+#pnlSeeYourBest p.pStats {
+	background: url(../images/headlines/about/qualityOfSight.jpg) 0 0 no-repeat;
+	padding-top: 82px;
+}
+#pnlMissSeeing .pStats {
+	background: url(../images/headlines/about/everyYear.jpg) 0 0 no-repeat;
+}
+#hSeeingYourBest {
+	background: url(../images/headlines/about/areYouSeeingYourBest.jpg) 0 0 no-repeat;
+	height: 0;
+	margin-bottom: 20px;
+	overflow: hidden;
+	padding-top: 49px;
+}
+#hMissSeeing {
+	background: url(../images/headlines/about/whatWouldYouMiss.jpg) 0 0 no-repeat;
+	height: 0;
+	margin-bottom: 20px;
+	overflow: hidden;
+	padding-top: 58px;
+}
+#hAboutTestimonial {
+	background: url(../images/headlines/about/hsflTestimonial.jpg) 0 0 no-repeat;
+	height: 0;
+	margin-top: 15px;
+	overflow: hidden;
+	padding-top: 31px;
+}
+#aboutTheFund .left h2, #contact .left h2, #news .left h2, #enhanceAndProtect .left h2, #testimonials .left h2, #home .left h2, #visionScholarships .left h2, #legal .left h2 {
+	background: url(../images/headlines/visionScholarships/howWeSupport.jpg) 0 0 no-repeat;
+	height: 0;
+	overflow: hidden;
+	padding-top: 23px;
+}
+#aboutTheFund .right h2, #contact .right h2, #news .right h2, #enhanceAndProtect .right h2, #testimonials .right h2, #home .right h2, #visionScholarships .right h2, #legal .right h2 {
+	background: url(../images/headlines/visionScholarships/howWeEducate.jpg) 0 0 no-repeat;
+	height: 0;
+	overflow: hidden;
+	padding-top: 23px;
+}
+#news #pnlHeader h2 {
+	background: url(../images/headlines/fundNews/transitionsHSFLNews.jpg) 0 0 no-repeat;
+	height: 0;
+	margin-top: 0;
+	overflow: hidden;
+	padding-top: 58px;
+}
+/* VISION-SCHOLARSHIPS HEADLINES */
+
+h2#hVisionScholarships {
+	width: 200px;
+	height: 0px;
+	padding-top:30px;
+	background: transparent url(../images/headlines/visionScholarships/visionScholarships.jpg) no-repeat top left;
+	overflow: hidden;
+}
+h3#hScholarships {
+	width:143px;
+	height:0px;
+	padding-top:30px;
+	position:relative;
+	top: 10px;
+	background: transparent url(../images/headlines/visionScholarships/scholarships.jpg) no-repeat top left;
+	overflow: hidden;
+}
+h3#hOutstandingStudents {
+	width:242px;
+	height:0px;
+	padding-top:30px;
+	overflow: hidden;
+	position:relative;
+	top: 10px;
+	background: transparent url(../images/headlines/visionScholarships/outstandingStudents.jpg) no-repeat top left;
+}
+#pnlSecondary h2#hsecondartyHWS {
+	width: 140px;
+	height: 0px;
+	padding-top:23px;
+	margin-bottom:5px;
+	background: transparent url(../images/headlines/visionScholarships/howWeSupport.jpg) no-repeat 0 0;
+	overflow: hidden;
+}
+#pnlSecondary h2#hsecondartyHWE {
+	width:141px;
+	height:0px;
+	padding-top:18px;
+	margin-bottom: 10px;
+	background: transparent url(../images/headlines/visionScholarships/howWeEducate.jpg) no-repeat 0 0;
+	overflow: hidden;
+}
+/* PROFESSIONAL RESOURCES HEADLINES */
+
+h2#hReqCEM{
+	width:431px;
+	height:0px;
+	padding-top:30px;
+	margin-top:0px;
+	background: transparent url(../images/headlines/professionalResources/requestConsumerEducation.jpg) no-repeat top right;
+	overflow: hidden;
+}
+h3#hPartenersEducation{
+	width:229px;
+	height:0px;
+	padding-top:24px;
+	background: transparent url(../images/headlines/professionalResources/partnersInEducation.jpg) no-repeat top right;
+	overflow: hidden;
+}
+h2#hEducationalMaterials{
+	width:233px;
+	height:0px;
+	padding-top:24px;
+	position:relative;
+	top:25px;
+	margin-top: 0px;
+	background: transparent url(../images/headlines/professionalResources/educationalMaterials.jpg) no-repeat top right;
+	overflow: hidden;
+}
+h2#hProfessionalResources{
+	width:282px;
+	height:0px;
+	padding-top:23px;
+	background: transparent url(../images/headlines/professionalResources/resourcesForProfessionals.jpg) no-repeat top right;
+	overflow: hidden;
+}
+h3#hGrants{
+	width:75px;
+	height:0px;
+	padding-top:24px;
+	background: transparent url(../images/headlines/professionalResources/grants.jpg) no-repeat top right;
+	overflow: hidden;
+}
+#professionalResources #pnlSecondary div.left h2#hsecondartyHWSpr {
+	width: 140px;
+	height: 0px;
+	padding-top: 23px;
+	margin-bottom: 5px;
+	background: transparent url(../images/headlines/professionalResources/howWeSupport.jpg) no-repeat top right;
+	overflow: hidden;
+	padding-left: 128px;
+}
+h2#hsecondartyHSI {
+	width: 174px;
+	height: 0px;
+	padding-top:22px;
+	background: transparent url(../images/headlines/professionalResources/healthySightInstitute.jpg) no-repeat top left;
+	background-position: 10px 0px;
+	overflow: hidden;
+	margin: 9px 0 5px !important;
+}
+
+/** Home page no-flash content **/
+#pnlFlashHome {
+	background: url(../images/NoFlashHeader.jpg) 0 0 no-repeat;
+	color: #4b4b4b;
+	float: none;
+	height: 540px;
+	width: 960px;
+}
+#pnlFlashHome p#pGetFlash {
+	color: #fff;
+	padding: 90px 10px 0;
+	width: 172px;
+}
+#pnlFlashHome p#pGetFlash a {
+	border-bottom: solid 1px #fff;
+	color: #fff;
+}
+#pnlFlashHome div {
+	float: left;
+	padding: 259px 10px 0;
+	width: 172px;
+}
+#pnlFlashHome h2 {
+	color: #2f61b5;
+	font-size: 14px;
+	margin: 0;
+}
+#pnlFlashHome p {
+	margin-top: 0;
+}
+#pnlFlashHome .alt {
+	display: none;
+	padding: 0;
+}
+#pnlOptimize {
+	clear: left;
+}

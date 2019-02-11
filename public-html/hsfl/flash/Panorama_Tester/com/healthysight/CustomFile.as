@@ -1,0 +1,1 @@
+﻿package com.healthysight{		import flash.filesystem.File;		public class CustomFile extends File{				public function CustomFile()		{			super();		}							}			}

@@ -1,0 +1,25 @@
+﻿<%@ Page Language="VB" ContentType="text/html" ResponseEncoding="UTF-8" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title>Ajax + Stuff || Index</title>
+		<link rel="stylesheet" type="text/css" href="styles/base.css"/>
+		<link rel="stylesheet" type="text/css" href="styles/temp.css"/>
+		<script type="text/javascript" src="scripts/jquery.js"></script>
+		<script type="text/javascript" src="scripts/navigation.history.core.js"></script>
+		<script type="text/javascript" src="scripts/navigation.core.js"></script>
+		<script type="text/javascript" src="scripts/navigation.core.variables.js"></script>
+		<script type="text/javascript" src="scripts/secondaryNav.js"></script>
+	</head>
+	<body>
+		<div id="header">
+		   <ul id="ulMainNav" class="navigation">
+					<li><a href="default.aspx" title="Transitions SolFX" id="lnkHome">Transitions</a></li>
+					<li><a href="ExperienceVideo.aspx" title="See Our Visions" id="lnkSeeVision">See Our Vision</a></li>
+					<li><a href="InteractiveDemo.aspx" title="Try Them Out" id="lnkTryThem">Try Them Out</a></li>
+					<li><a href="BeInTheKnow.aspx" id="lnkBeInTheKnow" title="Be In The Know">Be In The Know</a></li>
+					<li><a href="WhereToGetThem.aspx" id="lnkWhereToGetThem" title="Where to Get Them">Where to Get Them</a></li>
+				</ul>
+		</div>
+		<div id="wrapper">

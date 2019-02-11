@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="rss.xsl"?>
+<rss version="2.0">
+	<channel>
+		<title>Healthy Sight For Life</title>
+		<link>http://healthysightforlife.org</link>
+		<description>Transitions Latest News</description>
+		<item>
+			<title>Transitions Introduces Optometry Scholarship Program</title>
+			<link>http://healthysightforlife.org/press/nr_OptometryScholarships.pdf</link>
+			<description>50k PDF</description>
+			<pubDate>June 29, 2007</pubDate>
+		</item>
+		<item>
+			<title>Transitions Optical Sponsors Opticianry Scholarship Program</title>
+			<link>http://healthysightforlife.org/press/nr_OpticianryScholarships.pdf</link>
+			<description>45k PDF</description>
+			<pubDate>May 2, 2007</pubDate>
+		</item>
+		<item>
+			<title><![CDATA[New Tools Through Transitions<sup>&reg;</sup> Healthy Sight For Life Fund Educate Consumers On The Importance Of Eye Health]]></title>
+			<link>http://healthysightforlife.org/press/nr_FundTools.pdf</link>
+			<description>100k PDF</description>
+			<pubDate>March 23, 2007</pubDate>
+		</item>
+		<item>
+			<title><![CDATA[Transitions<sup>&reg;</sup> Healthy Sight For Life Fund Supports &ldquo;UV Public Awareness Campaign&rdquo; With Prevent Blindness America]]></title>
+			<link>http://healthysightforlife.org/press/nr_HSFLPBACommunityGrants.pdf</link>
+			<description>60k PDF</description>
+			<pubDate>March 23, 2007</pubDate>
+		</item>
+		<item>
+			<title><![CDATA[Transitions Optical&rsquo;s National Promotion Sets Wheels In Motion For Building A Lifetime Of Healthy Sight]]></title>
+			<link>http://healthysightforlife.org/press/nr_NationalPromotion-1.pdf</link>
+			<description>53K PDF</description>
+			<pubDate>January 25, 2007</pubDate>
+		</item>
+		<item>
+			<title><![CDATA[Transitions<sup>&reg;</sup> Healthy Sight For Life Fund Established To Help Optimize And Preserve Vision]]></title>
+			<link>http://healthysightforlife.org/press/nr_Fund.pdf</link>
+			<description>38K PDF</description>
+			<pubDate>December 19, 2006</pubDate>
+		</item>
+	</channel>
+</rss>

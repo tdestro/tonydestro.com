@@ -1,0 +1,323 @@
+/* Styles For Homepage Headers */
+#header {
+	position:relative;
+}
+#content div.default {
+	background: url(../images/bgHomeDefault.jpg) 0 0 no-repeat;
+}
+#content div.sport {
+	background: url(../images/bgSports.jpg) 0 0 no-repeat;
+	color: #000;
+}
+#content div.specialty {
+	background: url(../images/bgSpecialty.jpg) 0 0 no-repeat;
+	color: #fff;
+}
+#content div.style {
+	background: url(../images/bgStyle.jpg) 0 0 no-repeat;
+	color: #fff;
+}
+
+#ajaxContainer {
+	overflow:hidden;
+	height:480px;
+	width:957px;
+	position:relative;
+}
+
+#content.home {
+	display:block;
+	height:480px;
+	width:4800px;
+	position:relative;
+	left:0px;
+}
+#content div.panel {
+	display:block;
+	float:left;
+	height:480px;
+	width:960px;
+}
+
+#content .style p, .specialty p, .sport p {
+	width:420px;
+	padding-left:57px;
+	font-size:14px;
+}
+.style h2, .specialty h2,  .sport h2 {
+	margin: 40px 0 28px 57px;
+}
+.style h2 {
+	height:34px;
+	width:450px;
+	text-indent:-5000px;
+	display:block;
+	margin: 44px 0 28px 58px;
+	background: url(../images/headline_style.gif) top left no-repeat;
+}
+.specialty h2 {
+	height:34px;
+	width:351px;
+	text-indent:-5000px;
+	display:block;
+	background: url(../images/headline_special.gif) top left no-repeat;
+}
+.sport h2 {
+	height:105px;
+	width:519px;
+	text-indent:-50000px;
+	display:block;
+	background: url(../images/headline_sport.gif) top left no-repeat;
+}
+#content.home span {
+	height: 65px;
+	margin-top: -65px;
+	display:block;
+	position:absolute;
+	top:295px;
+	width:100%;
+}
+
+#arrowBtns .rightBtn {
+	text-align:right;
+	position:relative;
+	left:880px;
+}
+
+#arrowBtns .leftBtn {
+	text-align:left;
+	position:relative;
+	left:0px;
+}
+
+/* Where to Get Them - IE Fixes*/
+.WheretoGetThem .whereToGetThem{
+	background: url(../images/bgSkyOverlay.jpg) 0 0 no-repeat;
+	padding:0px;
+	color:#fff;
+	height:1025px;
+}
+.WheretoGetThem .whereToGetThem h2, .WheretoGetThem #content.whereToGetThem h2, #pAskPro, .whereToGetThem div {
+	position:relative;
+	left:30px;
+}
+#content.whereToGetThem h2, .whereToGetThem h2 {
+	top:31px;
+}
+.whereToGetThem div {
+	top:30px;
+}
+
+/* Share Page - IE Fix*/
+.spreadTheWord {
+	background:transparent url(../images/bgSkyShare.jpg) no-repeat scroll 0 0;
+	padding:30px;
+}
+
+/* Be In the Know Form */
+body.WheretoGetThem, body.WheretoGetThem, body.TermsandConditions, body.PrivacyPolicy {
+	background: #000 url(../images/Sky.jpg) center 0 no-repeat;
+}
+body.BeInTheKnow {
+	background: #000 url(../images/Sky.jpg) center 0 no-repeat;
+}
+.BeInTheKnow #ajaxContainer {
+	height:690px;
+	width:960px;
+	position:relative;
+}
+
+.protection, #content.protection, .thankyou{
+	height:740px;
+	width:960px;
+	display:block;
+	background: transparent url(../images/form_bg.jpg) no-repeat 0 0;
+	padding:30px; 
+	position:relative;
+	color:#fff;
+}
+
+.protection form, .protection fieldset {
+	border:none;
+}
+
+#formBox {
+	width: 450px;
+	margin-top: 10px;
+	display:block;
+	float:left;
+}
+#sideBox {
+	height:165px;
+	width:385px;
+	background: transparent url(../images/form_sidebox.jpg) no-repeat 0 0;
+	display:block;
+	float:left;
+	position:relative;
+	left: 40px;
+	top:50px;
+}
+.protection #sideBox h3 {
+	background: url(../images/hApplies.jpg) 16px 0 no-repeat;
+	height: 0;
+	overflow: hidden;
+	padding-top: 14px;
+}
+
+#sideBox tr {
+	display:block;
+	margin: 5px 0px;
+	text-indent:10px;
+	
+}
+#sideBox label {
+	margin-left: 5px;
+	font-size: 13px;
+	text-transform: none;
+}
+.protection li {
+	display:block;
+	margin: 15px 0px;
+	text-transform: uppercase;
+}
+.protection li.half {
+	float:left;
+	width:47%;
+	margin: 0px 0px 15px 0px;
+}
+.protection #SA {
+	position:relative;
+	left: 17px;
+	width:49%;
+}
+.protection #formBox input, .protection #formBox textarea  {
+	width:100%;
+}
+.protection #formBox textarea {
+	height:150px;
+}
+.protection #formBox #SubmitForm {
+	width:113px;
+	float:right;
+}
+#content  {
+	position:relative;
+}
+
+.protection h2, .thankyou h2 {
+	height:32px;
+	width:296px;
+	text-indent: -5000px;
+	display:block;
+	background: transparent url(../images/form_title.jpg) no-repeat 0 0;
+}
+.protection h3, .thankyou h3 {
+	text-transform: uppercase;
+	font-weight:normal;
+	font-family: "Myriad Pro", Myriad, Arial, sans-serif;
+	font-size: 16px;
+	margin-top:30px;
+}
+
+/* QuickLinks (Side) */
+#quickLinks {
+	display:block;
+	height:195px;
+	margin:0;
+	padding:0;
+	position:absolute;
+	left:971px;
+	top:60px;
+	clear: both;
+}
+#quickLinks {
+	background: url(../images/twig_hack.gif) no-repeat;
+	background-position: 0px 5px;
+}
+#quickLinks a, #quickLinks img{
+	border:none;
+}
+#quickLinks a{
+	display:block;
+	width:36px;
+	position:relative;
+}
+#quickLinks .lang {
+	margin-top:20px;
+	background: url(../images/twig_hack2.gif) no-repeat;
+	background-position: 0px 5px;
+}
+/* Aleternate Backgrounds */
+
+#fullBg.generalBG, .generalBG, body.generalBG {
+	background: #000 url(../images/Generallow.jpg) center 0 no-repeat;
+}
+#fullBg.sportBG, .sportBG, body.sportBG {
+	background: #000 url(../images/Sporthi.jpg) center 0 no-repeat;
+}
+#fullBg.specialtyBG, .specialtyBG, body.specialtyBG {
+	background: #000 url(../images/Specialtyhi.jpg) center 0 no-repeat;
+}
+#fullBg.styleBG, .styleBG, body.styleBG {
+	background: #000 url(../images/Stylelow.jpg) center 0 no-repeat;
+}
+#fullBg.WheretoGetThem, .WheretoGetThem, .TermsandConditions, .PrivacyPolicy, #fullBg.BeIn, .BeInTheKnow {
+	background: #000 url(../images/Sky.jpg) center 0 no-repeat;
+}
+#fullBg {
+	width:100%;
+	height:100%;
+	position:absolute;
+	top:0;
+	left:0;
+	display:block;
+	z-index:10;
+	zoom:0;
+	background: black no-repeat center 0;
+	clear:both;
+	filter:alpha(opacity=50);
+	-moz-opacity: 0.50;
+	opacity: 0.50;
+}
+#preloader {
+	margin:0 auto;
+	position:absolute;
+	top:0px;
+	overflow:hidden;
+	height:11px;
+	width:365px;
+	padding:0;
+	background: transparent url(../images/loadBar.gif) top left no-repeat;
+}
+#preloaderBack {
+	padding:0;
+	margin:0 auto;
+	position:relative;
+	top: 250px;
+	height:11px;
+	width:365px;
+	z-index:20;
+	background: transparent url(../images/loadBarBack.gif) top left no-repeat;
+}
+#preloadtxt {
+	margin:0 auto;
+	position:relative;
+	z-index:20;
+	top: 250px;
+	height:32px;
+	width:101px;
+	font-size:16px;
+	color:#fff;
+	display:block;
+	font-weight:bold;
+}
+#fullPage {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	z-index:10;
+	clear:both;
+	background:transparent;
+}

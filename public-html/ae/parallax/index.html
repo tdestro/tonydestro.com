@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="utf-8">
+
+  <title>Parallax.js | Interactive Example</title>
+
+  <!-- Behavioral Meta Data -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+  <!-- Styles -->
+  <link rel="stylesheet" type="text/css" href="assets/styles.css"/>
+
+</head>
+<body>
+
+  <div id="container" class="container">
+    <img class="aspect" src="assets/bg.jpg">
+    <ul id="scene" class="scene fill">
+      <li class="layer expand-width" data-depth="1.00"><div class="heading"></div></li>
+      <li class="layer expand-width" data-depth="0.70"><div class="man"></div></li>
+      <li class="layer expand-width" data-depth="0.80">
+      	<div class="shop-callout">
+      		<h1>Level 2: Active Flex</h1>
+  			<ul>
+              <li>Upgraded Flexibility</li>
+              <li>Stretches and Retains Shape</li>
+  			</ul>
+			<a href="#" class="button">Shop Now</a>
+      	</div>
+      </li>      
+    </ul>
+  </div>
+
+  <!-- Scripts -->
+  <script src="assets/parallax.min.js"></script>
+  <script>
+
+  // Nothing new here...it's all in the CSS!
+  var scene = document.getElementById('scene');
+    var parallax = new Parallax(scene, {
+  frictionX: 0.3,
+  frictionY: 0.3,
+    originX: .5,
+  originY: .5
+
+});
+
+  </script>
+
+</body>
+</html>

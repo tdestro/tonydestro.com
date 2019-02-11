@@ -1,0 +1,19 @@
+
+/* GENERAL STYLES */
+/* GENERAL STYLES */
+  #umbracoAutoForm fieldset {border:none;}
+  #umbracoAutoForm legend {display:none;}
+  #umbracoAutoForm label {float: left; width: 15em;}
+  .umbracoAutoFormAlert {color: red;margin-left: 15em;}
+  #umbracoAutoForm input, textarea {width: 17em;}
+  .umbracoAutoFormValidationSummary {display: none;}
+.umbracoAutoFormRowDescription {
+	font-weight: normal;
+	font-size: 80%;
+	color: #999;
+}
+
+/* EDITOR PROPERTIES */
+
+
+/* EDITOR PROPERTIES */

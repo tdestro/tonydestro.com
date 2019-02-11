@@ -1,0 +1,84 @@
+a {color:#d21e00;}
+
+a:visited {color:#967a55; text-decoration: underline;}
+
+a:hover {color:#926428;}
+
+
+/*investor relations*/
+.imgTopAlign{
+        float:left;
+        clear:none;
+        margin-right:5px;
+	vertical-align: text-top;
+}
+
+.recentWebcastsTitle{
+        font-family:Lucida Grande, Verdana, Arial;
+        font-size:13pt;
+        color:#393939;
+}
+
+.recentWebcastsDate{
+        font-family:Lucida Grande, Verdana, Arial;
+        font-size:10pt;
+        color:#747474;
+}
+
+.calendarImg{
+        margin: 5px 5px 12px 0;
+        float:right;
+        clear:right;
+}
+
+.recentWebcastsHeader{
+        margin: 5px 0 0 0;
+        float:left;
+        clear:none;
+}
+.bold{
+        font-weight:bold;
+}
+.eighteenPtBrown{
+	font-size:18pt;
+	color:#996633;
+}
+.sixteenPtGrey{
+	font-size:16pt;
+	color:#595959;
+}
+.sixteenPtGreen{
+	font-size:16pt;
+	color:#676d34;
+}
+.twelvePtGrey{
+	font-size:12pt;
+	color:#595959;
+}
+.elevenPtItalic{
+	font-size:11pt;
+	color:#595959;
+	font-style:italic;
+}
+.centered{
+        display:block;
+        margin-left:auto;
+        margin-right:auto;
+}
+.xycenter{
+        margin: auto auto auto auto;
+        display:block;
+        text-align:center;
+}
+.noclear{
+        clear:none;
+}
+.rtPadding{
+	padding-right:50px;
+}
+
+a.blueLink {color:#2b689a; font-weight:bold; text-decoration:none; font-size:12px;}
+a.blueLink:hover {color:#409be5;}
+a.blueLink:visited {color:#4f6b83;}
+
+/* EDITOR PROPERTIES */

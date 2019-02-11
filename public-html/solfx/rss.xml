@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="rss.xsl"?>
+<rss version="2.0">
+	<channel>
+		<title>Transitions SOLFX</title>
+		<link>http://www.transitions.com/sunwear</link>
+		<description>Stay up to date on the latest Transitions SOLFX sunwear products.</description>
+		<item>
+			<title>Transitions® SOLFX™ Sunwear</title>
+			<link>http://transitions.com/sunwear/pdf/nr_Transitions_SOLFX_Sunwear.pdf</link>
+			<description>34k PDF</description>
+			<pubDate>March 18, 2009</pubDate>
+		</item>
+		<item>
+			<title>Transitions® SOLFX™ Golf Product</title>
+			<link>http://transitions.com/sunwear/pdf/nr_Transitions_SOLFX_Golf_Product_Trial.pdf</link>
+			<description>32k PDF</description>
+			<pubDate>March 18, 2009</pubDate>
+		</item>
+		<item>
+			<title>DEFINITY Fairway™ Transitions® SOLFX™</title>
+			<link>http://transitions.com/sunwear/pdf/nr_DEFINITY_Fairway_Transitions_SOLFX.pdf</link>
+			<description>38k PDF</description>
+			<pubDate>March 18, 2009</pubDate>
+		</item>
+		<item>
+			<title>iRx® Polaroid® Transitions® SOLFX™</title>
+			<link>http://transitions.com/sunwear/pdf/nr_Transitions_SOLFX_New_SLC_Product.pdf</link>
+			<description>96k PDF</description>
+			<pubDate>March 18, 2009</pubDate>
+		</item>
+	</channel>
+</rss>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<application xmlns="http://ns.adobe.com/air/application/1.5">
+	<id>com.adobe.example.Panorama-Tester</id>
+	<version>1.35</version>
+	<filename>Panorama_Tester</filename>
+	<description/>
+	
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+<!-- To localize the description, use the following format for the description element.
+	<description>
+		<text xml:lang="en">English App description goes here</text>
+		<text xml:lang="fr">French App description goes here</text>
+		<text xml:lang="ja">Japanese App description goes here</text>
+	</description>
+	-->
+	<name>Panorama_Tester</name>
+	
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+<!-- To localize the name, use the following format for the name element.
+	<name>
+		<text xml:lang="en">English App name goes here</text>
+		<text xml:lang="fr">French App name goes here</text>
+		<text xml:lang="ja">Japanese App name goes here</text>
+	</name>
+	-->
+	<copyright>sunKING Digital, 2008</copyright>
+	<initialWindow>
+		  <content>Panorama_Tester.swf</content>
+		  <systemChrome>standard</systemChrome>
+		  <transparent>false</transparent>
+		  <visible>true</visible>
+	  <maxSize>960 540</maxSize>
+    <minSize>960 540</minSize>
+    <width>960</width>
+    <height>540</height>
+    <maximizable>false</maximizable>
+    <minimizable>false</minimizable>
+    <resizable>true</resizable>
+    <x>0</x>
+    <y>0</y>
+  </initialWindow>
+	<customUpdateUI>false</customUpdateUI>
+	<allowBrowserInvocation>false</allowBrowserInvocation>
+	<icon>
+	  <image128x128>AppIconsForAIRPublish/AIRApp_128.png</image128x128>
+    <image48x48>AppIconsForAIRPublish/AIRApp_48.png</image48x48>
+    <image32x32>AppIconsForAIRPublish/AIRApp_32.png</image32x32>
+    <image16x16>AppIconsForAIRPublish/AIRApp_16.png</image16x16>
+  </icon>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</application>

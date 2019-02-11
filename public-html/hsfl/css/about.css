@@ -1,0 +1,61 @@
+body {
+	background: #dfe0db url(../images/bg.jpg) 0 0 repeat-x;
+	color: #676767;
+	font: normal 12px "lucida grande", arial, verdana, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+#container {
+	margin: 0 auto;
+	width: 961px;
+}
+#content {
+	clear: left;
+}
+#pnlAbout {
+	background: url(../images/aboutHeader.jpg) 0 0 no-repeat;
+	height: 308px;
+	padding: 25px;
+	width: 910px;
+}
+#pnlAbout h2, #pnlAbout p {
+	width: 400px;
+}
+#pnlVideo {
+	position: relative;
+	right: -13px;
+	top: -215px;
+}
+#pnlVideo h3 {
+	background: url(../images/hsflvideo.jpg) 0 0 no-repeat;
+	float: right;
+	height: 0;
+	overflow: hidden;
+	padding-top: 221px;
+	margin-top: 0;
+	width: 318px;
+}
+#pnlHealthySight {
+	background: #fff url(../images/whiteDropshadow.jpg) 0 0 repeat-x;
+}
+#pnlLearn, #pnlSeeYourBest, #pnlMissSeeing {
+	float: left;
+	padding: 0 25px;
+	width: 910px;
+}
+#pnlHealthySight .content {
+	float: left;
+	margin-right: 10px;
+	width: 450px;
+}
+.flash-replaced {
+	float: left;
+	width: 450px;
+}
+#pnlTestimonial {
+	float: left;
+	width: 960px;
+}
+#pnlSecondary {
+	clear: both;
+}

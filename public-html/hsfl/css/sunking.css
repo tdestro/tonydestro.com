@@ -1,0 +1,889 @@
+/* General styles to be applied site-wide */
+/* HTML Elements */
+body {
+	background: #dfe0db url(../images/bg.jpg) 0 0 repeat-x;
+	color: #676767;
+	font: normal 12px "lucida grande", arial, verdana, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+h1, h2, h3 {
+	color: #2b5395;
+}
+h2 {}
+h3 {}
+h4 {}
+h5 {}
+h6 {}
+p {}
+a {
+	color: #3068a7;
+	text-decoration: none;
+}
+a:hover {}
+a:visited {}
+a.selected {}
+ul {}
+ol {}
+dl {}
+li {}
+dt {}
+dd {
+	margin: 0;
+	padding: 0;
+}
+strong {}
+em {}
+fieldset {
+	border: none;
+}
+legend {
+	margin: 0;
+	padding: 0;
+}
+fieldset span {
+	font-size: 20px;
+}
+label {
+	display: block;
+	font-size: 15px;
+}
+input.text {
+	background: url(../images/txtBg.jpg) 0 0 no-repeat;
+	border: 0;
+	font-size: 14px;
+	height: 21px;
+	padding: 7px;
+	width: 415px;
+}
+textarea.text {
+	background: url(../images/textareaBg.jpg) 0 0 no-repeat;
+	border: none;
+	height: 124px;
+	padding: 5px;
+	width: 397px;
+}
+/* Regions */
+#container {
+	margin: 0 auto;
+	width: 961px;
+}
+#content {
+	clear: left;
+}
+/** Home Page Regions **/
+#pnlOptimize, #pnlPreserve {
+	background: #f9f9f9 url(../images/dropShadow.jpg) 0 0 repeat-x;
+	float: left;
+	height: 300px;
+	padding: 47px 40px 0 27px;
+	width: 412px;
+}
+#pnlOptimize {
+	border-right: 1px solid #fff;
+}
+#pnlPreserve {
+	border-left: 1px solid #e2e7eb;
+	clear: right;
+}
+#pnlSecondary div {
+	border-top: 1px solid #dfe0dc;
+	float: left;
+	height: 118px;
+	overflow: hidden;
+	width: 480px;
+}
+#pnlSecondary div * {
+	margin-left: 300px;
+	margin-top: 0;
+}
+div.left {
+	background: url(../images/secondaryLeftWoman.jpg) 0 0 no-repeat;
+}
+div.right {
+	background: url(../images/secondaryRightMan.jpg) 0 0 no-repeat;
+}
+/** Enhance & Protect Regions **/
+#pnlHowTo {
+	background: url(../images/skyBg.jpg) 0 0 no-repeat;
+	height: 307px;
+	padding: 25px;
+}
+#pnlTreatments {
+	background: url(../images/flowersBg.jpg) 0 0 no-repeat;
+	height: 685px;
+	padding: 25px;
+}
+#pnlProfessionalVisits, #pnlRadiation {
+	float: left;
+	padding: 10px;
+	width: 410px;
+}
+#pnlTreatments ol {
+	margin: 0 0 0 20px;
+	padding: 0;
+}
+#pnlProfessionalVisits p {
+	margin: 0;
+}
+#pnlProfessionalVisits .detail li {
+	margin: 10px 0;
+}
+#pnlWellness {
+	background: #f9f9f9 url(../images/dropShadow.jpg) 0 0 repeat-x;
+	clear: left;
+	float: left;
+	padding: 25px;
+}
+#pnlWellness h3 {
+	margin-top: 0;
+}
+#pnlWellness div {
+	float: left;
+	padding: 10px;
+	width: 435px;
+}
+/** About Regions **/
+#pnlAbout {
+	background: url(../images/aboutHeader.jpg) 0 0 no-repeat;
+	height: 308px;
+	padding: 25px;
+	width: 910px;
+}
+#pnlAbout p {
+	width: 400px;
+}
+#pnlVideo {
+	position: relative;
+	right: -13px;
+	top: -215px;
+}
+#pnlVideo {
+	background: url(../images/hsflvideo.jpg) 0 0 no-repeat;
+	float: right;
+	height: 0;
+	overflow: hidden;
+	padding-top: 221px;
+	margin-top: 20px;
+	width: 318px;
+}
+#pnlHealthySight {
+	background: #fff url(../images/whiteDropshadow.jpg) 0 0 repeat-x;
+	padding-top: 25px;
+}
+#pnlHealthySight p, #pnlHealthySight h3 {
+	padding: 0 25px;
+}
+#pnlHealthySight h2 {
+	margin-top: 0;
+	padding: 0 25px;
+}
+#pnlHealthySight p.stats {
+	
+}
+#pnlLearn, #pnlSeeYourBest, #pnlMissSeeing {
+	float: left;
+	padding: 0 25px;
+	width: 910px;
+}
+#pnlHealthySight .content {
+	float: left;
+	margin-right: 10px;
+	width: 450px;
+}
+.flash-replaced {
+	float: left;
+	width: 450px;
+}
+.alt h4 {
+	margin-bottom: 0;
+	padding-left: 25px;
+}
+#pnlTestimonial {
+	background: #eeeeea url(../images/aboutTestimonial.jpg) 0 0 no-repeat;
+	border-top: 1px solid #fff;
+	clear: left;
+	height: 261px;
+	padding-left: 160px;
+}
+#pnlTestimonial p {
+	float: left;
+	margin: 0;
+	width: 355px;
+}
+#pnlTestimonial #lnkWatchVideo {
+	background: url(../images/hsflAboutVideo.jpg) 0 0 no-repeat;
+	display: block;
+	float: left;
+	height: 0;
+	overflow: hidden;
+	padding-top: 109px;
+	width: 258px;
+}
+/** Get Involved Regions **/
+#pnlGetInvolved {
+	background: #f9f9f9 url(../images/familyWalking.jpg) 0 0 no-repeat;
+	padding: 25px;
+}
+#pnlGetInvolved h2 {
+	font-size: 24px;
+	margin: 0;
+}
+#pnlDonate h3 {
+	color: #fff;
+	font-size: 20px;
+	margin-bottom: 0;
+}
+#pnlDonate p {
+	margin-top: 0;
+}
+#pnlGetInvolved h2#hRequestGrant {
+	color: #676767;
+	font-size: 18px;
+}
+#pnlGetInvolved p.lead {
+	color: #fff;
+	font-size: 15px;
+	height: 120px;
+	margin: 5px 0;
+	width: 440px;
+}
+#pnlGetInvolved fieldset {
+	color: #fff;
+	float: left;
+	height: 612px;
+	margin: 0;
+	padding: 0;
+	width: 440px;
+}
+#pnlGetInvolved ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#pnlGrantRequirements ul {
+	list-style: disc;
+}
+#pnlGrantRequirements ul li {
+	margin-bottom: auto;
+}
+#pnlGrantRequirements h2, #pnlGrantGuidelines h3, #pnlGrantInstructions h2 {
+	color: #676767;
+	font-size: 14px;
+	margin: 10px 0;
+}
+td label {
+	display: inline;
+}
+td span {
+	display: block;
+}
+#ctl00 .submit {
+	margin-right: 4px;
+	margin-top: 40px;
+	text-align: right;
+}
+#pnlGrantRequest li.submit {
+	float: left;
+	text-align: right;
+	width: 870px;
+}
+#pnlGrantRequest li.submit input {
+	/*margin-right: 40px;*/
+}
+#pnlGrantRequest li#liNP ul {
+	width: auto;
+}
+#pnlGrantRequest * {
+	border: 1px solid #ff0;
+}
+#pnlGetInvolved li {
+	margin-bottom: 30px;
+}
+#pnlDonate {
+	color: #fff;
+	float: left;
+	padding: 10px;
+	width: 275px;
+}
+#pnlDonate a.support {
+	background: url(../images/blueCircle.png) right -6px no-repeat;
+	color: #2f61b5;
+	font-size: 16px;
+	padding: 5px 40px 5px 0;
+	text-decoration: none;
+}
+#pnlDonate a.support:hover {
+	background-position: right -53px;
+}
+#pnlDonate a.support:active {
+	background-position: right -103px;
+}
+#pnlAnnualGrants {
+	clear: left;
+	margin-left: -25px;
+}
+#pnlLocalGrants {
+	margin-right: -25px;
+}
+#pnlAnnualGrants, #pnlLocalGrants {
+	background: #f9f9f9 url(../images/dropShadow.jpg) 0 0 repeat-x;
+	height: 120px;
+	float: left;
+	padding: 25px;
+	width: 430px;
+}
+/*** Grant Tabs ***/
+#pnlGetInvolved ul#ulGrantTabs {
+	border-bottom: 1px solid #e2e7eb;
+	border-top: 1px solid #e2e7eb;
+	float: left;
+	margin: 0;
+	padding: 80px 74px 10px 0;
+}
+#ulGrantTabs li {
+	float: left;
+	margin: 0 20px;
+}
+#ulGrantTabs li a {
+	background: url(../images/getInvolvedTabs.jpg);
+	display: block;
+	height: 0;
+	overflow: hidden;
+	padding-top: 27px;
+	width: 169px;
+}
+#ulGrantTabs li a#lnkElegibilityRequirements {
+	background-position: -193px 0;
+}
+#ulGrantTabs li a#lnkGrantInstructions {
+	background-position: -386px 0;
+}
+#ulGrantTabs li a#lnkGrantRequest {
+	background-position: -579px 0;
+}
+/**** Grant Tabs Hover *****/
+#ulGrantTabs li a#lnkGrantGuidelines:hover {
+	background-position: 0 -32px;
+}
+#ulGrantTabs li a#lnkElegibilityRequirements:hover {
+	background-position: -193px -32px;
+}
+#ulGrantTabs li a#lnkGrantInstructions:hover {
+	background-position: -386px -32px;
+}
+#ulGrantTabs li a#lnkGrantRequest:hover {
+	background-position: -579px -32px;
+}
+/**** Grant Tabs Click *****/
+#ulGrantTabs li a#lnkGrantGuidelines:active {
+	background-position: 0 -65px;
+}
+#ulGrantTabs li a#lnkElegibilityRequirements:active {
+	background-position: -193px -65px;
+}
+#ulGrantTabs li a#lnkGrantInstructions:active {
+	background-position: -386px -65px;
+}
+#ulGrantTabs li a#lnkGrantRequest:active {
+	background-position: -579px -65px;
+}
+/**** Grant Tabs Active ****/
+#ulGrantTabs li.ui-tabs-selected a#lnkGrantGuidelines {
+	background-position: 0 -97px;
+}
+#ulGrantTabs li.ui-tabs-selected a#lnkElegibilityRequirements {
+	background-position: -193px -97px;
+}
+#ulGrantTabs li.ui-tabs-selected a#lnkGrantInstructions {
+	background-position: -386px -97px;
+}
+#ulGrantTabs li.ui-tabs-selected a#lnkGrantRequest {
+	background-position: -579px -97px;
+}
+/** End Grant Tabs **/
+#pnlGetInvolved p#pProposalGuidelines {
+	background: #f9f9f9;
+	clear: left;
+	color: #676767;
+	font-size: 12px;
+	margin: 0 -25px;
+	padding: 25px;
+	width: 910px;
+}
+#pnlGetInvolved #pnlGrantRequest fieldset {
+	color: #676767;
+	float: none;
+	height: auto;
+}
+#pnlGetInvolved #pnlGrantRequest fieldset span {
+	font-size: 12px;
+}
+#pnlGrantRequest ul {
+	width: 910px;
+}
+#radGrantType td {
+	padding: 15px 0;
+}
+#pnlGrantRequest li {
+	float: left;
+	width: 440px;
+}
+#pnlGrantRequest li#liGrantType {
+	float: none;
+	width: auto;
+}
+/** Resources Regions **/
+#professionalResources #content {
+	background: #f9f9f9;
+}
+#pnlResources {
+	background: #f9f9f9 url(../images/resourcesBg.jpg) 0 0 repeat-x;
+	padding: 25px;
+}
+#professionalResources #pnlHeader {
+	background: url(../images/resourcesHeader.jpg) 0 0 no-repeat;
+	height: 308px;
+	padding: 25px;
+}
+#professionalResources #pnlHeader p {
+	width: 400px;
+}
+#pnlResources p {
+	padding-top: 330px;
+}
+#pnlPartners {
+	background: #f9f9f9 url(../images/whitepapersBg.jpg) 0 0 no-repeat;
+	float: left;
+	height: 500px;
+	padding: 25px;
+	width: 435px;
+}
+#pnlRequest {
+	height: 500px;
+	padding: 25px;
+}
+#frmResources ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#pnlPartners p {
+	padding-top: 330px;
+}
+/** Scholarships Regions **/
+#visionScholarships #content {
+	background: #f9f9f9 url(../images/dropShadow.jpg) 0 358px repeat-x;
+	float: left;
+	padding: 25px 25px 0;
+}
+#visionScholarships #pnlHeader {
+	background: url(../images/scholarshipsHeader.jpg) 0 0 no-repeat;
+	height: 308px;
+	margin: -25px -25px 0;
+	padding: 25px;
+}
+#pnlScholarships {
+	float: left;
+	width: 455px
+}
+#pnlOutstanding {
+	float: left;
+	padding-bottom: 25px;
+	width: 455px;
+}
+.accordion {
+	border: 1px solid #eaeaea;
+	margin: 0;
+	padding: 0;
+}
+.accordionItem {
+	background: #f2f2f2;
+	border-bottom: 1px solid #ddd;
+	border-top: 1px solid #fff;
+	color: #676767;
+	display: block;
+	padding: 10px;
+	text-decoration: none;
+}
+.accordionItem:hover {
+	cursor: pointer;
+}
+.accordionDetail {
+	height: 120px;
+	padding: 0 10px;
+}
+.accordionDetail a {
+	color: #3068a7;
+	text-decoration: none;
+}
+#testimonials .accordionDetail {
+	height: 200px;
+}
+#testimonials .grant {
+	height: 300px;
+}
+#visionScholarships #pnlSecondary {
+	clear: left;
+}
+#visionScholarships #pnlSecondary div.left, #testimonials #pnlSecondary div.left {
+	margin-left: -25px;
+}
+#visionScholarships #pnlSecondary div.right, #testimonials #pnlSecondary div.right {
+	margin-right: -25px;
+}
+/** Testimonials Regions **/
+#testimonials #content {
+	background: #f9f9f9 url(../images/dropShadow.jpg) 0 301px repeat-x;
+	padding: 25px;
+}
+#testimonials #pnlHeader {
+	background: url(../images/testimonialHeader.jpg) 0 0 no-repeat;
+	height: 261px;
+	margin: -25px -25px 0;
+	padding: 25px 25px 25px 387px;
+}
+#testimonials #pnlHeader h2 {
+	margin: 0;
+}
+#ulTestimonials {
+	margin-bottom: 25px;
+}
+#ulTestimonials p {
+	width: 500px;
+}
+#pnlBCAB {
+	background: url(../images/BCABlogo.jpg) 685px 0 no-repeat;
+}
+#pnlCEC {
+	background: url(../images/CEClogo.jpg) 743px 0 no-repeat;
+}
+#pnlCPS {
+	background: url(../images/CPSlogo.jpg) 610px 0 no-repeat;
+}
+#pnlCPSEI {
+	background: url(../images/CPSEIlogo.jpg) 710px 0 no-repeat;
+}
+#pnlDCVR {
+	background: url(../images/Deickelogo.jpg) 640px 0 no-repeat;
+}
+#pnlEVF {
+	background: url(../images/EVFlogo.jpg) 690px 0 no-repeat;
+}
+#pnlOrbis {
+	background: url(../images/ORBISlogo.jpg) 793px 0 no-repeat;
+}
+#pnlPBF {
+	background: url(../images/PBFlogo.jpg) 650px 0 no-repeat;
+}
+#pnlVHI {
+	background: url(../images/VHIlogo.jpg) 738px 0 no-repeat;
+}
+#pnlPBA {
+	background: url(../images/PBAlogo.jpg) 665px 0 no-repeat;
+}
+#pnlCNIB {
+	background: url(../images/CNIBlogo.jpg) 704px 0 no-repeat;
+}
+#pnlEDF {
+	background: url(../images/EDFlogo.jpg) 665px 0 no-repeat;
+}
+/** Legal Regions **/
+#legal #content {
+	background: #f9f9f9 url(../images/dropshadow.jpg) 0 0 repeat-x;
+	padding: 25px;
+}
+#legal #content ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#legal li {
+	margin: 10px 0;
+}
+/** News Regions **/
+#news #content {
+	background: #f9f9f9 url(../images/dropshadow.jpg) 0 358px repeat-x;
+	padding: 25px;
+}
+#news #pnlHeader {
+	background: url(../images/newsHeader.jpg) 0 0 no-repeat;
+	height: 308px;
+	margin: -25px -25px 0;
+	padding: 25px;
+	width: 910px;
+}
+#news #pnlHeader h2 {
+	margin: 0;
+}
+#news #content ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.newsItem {
+	background: url(../images/newsItembg.jpg) 0 0 no-repeat;
+	height: 109px;
+	margin: 10px 0;
+	padding: 10px;
+	width: 870px;
+}
+.date {
+	display: block;
+	float: right;
+	margin-bottom: 20px;
+	width: 150px;
+}
+.headline {
+	display: block;
+	float: left;
+	font-weight: bold;
+	height: 40px;
+	margin-bottom: 20px;
+	width: 700px;
+}
+.pdf {
+	background: url(../images/downloadIcon.jpg) 0 0 no-repeat;
+	clear: both;
+	color: #676767;
+	display: block;
+	font-weight: bold;
+	height: 20px;
+	padding: 0 0 0 25px;
+	text-decoration: none;
+}
+#news #pnlSecondary {
+	float: left;
+}
+#news #pnlSecondary div.left {
+	margin-left: -25px;
+}
+#news #pnlSecondary div.right {
+	margin-right: -25px;
+}
+/* Navigation */
+#ulMainNav {
+	clear: both;
+	float: left;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	width: 961px;
+}
+#ulMainNav li {
+	float: left;
+}
+#ulMainNav li a {
+	background: url(../images/mainNavBg.jpg) no-repeat;
+	display: block;
+	height: 0;
+	margin: 0;
+	overflow: hidden;
+	padding-top: 42px;
+}
+#ulMainNav li a#lnkEnhance {
+	width: 253px;
+}
+#ulMainNav li a#lnkAbout {
+	background-position: -253px 0;
+	width: 168px;
+}
+#ulMainNav li a#lnkGetInvolved {
+	background-position: -422px 0;
+	width: 146px;
+}
+#ulMainNav li a#lnkResources {
+	background-position: -568px 0;
+	width: 214px;
+}
+#ulMainNav li a#lnkScholarship {
+	background-position: -782px 0;
+	width: 179px;
+}
+/****** Main Nav Hover ******/
+#ulMainNav li a#lnkEnhance:hover {
+	background-position: 0 -52px;
+}
+#ulMainNav li a#lnkAbout:hover {
+	background-position: -253px -52px;
+}
+#ulMainNav li a#lnkGetInvolved:hover {
+	background-position: -422px -52px;
+}
+#ulMainNav li a#lnkResources:hover {
+	background-position: -568px -52px;
+}
+#ulMainNav li a#lnkScholarship:hover {
+	background-position: -782px -52px;
+}
+/****** Main Nav Click ******/
+#ulMainNav li a#lnkEnhance:active {
+	background-position: 0 -106px;
+}
+#ulMainNav li a#lnkAbout:active {
+	background-position: -253px -106px;
+}
+#ulMainNav li a#lnkGetInvolved:active {
+	background-position: -422px -106px;
+}
+#ulMainNav li a#lnkResources:active {
+	background-position: -568px -106px;
+}
+#ulMainNav li a#lnkScholarship:active {
+	background-position: -782px -106px;
+}
+/****** Main Nav Active *****/
+#enhanceAndProtect #ulMainNav li a#lnkEnhance {
+	background-position: 0 -159px;
+}
+#aboutTheFund #ulMainNav li a#lnkAbout {
+	background-position: -253px -159px;
+}
+#getInvolved #ulMainNav li a#lnkGetInvolved {
+	background-position: -422px -159px;
+}
+#professionalResources #ulMainNav li a#lnkResources {
+	background-position: -568px -159px;
+}
+#visionScholarships #ulMainNav li a#lnkScholarship {
+	background-position: -782px -159px;
+}
+/****** Global Nav ******/
+#ulCorpNav {
+	float: right;
+	list-style: none;
+}
+#ulCorpNav li {
+	float: left;
+	margin: 0 2px;
+}
+#ulCorpNav a {
+	background: url(../images/globalNav.jpg) no-repeat 0 0;
+	display: block;
+	height: 0;
+	overflow: hidden;
+	padding-top: 23px;
+	width: 65px;
+}
+#ulCorpNav a#lnkHome {
+	background-position: 0 0;
+}
+#ulCorpNav a#lnkNews {
+	background-position: -68px 0;
+}
+#ulCorpNav a#lnkContact {
+	background-position: -135px 0;
+}
+#ulCorpNav a#lnkHome:hover {
+	background-position: 0 -23px;
+}
+#ulCorpNav a#lnkNews:hover {
+	background-position: -68px -23px;
+}
+#ulCorpNav a#lnkContact:hover {
+	background-position: -135px -23px;
+}
+#ulCorpNav a#lnkHome:active {
+	background-position: 0 -46px;
+}
+#ulCorpNav a#lnkNews:active {
+	background-position: -68px -46px;
+}
+#ulCorpNav a#lnkContact:active {
+	background-position: -135px -46px;
+}
+#ulFooter {
+	background: url(../images/footerLogo.jpg) no-repeat center 40px;
+	clear: left;
+	list-style: none;
+	margin: 0 auto;
+	padding: 100px 0 0;
+	text-align: center;
+	width: 760px;
+}
+#ulFooter li {
+	border-right: 1px solid #aaaba9;
+	display: inline;
+	margin: 0;
+	padding: 0 20px;
+}
+#ulFooter li.last {
+	border: none;
+}
+#ulFooter a {
+	color: #aaaba9;
+	font-family: arial, verdana, sans-serif;
+	text-decoration: none;
+}
+/* Classes */
+.nodisplay, .ui-tabs-hide { display: none; }
+.ui-tabs-panel {
+	clear: both;
+	padding: 25px;
+}
+#hHSFL {
+	float: left;
+	margin: 0;
+	width: 173px;
+}
+#hHSFL a {
+	background: url(../images/homeLogo.png) 0 10px no-repeat;
+	display: block;
+	float: left;
+	height: 0;
+	padding-top: 67px;
+	overflow: hidden;
+	width: 173px;
+}
+#hHSFL a:hover {
+	background-position: 0 -50px;
+}
+#pCopyright, #pLegal {
+	color: #aaaba9;
+	margin: 10px auto;
+	text-align: center;
+	width: 350px;
+}
+#pCopyright {
+	margin-top: 70px;
+}
+#pLegal {
+	font-size: 10px;
+}
+.lnkLearnMore {
+	background: url(../images/learnMoreBtn.jpg) 0 0 no-repeat;
+	display: block;
+	height: 0;
+	overflow: hidden;
+	padding-top: 22px;
+	width: 84px;
+}
+.lnkLearnMore:hover {
+	background-position: 0 -30px;
+}
+.lnkLearnMore:active {
+	background-position: 0 -60px;
+}
+/****** sIFR styles ******/
+h1 span.flash-replaced, h2 span.flash-replaced, h3 span.flash-replaced {
+	float: none;
+	width: auto;
+}
+
+
+/******* FLASH PLACEHOLDERS - REMOVE WHEN ALL FLASH IS FINISHED 
+#pnlLearnFlash {
+	background: url(../images/placeholders/blurredVisionFlash.jpg) 0 0 no-repeat;
+	height: 591px;
+	width: 449px;
+}
+#pnlSeeYourBestFlash {
+	background: url(../images/placeholders/visionGlareFlash.jpg) 0 0 no-repeat;
+	height: 530px;
+	width: 470px;
+}
+#pnlMissSeeingFlash {
+	background: url(../images/placeholders/cataractsFlash.jpg) 0 0 no-repeat;
+	height: 524px;
+	width: 449px;
+}*********/

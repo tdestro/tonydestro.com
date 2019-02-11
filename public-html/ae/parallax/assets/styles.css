@@ -1,0 +1,132 @@
+body {
+  font-family: sans-serif;
+  font-size: 18px;
+  background: #111;
+  color: #666;
+  margin: 0;
+}
+
+img {
+  display: block;
+  width: 100% !important;
+}
+
+
+
+.container {
+  position: relative;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.scene {
+  padding: 0;
+  margin: 0;
+}
+
+.fill {
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+  left: 5%;
+  top: 5%;
+}
+
+.aspect {
+	width: 100% !important;
+}
+
+.layer{
+	height: 100%;
+	width: 100%;
+}
+
+.layer div{
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+  background-repeat: no-repeat;
+  
+}
+
+.heading {
+  left: 21% !important;
+  top: 5% !important;
+  position: absolute !important;
+  width: 37vw;
+  height: calc(37vw * .3);
+  background-image:url(flex-denim.png) ;
+}
+
+.man {
+	left:27% !important;
+	top: 8% !important;
+	position: absolute !important;
+	width: 45vw;
+	height: calc(45vw * 1);
+	background-image:url(man.png);
+}
+
+.shop-callout{
+	left:71% !important;
+	top: 43% !important;
+    color: #ff861a;
+    text-transform: uppercase;
+    position:absolute;
+}
+
+.shop-callout ul li:before {
+    content: "-"; position:relative; left:-5px;
+}
+
+.shop-callout ul {
+    list-style: none;
+    padding-left: 0;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.shop-callout h1 {
+    font-size: 1.5rem;
+    margin-top: .1rem;
+    margin-bottom: .5rem;
+    display: inline-block;
+}
+
+.shop-callout .button {
+    background-color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    color: #ff861a;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 100%;
+}
+
+@media only screen 
+  and (min-width: 320px) 
+  and (max-width: 480px){
+  	
+  	.shop-callout h1 {
+	    font-size: .6rem;	
+	}
+	
+	.shop-callout ul {
+	    font-size: .5rem;
+	}
+	
+	.shop-callout .button {
+	    font-size: .5rem;
+	}
+
+	.shop-callout{
+	    bottom:0;
+	    position:absolute;   
+	}
+}
+ 
+

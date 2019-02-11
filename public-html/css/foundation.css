@@ -1,0 +1,166 @@
+a img {
+	border: none
+}
+a:link {
+	color: #643d8c;
+}      /* unvisited link */
+a:visited {
+	color: #643d8c;
+}  /* visited link */
+a:hover {
+	color: #643d8c;
+}  /* mouse over link */
+a:active {
+	color: #643d8c;
+}  /* selected link */
+.standard_body {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 18px;
+	color: #474747;
+	line-height: 21px;
+	margin: 40px 20px 10px 40px;
+}
+.smlist {
+	margin: 20px 10px 0 20px;
+}
+.smlist {
+	color: #272727;
+	font-family: Georgia, serif;
+	font-size: 16px;
+	line-height: 22px;
+}
+.smlist li {
+	margin: 5px 40px;
+}
+#tiles {
+	list-style-type: none;
+	position: relative; /** Needed to ensure items are laid out relative to this container **/
+	margin: 0;
+}
+/**
+ * Grid items
+ */
+#tiles li {
+	width: 240px;
+	display: none; /** Hide items initially to avoid a flicker effect **/
+	cursor: pointer;
+	padding: 4px;
+}
+#tiles li img {
+	display: block;
+}
+body {
+	margin: 0;
+	padding-top: 120px;
+	font-family: 'Roboto Condensed', sans-serif;
+	background-color: #f1f1f1;
+}
+.header {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	margin: 0;
+	background-image: url('../images/TopPNG.png');
+	background-position: right top;
+	background-color: #f1f1f1;
+	width: 100%;
+	height: 104px;
+	z-index: 1000;
+}
+#logo {
+	float: left;
+	margin: 20px 0px 20px 20px;
+	height: 64px;
+	width: 102px;
+}
+.nav {
+	float: left;
+	width: 400px;
+	margin: 28px 0 0 0;
+}
+.nav ul li {
+	display: inline;
+	list-style: none;
+	margin-right: 4%;
+}
+.nav ul li a {
+	text-decoration: none;
+}
+.nav ul li a:hover {
+	color: #C44F09;
+}
+.last {
+	margin-right: 0;
+}
+#container {
+	text-align: center;
+	margin: 0 auto;
+	width: 100%;
+	position: relative;
+}
+.brick {
+	padding-bottom: 20px;
+}
+ @media only screen and (min-width: 768px) and (max-width: 991px) {
+#container {
+	max-width: 960px;
+	min-width: 600px;
+}
+#logo {
+	margin-left: 5%;
+}
+.nav {
+	width: 560px;
+}
+}
+ @media only screen and (min-width: 0px) and (max-width: 767px) {
+body {
+	padding-top: 120px;
+}
+#container {
+	max-width: 767px;
+	min-width: 0;
+}
+#logo {
+	margin-top: 15px;
+	margin: 6px 39%;
+}
+.nav {
+	width: 91%;
+	float: left;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+.nav ul {
+	margin: 0 0 0 0;
+}
+.nav ul li {
+	margin-right: 2%;
+	font-size: .5em;
+}
+.brick {
+	margin-bottom: 5px;
+}
+.ribbon {
+	background-color: #a00;
+	overflow: hidden;
+	position: absolute;
+	margin: 0.05em 0;
+	right: -4em;
+	bottom: 3.8em;
+	-moz-transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+	-moz-box-shadow: 0 0 1em #888;
+	-webkit-box-shadow: 0 0 1em #888;
+}
+.ribbon a {
+	border: 1px solid #faa;
+	color: #fff;
+	display: block;
+	margin: 0.05em 0;
+	padding: 0.5em 3.5em;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: 0 0 0.5em #444;
+}

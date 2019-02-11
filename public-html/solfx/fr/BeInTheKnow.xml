@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--Data collected from SolFX Sunwear Be In The Know form-->
+<VisitorInfo>
+  <person>
+    <date>6/17/2009 5:51:40 PM</date>
+    <name>Courtney Myers</name>
+    <email>test@test.com</email>
+    <company>test</company>
+    <street>test</street>
+    <state>test</state>
+    <zip>test</zip>
+    <comment>
+    </comment>
+    <interest>wearing</interest>
+  </person>
+  <person>
+    <date>6/11/2009 3:24:36 PM</date>
+    <name>Nancy Test</name>
+    <email>ngodmaire@transitions.com</email>
+    <company>Test</company>
+    <street>Test</street>
+    <state>ON</state>
+    <zip>N1R 7J4</zip>
+    <comment>
+    </comment>
+    <interest>wearing</interest>
+  </person>
+  <person>
+    <date>6/11/2009 12:19:23 PM</date>
+    <name>TEST</name>
+    <email>mlaniel@transitions.com</email>
+    <company>TRANSITIONS OPTICAL INC</company>
+    <street>BISHOP ST</street>
+    <state>ON</state>
+    <zip>N1R 7J4</zip>
+    <comment>TEST</comment>
+    <interest>wearing</interest>
+  </person>
+</VisitorInfo>

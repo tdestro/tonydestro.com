@@ -1,0 +1,596 @@
+body {
+	background: #dfe0db url(../images/bg.jpg) 0 0 repeat-x;
+	color: #676767;
+	font: normal 12px "lucida grande", arial, verdana, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+h1, h2, h3 {
+	color: #2b5395;
+}
+h2, h3 {
+	font-size: 20px;
+}
+#pnlDonate a {
+	color: #fff;
+	text-decoration: none;
+	border-bottom: solid 1px #fff;
+}
+#pnlDonate a:hover {
+	border-bottom: none;
+}
+fieldset {
+	border: none;
+}
+legend {
+	margin: 0;
+	padding: 0;
+}
+#lgForward span {
+	display: none;
+}
+#hForwardSite {
+	background: url(../images/headlines/getInvolved/forwardThisSite.jpg) 0 0 no-repeat;
+	display: block;
+	height: 0;
+	margin-top: 17px;
+	margin-bottom: 6px;
+	overflow: hidden;
+	padding-top: 20px;
+	width: 140px;
+}
+label {
+	display: block;
+	font-size: 14px;
+	margin-bottom: 7px;
+}
+li label {
+	margin-bottom: 6px;
+}
+#fsForward li label {
+	float: left;
+	margin-bottom: 0;
+	padding-bottom: 6px;
+	width: 135px;
+}
+input.text {
+	background: url(../images/txtBg.jpg) 0 0 no-repeat;
+	border: 0;
+	color: #676767;
+	font-size: 14px;
+	height: 21px;
+	padding: 7px;
+	width: 415px;
+}
+textarea.text {
+	background: url(../images/textareaBg.jpg) 0 0 no-repeat;
+	border: none;
+	color: #676767;
+	height: 124px;
+	padding: 5px;
+	width: 397px;
+}
+#pnlGrantRequest input.text {
+	background: url(../images/407textbox.jpg) 0 0 no-repeat;
+	width: 397px;
+}
+#pnlGrantRequest textarea.text {
+	
+}
+#container {
+	margin: 0 auto;
+	width: 961px;
+}
+#content {
+	background: #f9f9f9 url(../images/dropShadow.jpg) 0 797px repeat-x;
+	clear: left;
+}
+#pnlHeader {
+	height: 308px;
+	padding: 25px;
+	width: 910px;
+}
+#pnlMainContent {
+	background: #f9f9f9 url(../images/dropShadow.jpg) 0 0 repeat-x;
+	padding: 25px;
+	width: 910px;
+}
+#pnlSecondary div {
+	border-top: 1px solid #dfe0dc;
+	float: left;
+	height: 118px;
+	overflow: hidden;
+	width: 480px;
+}
+#pnlSecondary div * {
+	margin-left: 300px;
+	margin-top: 0;
+}
+#pnlSecondary h2 {
+	margin-bottom: 0;
+}
+div.left {
+	background: url(../images/secondaryLeftWoman.jpg) 0 0 no-repeat;
+}
+div.right {
+	background: url(../images/secondaryRightMan.jpg) 0 0 no-repeat;
+}
+/* Navigation */
+#ulMainNav {
+	clear: both;
+	float: left;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	width: 961px;
+}
+#ulMainNav li {
+	float: left;
+}
+#ulMainNav li a {
+	background: url(../images/mainNavBg.jpg) no-repeat;
+	display: block;
+	height: 0;
+	margin: 0;
+	overflow: hidden;
+	padding-top: 42px;
+}
+#ulMainNav li a#lnkEnhance {
+	width: 254px;
+}
+#ulMainNav li a#lnkAbout {
+	background-position: -254px 0;
+	width: 168px;
+}
+#ulMainNav li a#lnkGetInvolved {
+	background-position: -422px 0;
+	width: 147px;
+}
+#ulMainNav li a#lnkResources {
+	background-position: -569px 0;
+	width: 213px;
+}
+#ulMainNav li a#lnkScholarship {
+	background-position: -782px 0;
+	width: 178px;
+}
+/****** Main Nav Hover ******/
+#ulMainNav li a#lnkEnhance:hover {
+	background-position: 0 -52px;
+}
+#ulMainNav li a#lnkAbout:hover {
+	background-position: -254px -52px;
+}
+#ulMainNav li a#lnkGetInvolved:hover {
+	background-position: -422px -52px;
+}
+#ulMainNav li a#lnkResources:hover {
+	background-position: -569px -52px;
+}
+#ulMainNav li a#lnkScholarship:hover {
+	background-position: -783px -52px;
+}
+/****** Main Nav Click ******/
+#ulMainNav li a#lnkEnhance:active {
+	background-position: 0 -106px;
+}
+#ulMainNav li a#lnkAbout:active {
+	background-position: -254px -106px;
+}
+#ulMainNav li a#lnkGetInvolved:active {
+	background-position: -422px -106px;
+}
+#ulMainNav li a#lnkResources:active {
+	background-position: -569px -106px;
+}
+#ulMainNav li a#lnkScholarship:active {
+	background-position: -783px -106px;
+}
+/****** Main Nav Active *****/
+#enhanceAndProtect #ulMainNav li a#lnkEnhance {
+	background-position: 0 -159px;
+}
+#aboutTheFund #ulMainNav li a#lnkAbout {
+	background-position: -254px -159px;
+}
+#getInvolved #ulMainNav li a#lnkGetInvolved {
+	background-position: -422px -159px;
+}
+#professionalResources #ulMainNav li a#lnkResources {
+	background-position: -569px -159px;
+}
+#visionScholarships #ulMainNav li a#lnkScholarship {
+	background-position: -783px -159px;
+}/****** Global Nav ******/
+#ulCorpNav {
+	float: right;
+	list-style: none;
+}
+#ulCorpNav li {
+	float: left;
+	margin: 0 2px;
+}
+#ulCorpNav a {
+	background: url(../images/globalNav.jpg) no-repeat 0 0;
+	display: block;
+	height: 0;
+	overflow: hidden;
+	padding-top: 23px;
+	width: 65px;
+}
+#ulCorpNav a#lnkHome {
+	background-position: 0 0;
+}
+#ulCorpNav a#lnkNews {
+	background-position: -68px 0;
+}
+#ulCorpNav a#lnkContact {
+	background-position: -135px 0;
+}
+#ulCorpNav a#lnkHome:hover {
+	background-position: 0 -23px;
+}
+#ulCorpNav a#lnkNews:hover {
+	background-position: -68px -23px;
+}
+#ulCorpNav a#lnkContact:hover {
+	background-position: -135px -23px;
+}
+#ulCorpNav a#lnkHome:active {
+	background-position: 0 -46px;
+}
+#ulCorpNav a#lnkNews:active {
+	background-position: -68px -46px;
+}
+#ulCorpNav a#lnkContact:active {
+	background-position: -135px -46px;
+}
+#ulFooter {
+	background: url(../images/footerLogo.jpg) no-repeat center 40px;
+	clear: left;
+	list-style: none;
+	margin: 0 auto;
+	padding: 100px 0 0;
+	text-align: center;
+	width: 760px;
+}
+#ulFooter li {
+	border-right: 1px solid #aaaba9;
+	display: inline;
+	line-height: 35px;
+	margin: 0;
+	padding: 0 20px;
+}
+#ulFooter li.last {
+	border: none;
+}
+#ulFooter a {
+	color: #aaaba9;
+	font-family: arial, verdana, sans-serif;
+	text-decoration: none;
+}
+.nodisplay, .ui-tabs-hide { display: none; }
+.ui-tabs-panel {
+	clear: both;
+	padding: 25px 0 100px;
+}
+#hHSFL {
+	float: left;
+	margin: 0;
+	width: 173px;
+}
+#hHSFL a {
+	background: url(../images/homeLogo.png) 0 10px no-repeat;
+	display: block;
+	float: left;
+	height: 0;
+	padding-top: 67px;
+	overflow: hidden;
+	width: 173px;
+}
+#hHSFL a:hover {
+	background-position: 0 -50px;
+}
+#pCopyright, #pLegal {
+	color: #aaaba9;
+	margin: 10px auto;
+	text-align: center;
+	width: 350px;
+}
+#pCopyright {
+	margin-top: 70px;
+}
+#pLegal {
+	font-size: 10px;
+}
+
+#pnlGetInvolved {
+	background: url(../images/familyWalking.jpg) 0 0 no-repeat;
+	padding: 25px;
+}
+#pnlGetInvolved legend {
+	color: #fff;
+	margin: 0;
+	padding: 0;
+}
+#hGetInvolved {
+	background: url(../images/headlines/getInvolved/getInvolved.jpg) 0 0 no-repeat;
+	height: 0;
+	margin: 0;
+	overflow: hidden;
+	padding-top: 25px;
+}
+#pnlDonate h3 {
+	height: 0;
+	overflow: hidden;
+	padding-top: 20px;
+	margin-bottom: 10px;
+}
+#hDonate {
+	background: url(../images/headlines/getInvolved/donate.jpg) 0 0 no-repeat;
+}
+#hDonateResources {
+	background: url(../images/headlines/getInvolved/professionalResources.jpg) 0 0 no-repeat;
+}
+#pnlDonate p {
+	margin-top: 0;
+}
+#pnlGetInvolved #pnlAnnualGrants h2 {
+	background: url(../images/headlines/getInvolved/annualCharityGrants.jpg) 0 0 no-repeat;
+	height: 0;
+	overflow: hidden;
+	padding-top: 25px;
+	margin-bottom: 0;
+	margin-top: 20px;
+}
+#pnlGetInvolved #pnlLocalGrants h2 {
+	background: url(../images/headlines/getInvolved/localCommunityGrants.jpg) 0 0 no-repeat;
+	height: 0;
+	overflow: hidden;
+	padding-top: 25px;
+	margin-top: 20px;
+}
+#pnlGetInvolved h2#hRequestGrant {
+	color: #676767;
+	font-size: 18px;
+	padding-top: 21px;
+}
+#pnlGetInvolved p.lead {
+	color: #fff;
+	font-size: 14px;
+	height: 121px;
+	line-height: 19px;
+	margin: 5px 0;
+	width: 440px;
+}
+#pnlGetInvolved fieldset {
+	color: #fff;
+	float: left;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	width: 440px;
+}
+#pnlGetInvolved fieldset#fsForward {
+	height: 525px;
+}
+#pnlGetInvolved ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#pnlGrantRequirements ul {
+	list-style: disc;
+	margin-left: 13px;
+}
+#pnlGrantRequirements ul li {
+	margin-bottom: auto;
+}
+#pnlGrantRequirements h2, #pnlGrantGuidelines h3, #pnlGrantInstructions h2 {
+	color: #676767;
+	font-size: 14px;
+	margin: 10px 0;
+}
+#pnlGetInvolved li {
+	margin-bottom: 30px;
+}
+#pnlGetInvolved li.submit {
+	margin-top: -20px;
+	text-align: right;
+}
+#pnlDonate {
+	color: #fff;
+	float: left;
+	height: 578px;
+	padding: 46px 10px 10px 35px;
+	width: 426px;
+}
+#pnlDonate p {
+	width: 275px;
+}
+#ctl00 .submit {
+	margin-right: 12px;
+	margin-top: -29px;
+	text-align: right;
+}
+#ctl00 #pnlGrantRequest .submit {
+	text-align: right;
+	width: 860px;
+}
+#pnlDonate a.support {
+	border: none;
+	display: block;
+	height: 0;
+	overflow: hidden;
+	padding-top: 30px;
+}
+/*#pnlDonate a.support:hover {
+	background-position: right -53px;
+}
+#pnlDonate a.support:active {
+	background-position: right -103px;
+}*/
+#lnkEmailUs {
+	background: url(../images/emailUs.jpg) 0 0 no-repeat;
+}
+#lnkEmailUs:hover, #lnkGetResources:hover {
+	background-position: 0 -30px;
+}
+#lnkEmailUs:active, #lnkGetResources:active {
+	background-position: 0 -60px;
+}
+#lnkGetResources {
+	background: url(../images/getResources.png) 0 0 no-repeat;
+}
+ul table {
+	width: 440px;
+}
+#pnlAnnualGrants, #pnlLocalGrants {
+	height: 120px;
+	float: left;
+	padding: 30px 0;
+	width: 430px;
+}
+#pnlAnnualGrants {
+	padding-right: 51px;
+}
+#pProposalGuidelines {
+	clear: both;
+}
+#pnlGetInvolved #pnlGrantRequest fieldset {
+	color: #676767;
+	float: none;
+	height: auto;
+}
+#pnlGetInvolved #pnlGrantRequest fieldset span {
+	color: #676767;
+	font-size: 12px;
+}
+#pnlGetInvolved #pnlGrantRequest fieldset legend span {
+	display: block;
+	font-size: 19px;
+	letter-spacing: -1px;
+	padding-bottom: 35px;
+}
+#pnlGrantRequest ul {
+	float: left;
+	width: 905px;
+}
+#radGrantType td {
+	padding: 15px 0;
+}
+td label {
+	display: inline;
+}
+td span {
+	display: block;
+	padding-left: 23px;
+}
+#pnlGrantRequest li {
+	float: left;
+	width: 440px;
+}
+#pnlGrantRequest li.alt {
+	padding-left: 35px;
+	width: 430px;
+}
+#pnlGrantRequest li#liGrantType {
+	float: none;
+	width: 440px;
+}
+#pnlGetInvolved p#pGuidelines {
+	margin-bottom: 0;
+	padding-bottom: 30px;
+}
+
+
+
+/*** Grant Tabs ***/
+#pnlGetInvolved ul#ulGrantTabs {
+	border-bottom: 1px solid #e2e7eb;
+	border-top: 1px solid #e2e7eb;
+	float: left;
+	margin: 0;
+	padding: 80px 0 10px 25px;
+}
+#ulGrantTabs li {
+	float: left;
+	margin: 0 20px;
+}
+#ulGrantTabs li a {
+	background: url(../images/getInvolvedTabs.jpg);
+	display: block;
+	height: 0;
+	overflow: hidden;
+	padding-top: 27px;
+	width: 169px;
+}
+#ulGrantTabs li a#lnkElegibilityRequirements {
+	background-position: -193px 0;
+}
+#ulGrantTabs li a#lnkGrantInstructions {
+	background-position: -386px 0;
+}
+#ulGrantTabs li a#lnkGrantRequest {
+	background-position: -579px 0;
+}
+/**** Grant Tabs Hover *****/
+#ulGrantTabs li a#lnkGrantGuidelines:hover {
+	background-position: 0 -32px;
+}
+#ulGrantTabs li a#lnkElegibilityRequirements:hover {
+	background-position: -193px -32px;
+}
+#ulGrantTabs li a#lnkGrantInstructions:hover {
+	background-position: -386px -32px;
+}
+#ulGrantTabs li a#lnkGrantRequest:hover {
+	background-position: -579px -32px;
+}
+/**** Grant Tabs Click *****/
+#ulGrantTabs li a#lnkGrantGuidelines:active {
+	background-position: 0 -65px;
+}
+#ulGrantTabs li a#lnkElegibilityRequirements:active {
+	background-position: -193px -65px;
+}
+#ulGrantTabs li a#lnkGrantInstructions:active {
+	background-position: -386px -65px;
+}
+#ulGrantTabs li a#lnkGrantRequest:active {
+	background-position: -579px -65px;
+}
+/**** Grant Tabs Active ****/
+#ulGrantTabs li.ui-tabs-selected a#lnkGrantGuidelines {
+	background-position: 0 -97px;
+}
+#ulGrantTabs li.ui-tabs-selected a#lnkElegibilityRequirements {
+	background-position: -193px -97px;
+}
+#ulGrantTabs li.ui-tabs-selected a#lnkGrantInstructions {
+	background-position: -386px -97px;
+}
+#ulGrantTabs li.ui-tabs-selected a#lnkGrantRequest {
+	background-position: -579px -97px;
+}
+/** End Grant Tabs **/
+
+/** Form Validation **/
+span.req {
+	color: #fff !important;
+	display: block;
+}
+#fsForward .pnlErrors {
+	left: 474px;
+	position: relative;
+	top: -145px;
+}
+#pnlGrantRequest span.req {
+	color: #676767 !important;
+}
+#pnlForwardConfirm, #pnlForwardFail {
+	font-size: 14px;
+	font-weight: bold;
+	position: relative;
+	top: -665px;
+}

@@ -1,0 +1,30 @@
+﻿	<!--#include file="_incl/GlobalHeader.aspx"--> 
+		<div id="ajaxContainer">
+    	<div id="content" class="home">
+        	<div class="panel style">
+                <h2>Cutting-Edge Fashion</h2>
+                <p>Transitions sunwear combines innnovative technology with leading brand names to create truly cutting-edge fashin with just the right color combinations to match your stle. Look for your favorite frame brand with Transitions sunwear. Don't see it? Ask for it!</p>
+            </div>
+            <div class="panel default">
+                <p id="pDynamic">You are not static. You are dynamic.</p>
+				<p id="pShouldBe">Your eyewear should be, too.</p>
+				<p>Ordinary sunwear is optimized to a specific light level &ndash; which is why in certain situations some sunglasses can seem too dark, while other sunglasses are not dark enough.</p>
+				<p>Transitions sunwear self-adjusts, changing darkness with the sun so you can look great, see better, and perform at your best.</p>
+				<a href="#" id="lnkSeeForYourself">See for yourself</a>
+            </div>
+            <div class="panel specialty">
+                <h2>Vision Is Critical</h2>
+                <p>While always important, there are some situations, like driving, where vision is absolutely critical.  
+These unique visual needs require uniquely designed products.  That’s why you will find Transitions sunwear designed especially for visually-demanding tasks, like cruising the open road.</p>
+            </div>
+            <div class="panel sport">
+                <h2>Enhanced Visual<br/> 
+				Performance = Improved<br/> 
+				Personal Performance</h2>
+				<p>Your vision how well you see in a given situation can affect your performance.  Performance is taken to the ultimate level with dynamic sunwear that changes with the sun.  The darkness of Transitions sunwear automatically changes to provide optimal vision in sun and shade.  So whether you are biking, hiking, or just playing around, Transitions sunwear will adjust to changing light conditions to reduce glare and enhance your vision.</p>
+            </div>
+         </div>
+	</div>
+	<!--#include file="_incl/GlobalCategoryNavigation.aspx"-->
+	<div id="pre-footer"></div>
+	<!--#include file="_incl/GlobalFooter.aspx"-->

@@ -1,0 +1,44 @@
+
+
+
+
+
+/*
+     FILE ARCHIVED ON 15:45:02 Jan 2, 2010 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 4:56:25 Apr 5, 2013.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/* GENERAL STYLES */
+* { height: auto; }
+body{
+	font: normal 10pt 'Times New Roman', 'Times';
+	margin: 0;
+	padding: 0;
+}
+#header, #naviHolder, #bottom, #secondNaviList, #featuredpopProdWrapper, .featuredpanel, #quickLinks, .hViewProducts, .ulRegions, object, #thirdLevelNavigation, .hMoreInnovation, .ulInnovationSub, .popProdWrapper,  #textContent.products #secondary h2, .ourFoodProducts img, #selectARegion, #brandsWrapper, #prodYourSay, .ProdRecipeHighlighteu, .ProdRecipeHighlightrw, .featuredArea, .recipeListPrimary, .recipe select, .recipe a, #textContent.focusFoods #secondaryColumn, .pureIngredients #primaryColumn, .pureIngredients #secondaryContent, .infantNutrition #secondaryContent, .dietaryPref #secondaryContent, .healthyFoods, .ulHealthyFoods, .weightManagement #secondaryContent, .commitment #secondaryColumn, .globalTaskForce #secondaryContent, .workplaceHealth #secondaryContent, .partnerships #secondaryContent, .partnerships a, .ourCompany h2, .aboutHeinz #secondaryColumn, .vision #secondaryColumn h2, select, .ulHistoryNav, .history #secondaryColumn, .leadership h2, .leadership a, .lnkJobSearch, .watchnow, .hr, .listenSlidesBtn, .webcastPrLink a, .calendarImg, #lnkSubscribeRSS, .ui-tabs-nav, .sustainabilityEnvironment #primaryRightColumn, .sustainabilityEnvWaste #primaryRightColumn, .sustainabilityEnvWater #primaryRightContent, .sustainabilityEnvCarbon #primaryRightColumn, #primaryRightColumnEnvSub, #ulTabNavigation {
+	display: none;
+}
+#textContent {
+	margin: 0;
+}
+#textContent.health #primaryContent {
+	float: none;
+}
+#textContent.mediaContacts #contentHeader {
+	margin-bottom: 30px;
+}
+#pnlAmericas, #pnlEurope, #pnlAsia {
+	display: block;
+}
+.sustainabilityEcon #primaryContent {
+	float: none;
+}
+.sustainabilityMicro #secondaryContent {
+	clear: both;
+}
+
+
+/* EDITOR PROPERTIES */

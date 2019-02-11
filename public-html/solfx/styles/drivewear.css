@@ -1,0 +1,1135 @@
+/********* Drivewear Navigation *********/
+input, a{
+	outline: none;
+}
+#drivewearNav{
+	float:left;
+	height:27px;
+	width:958px;
+	margin:0 auto;
+	background:url(../images/secondaryNavBg.gif) repeat-x;
+	text-align:center;
+}
+#drivewearNav a{
+	color:#696969;
+	font-family: "Myriad Pro", "Myriad", Geneva, Arial, sans-serif;
+	font-size:14px;
+	text-decoration:none;
+	text-transform: uppercase;
+	padding:0 20px 5px;
+	background: url(../images/driveNavDivider.gif) top right no-repeat;
+}
+#drivewearNav a.last {
+	background: transparent none;
+}
+#drivewearNav a:hover, #drivewearNav a.active{
+	color:#fff;
+}
+#drivewearNav ul{
+	margin:5px auto;
+}
+#drivewearNav li{
+	display:inline;
+}
+#navArrows a {
+	display:block;
+	height:52px;
+	width:39px;
+	text-indent:-5000px;
+	background: url(../images/arrow_leftBtn2.gif) no-repeat;
+	position:absolute;
+	top:200px;
+	z-index:6;
+}
+#dwnPrev {
+	left:0px;
+}
+#navArrows #dwnNext {
+	left:921px;
+	background: url(../images/arrow_rightBtn2.gif) no-repeat;
+}
+
+/*Drivewear Common*/
+.Drivewear, .DrivewearTestimonials, .WheretoGetDrivewear, .WhatisDrivewear, .DrivewearWidget, .DrivewearTestimonialsDetail, .WheretoGetDrivewearResults {
+	background:#000000 url(../images/drivewearBg.jpg) no-repeat scroll center 0;
+}
+.DrivewearTestimonials #ajaxContainer, .WheretoGetDrivewear #ajaxContainer {
+	height:731px;
+}
+.WhatisDrivewear #ajaxContainer, .WhatisDrivewear #ajaxContainer .WhatIsDw {
+	height:1011px; 
+}
+#ajaxContainer .Testimonials, #ajaxContainer .TestimonialsDetail, #ajaxContainer .WhatIsDw, #ajaxContainer .WhereToDw {
+	background: url(../images/dwHeaderbg.jpg) no-repeat;
+	height:731px;
+	width:958px;
+	overflow:hidden;
+	border-left: 1px solid #474747;
+	border-right: 1px solid #474747;
+}
+#ajaxContainer .WhatIsDw {
+	background: url(../images/dwHeaderbg3.jpg) no-repeat;
+}
+.Testimonials h1, .WhatIsDw h1, .WidgeAd h1, .WhereToDw h1, .TestimonialsDetail h1, .drivewear h1, .shieldMain h1{
+	margin: 26px 0 0 0px;
+	padding:0 0 5px 57px;
+	float:left;
+	clear:both;
+	text-indent:-5000px;
+	height:35px;
+	width:550px;
+	background: url(../images/dwHead_Testimonials.gif) 57px 0 no-repeat;
+}
+.WhatIsDw h1 {
+	background-image: url(../images/dwHead_WhatisDrivewear.gif);
+}
+.WidgeAd h1 {
+	background-image: url(../images/hDrivewearWidget.jpg);
+}
+.WhereToDw h1 {
+	background-image: url(../images/dwHead_Whereto.gif);
+}
+.Testimonials p, .WhatIsDw p, .WidgeAd p, .WhereToDw p, .TestimonialsDetail p, .shieldMain p {
+	padding: 10px 0 10px 57px;
+	margin:0px;
+	float:left;
+	clear:both;
+	width:350px;
+}
+.learnmoreBtn {
+	height:27px;
+	width:113px;
+	text-indent: -5000px;
+	display:block;
+	background: url(../images/learnmoreBtn.jpg);
+}
+.learnmoreBtn:hover {
+	background-position: 0 -27px;
+}
+
+/** Main **/
+.Drivewear #wrapper #ajaxContainer{
+	height:480px;
+}
+#ajaxContainer .drivewear  {
+	background: url(../images/drivewearHeaderBg.jpg) no-repeat;
+	color:#fff;
+	width:958px;
+	height:500px;
+	border-left: 1px solid #474747;
+	border-right: 1px solid #474747
+}
+.drivewear h1 {
+	background-image: url(../images/drivewearKeyHeadline.gif);
+	height:75px;
+	margin-top:10px;
+}
+.drivewear p {
+	padding: 5px 0 5px 57px;
+	margin:0px;
+	float:left;
+	clear:both;
+	width:420px;
+}
+.drivewear .panels {
+	width:880px;
+	height:129px;
+	float:left;
+	padding:40px 0 0 65px;
+}
+.DWpanel {
+	float:left;
+	height:104px;
+	width:268px;
+	padding:15px 5px 10px;
+	background: url(../images/dwPanelBg.gif) 0 0 no-repeat;
+	margin-right:5px;
+}
+#DWpnlDemo {
+	background: transparent none;
+	height:122px;
+	width:284px;
+	padding: 0px 5px;
+}
+.drivewear .panels .flash-replaced {
+	margin-top:-5px;
+}
+#DWpnlDemo a{
+	display:block;
+	height:104px;
+	width:278px;
+	padding:15px 0 10px;
+	background: url(../images/dwProductDemoPlaceholder.jpg) no-repeat;
+	text-indent:-5000px;
+}
+#DWpnlWidget {
+	background-image: url(../images/dwGetWidgetPlaceholder.jpg);
+	text-indent:-5000px;
+}
+.drivewear .panels #DWpnlWhereto h2{
+	display:block;
+	height:16px;
+	width:220px;
+	padding:0 0 0 8px;
+	margin:0 0 10px;
+	text-indent:-5000px;
+	background:url(../images/dwhWhereto.jpg) 8px 0 no-repeat;
+	overflow:hidden;
+}
+#DWpnlWhereto p{
+	display:block;
+	width:235px;
+	padding:0 0 0 8px;
+	margin:0;
+}
+#DWpnlWhereto legend {
+	text-transform: uppercase;
+	color:#fff;
+	height:16px;
+	margin:0;
+}
+#DWpnlWhereto div {
+	display:inline;
+}
+.DWpanel label {
+	display:none;
+}
+#DWpnlWhereto input, #DWpnlWhereto select{
+	width:112px;
+	color:#7f7f7f;
+	font-size:12px;
+}
+#DWpnlWhereto #SearchButton {
+	padding: 0 5px 0 0;
+	width:83px;
+	float:right;
+	height:26px;
+	background: url(../images/searchBtn.jpg) no-repeat;
+	text-indent:-50000px;
+}
+.buyNowBtn {
+	margin-top:5px;
+	float:right;
+	width:83px;
+	display:block;
+	height:26px;
+	text-indent:-5000px;
+	background: url(../images/BuynowBtn.gif) no-repeat;
+}
+#DWpnlWhereto fieldset {
+	border:none;
+}
+.DrivewearDemo{
+	background:#000000 url(../images/Generallow.jpg) no-repeat scroll center -120px;
+}
+.DrivewearDemo #ajaxContainer {
+	height:507px;
+	background-color:#000000;
+}
+.Drivewear .dwProductDemo {
+	height:507px;
+}
+/* ---------- Drivewear Tesimonials ---------- */
+#testimonialBtns a {
+	background: url(../images/tesimonialBlock.png) no-repeat;
+	width:190px;
+	height:162px;
+	padding: 10px 20px 0 10px;
+	display:block;
+	float:left;
+	color:#fff;
+	text-decoration:none;
+	text-transform: uppercase;
+	position:relative;
+	cursor:pointer;
+}
+#testimonialBtns {
+	padding: 0 50px;
+	width:900px;
+	float:left;
+	height:auto;
+}
+#testimonialBtns span, #testimonialBtns strong{
+	float:left;
+	width:100%;
+}
+#testimonialBtns strong {
+	margin-top:5px;
+	font-size:13px;
+}
+#testimonialBtns .picture {
+	float:left;
+	height:112px;
+	width:187px;
+	overflow:hidden;
+}
+#testimonialBtns .picture img {
+	float:left;
+}
+#testimonialBtns a img {
+	margin-top:-112px;
+}
+#testimonialBtns a:hover img, #testimonialBtns a img:hover {
+	margin-top:0px;
+}
+#testimonialBtns a .content {
+	display:none;
+}
+#testimonialBtns .plus{
+	background: url(../images/plusSign.gif);
+	height:19px;
+	width:21px;
+	position:absolute;
+	top:132px;
+	right:25px;
+}
+#testimonialBtns a:hover .plus{
+	background-position: 0 -19px;
+}
+.Testimonials .hide, .jsStyle .hide {
+	display:none;
+}
+.DrivewearTestimonialsDetail #ajaxContainer, .DrivewearTestimonialsDetail #content{
+	height:4840px;
+}
+
+/*Testimonial Pop-up with Javascript*/
+#popUpOverlay {
+	position:absolute;
+	top:0;
+	left:0;
+	float:left;
+	height:731px;
+	width:960px;
+	background:black;
+	z-index:100;
+	text-indent:-50000px;
+	filter:alpha(opacity=60);
+	-moz-opacity: 0.60;
+	opacity: 0.60;
+}
+
+#popUpContent {
+	position:absolute;
+	top:25%;
+	left:15%;
+	display:block;
+	height:450px;
+	width:728px;
+	background: url(../images/testimonialPopbg.png);
+	z-index:101;
+	color:#fff;
+}
+#popUpContent .detail{
+	padding: 45px 50px;
+	position:relative;
+	width:628px;
+}
+#popUpContent img, .testimonial img{
+	float:left;
+	padding-right:15px;
+}
+#popUpContent .location, #popUpContent .name {
+	text-transform: uppercase;
+	font-weight:normal;
+	display:block;
+}
+#popUpContent .location {
+	font-size:12px;
+	margin-bottom:20px;
+}
+#popUpContent .name {
+	font-size:18px;
+}
+#popUpContent em {
+	float:right;
+	padding-right:30px;
+}
+#popUpContent a {
+	display:block;
+	text-indent:-50000px;
+	height:27px;
+	width:63px;
+	position:absolute;
+}
+#popUpContent a:hover {
+	background-position: 0 -27px;
+}
+#popUpContent .nextBTN{
+	top:360px;
+	left:610px;
+	background:url(../images/nextBtn.gif) no-repeat;
+}
+#popUpContent .prevBTN{
+	top:360px;
+	left:540px;
+	background:url(../images/prevBtn.gif) no-repeat;
+}
+#popUpContent .whereToBTN {
+	width:143px;
+	top:360px;
+	left:390px;
+	background:url(../images/whereBtn.gif) no-repeat;
+}
+#popUpContent .closeBTN{
+	right:50px;
+	top:45px;
+	background:url(../images/PopUpcloseBtnFPO.gif) no-repeat;
+	height:30px;
+	width:31px;
+}
+#popUpContent .closeBTN:hover {
+	background-position: 0 0;/*0 -31px*/
+}
+
+/* Testimonial pages/ non-js */
+.testimonial {
+	height:360px;
+	width:728px;
+	background: url(../images/testimonailPopbg.gif) -32px -32px;
+	color:#fff;
+	padding: 15px 0;
+}
+.testimonial img {
+	padding-left:20px;
+}
+#testimonialBtns .testimonial span, #testimonialBtns .testimonial strong {
+	width:300px;
+	clear:right;
+}
+.testimonial em{
+	float:right;
+	padding: 10px 100px 0 0;
+}
+
+/* ---------- What is Drivewear ---------- */
+
+.WhatIsDw h1 {
+	padding-right:0px;
+	width:400px;
+	clear:left;
+}
+.header {
+	float:left;
+	height:370px;
+	overflow:hidden;
+	width:450px;
+}
+.header p, .header ul{
+	float:left;
+	padding:5px 0 5px 57px;
+	width:390px;
+	margin:0;
+}
+.header ul li {
+	padding: 5px 15px;
+}
+
+#WhereToBox {
+	background: url(../images/WhereToBox.jpg) no-repeat;
+	width:344px;
+	height:225px;
+	float:right;
+	padding:20px 15px;
+	margin:120px 0 0;
+	color:#fff;
+}
+#WhereToBox h2{
+	width:177px;
+	height:16px;
+	display:block;
+	text-indent: -5000px;
+	background: url(../images/whereToBoxHeadline.jpg) no-repeat;
+}
+#WhereToBox p{
+	padding:0px;
+	width:300px;
+	height:70px;
+}
+#WhereToBox a {
+	background: url(../images/IwantLenses.jpg) no-repeat;
+	width:108px;
+	height:28px;
+	display:block;
+	float:left;
+	padding:0 20px;
+	text-indent:-5000px;
+	cursor:pointer;
+}
+#HowTheyWork {
+	margin-top:10px;
+	border: 1px #333333 solid;
+	background: #000000;
+	width:500px;
+	float:left;
+	position:relative;
+	left:20px;
+	color:#fff;
+}
+#HowTheyWork h2 {
+	margin-top:10px;
+	display:block;
+	height:18px;
+	text-indent:-500000px;
+	background: url(../images/howTheyWork.gif) 10px 0 no-repeat;
+}
+#HowTheyWork p{
+	width:480px;
+	padding:10px;
+}
+#WhereToBox a:hover {
+	background-position: 0 -30px;
+}
+#aboutDrivewear {
+	float:left;
+	width:100%;
+	height:366px;
+	overflow:hidden;
+}
+#WeatherIcons{
+	width:408px;
+	height:174px;
+	float:right;
+	padding:30px 60px 0px 0;
+	overflow: visible;
+}
+#WeatherIcons a{
+	height:174px;
+	width:153px;
+	margin:0;
+	padding:0;
+	display:block;
+	float:left;
+	margin-left:0px;
+	text-indent:-50000px;
+	background: no-repeat;
+}
+#WeatherIcons #overcast{
+	background-image: url(../images/Overcast.gif);
+}
+#WeatherIcons #overcast:hover{
+	background-image: url(../images/OvercastRoll.gif);
+}
+#WeatherIcons #sunny{
+	margin-left:-29px;
+	background-image: url(../images/Sunny.gif);
+}
+#WeatherIcons #sunny:hover{
+	background-image: url(../images/SunnyRoll.gif);
+}
+#WeatherIcons #bright{
+	margin-left:-28px;
+	background-image: url(../images/Bright.gif);
+}
+#WeatherIcons #bright:hover{
+	background-image: url(../images/BrightRoll.gif);
+}
+
+#Applications{
+	background: url(../images/circlesNonjsBg.jpg) 42px -16px no-repeat;
+	width:490px;
+	height:438px;
+	padding:0 0 0 40px;
+	float:left;
+	color:#fff;
+	position:relative;
+	top:4px;
+}
+#Applications h2{
+	display:none;
+}
+#Applications div{
+	width:240px;
+}
+#Applications p{
+	width:220px;
+	height:auto;
+	padding:0;
+}
+#Applications a{
+	display:block;
+	margin:0 auto;
+	float:left;
+	height:27px;
+	width:121px;
+	text-indent:-5000px;
+	background: url(../images/learnmoreBtn.jpg) no-repeat;
+}
+#Applications a:hover{
+	background-position: 0 -27px;
+}
+#technologyPnl {
+	position:absolute;
+	top:74px;
+	left:75px;
+}
+#technologyPnl p {
+	width:200px;
+	height:auto;
+}
+#performancePnl {
+	position:absolute;
+	top:74px;
+	left:280px;
+}
+#stylePnl {
+	position:absolute;
+	top:234px;
+	left:180px;
+}
+
+/* Applications Post-Javascript*/
+.jsStyle #Applications{
+	background-image: url(../images/circles.jpg);
+}
+.jsStyle #Applications div {
+	display:none;
+}
+.jsStyle #Applications p{
+	width:240px;
+}
+#Applications #appPopUp {
+	display:none;
+	width:245px;
+	height:251px;
+	overflow:hidden;
+	padding:43px;
+	background: url(../images/applicationPopUp.png) 0 0 no-repeat;
+	margin:-255px 0 0 -95px;
+	z-index:50;
+}
+.jsStyle #Applications .plusButn {
+	background: transparent url(../images/bluePlus.gif) -952px -934px no-repeat;
+	height:60px;
+	width:140px;
+}
+.jsStyle #Applications .plusButn:hover {
+	background: transparent url(../images/bluePlus.gif) 52px 34px no-repeat;
+	height:60px;
+	width:140px;
+}
+.poptechnology, #techPlusBtn {
+	position:absolute;
+	top:134px;
+	left:132px;
+}
+.jsStyle #Applications #perfPlusBtn:hover {
+	background-position:57px 34px;
+}
+.jsStyle #Applications #stylePlusBtn:hover {
+	background-position:61px 27px;
+}
+.popperformance, #perfPlusBtn {
+	position:absolute;
+	top:134px;
+	left:310px;
+}
+.popstyle, #stylePlusBtn {
+	position:absolute;
+	top:259px;
+	left:212px;
+}
+#appPopUp h2 {
+	display:block;
+	height:77px;
+	width:246px;
+	margin-bottom:10px;
+	text-indent:-5000px;
+	background: url(../images/technologyPnlH2.jpg) no-repeat;
+}
+#Applications .popperformance h2 {
+	background-image: url(../images/performancePnlH2.jpg);
+}
+#Applications .popstyle h2 {
+	background-image: url(../images/stylePnlH2.jpg);
+}
+#Applications #appPopUp a{
+	margin-top:4px;
+	height:29px;
+	width:221px;
+	background-image: url(../images/learnmoreDrivewearCom.gif);
+}
+#Applications #appPopUp a:hover{
+	background-position: 0 -29px;
+}
+#lnkGetWidget {
+	background: url(../images/btnGetWidget.jpg) 0 0 no-repeat;
+	display: block;
+	height: 130px;
+	text-indent: -90000px;
+	width: 280px;
+}
+#pnlGetWidget {
+	float: right;
+	padding-right: 9px;
+}
+/* ---------- Where to Get Drivewear ---------- */
+.mainBox .red input, .mainBox .red select, .red, #ecpFinder .red select,  #ecpFinder .red input {
+	color:red;
+}
+.WheretoGetDrivewearResults #ajaxContainer{
+	height:auto;
+}
+.WheretoGetDrivewearResults #ajaxContainer .WhereToDw{
+	height:auto;
+	float:left;
+	background: url(../images/dwHeaderbg2.jpg) no-repeat;
+}
+.WheretoGetDrivewearResults #ajaxContainer #drivewearNav {
+	margin-top:-15px;
+}
+#finder {
+	float:left;
+	width:100%;
+}
+#findThem {
+	float:left;
+	clear:left;
+	color:#fff;
+	text-transform: uppercase;
+	height:327px;
+	width:444px;
+	padding-left:57px;
+	margin: 0 0 10px;
+	background: url(../images/findBox.gif) 57px 32px no-repeat;
+}
+#buyThem {
+	position:relative;
+	float:left;
+	width:300px;
+	padding:0 0 107px 40px;
+	margin: 52px 0 0;
+	background: url(../images/sunglasses.gif) right bottom no-repeat;
+}
+.WhereToDw .header {
+	width:600px;
+	padding-right:300px;
+	height:270px;
+	position:relative;
+	z-index:2;
+}
+.WhereToDw .header ul {
+	display:block;
+	float:left;
+	clear:both;
+	padding:0 0 10px 57px;
+	width:530px;
+}
+.WhereToDw .header li {
+	list-style: disc;
+	margin: 5px 10px;
+}
+#buyThem .buyNowBtn{
+	float:left;
+}
+#buyThem p, #findThem p {
+	color:#fff;
+	padding: 10px 0;
+	width:280px;
+}
+#buyThem h2, #findThem h2 {
+	width:260px;
+	display:block;
+	text-indent:-50000px;
+	height:25px;
+	background:url(../images/buyThemNow.gif) no-repeat;
+}
+#findThem h2{
+	height:25px;
+	width:330px;
+	background-image: url(../images/needPerscription.gif);
+} 
+#findThem fieldset{
+	border:none;
+}
+#findThem legend, #findThem .mainBox label {
+	display:none;
+}
+.mainBox {
+	padding: 10px;
+	height:120px;
+}
+.mainBox input, .mainBox select {
+	margin: 5px 0;
+	text-transform: capitalize;
+	width:140px;
+	color:#7F7F7F;
+}
+#findThem #txtDistance {
+	display:block;
+}
+.or {
+	display:block;
+	font-weight:bold;
+	margin: 5px 0;
+}
+#SearchButton {
+	float:right;
+	padding:80px 10px 0 0;
+}
+#filter {
+	float:left;
+	padding: 10px;
+}
+#filter h3{
+	margin: 0 0 10px;
+}
+#filter label{
+	padding-left: 20px;
+}
+#filter div {
+	margin: 10px 0;
+}
+
+/*RESULTS VERSION*/
+.results {
+	position:relative;
+	display:block;
+}
+.results #finder #findThem {
+	float:left;
+	clear:left;
+	color:#fff;
+	text-transform: uppercase;
+	height:197px;
+	width:840px;
+	padding-left:57px;
+	margin: 0 0 10px;
+	background: url(../images/finderFilterBg.gif) 57px 52px no-repeat;
+}
+.results #finder #findThem h2 {
+	background:transparent none;
+	display:block;
+	height:20px;
+	padding-top:32px;
+	font-size: 14px;
+	text-indent:0;
+	width:260px;
+}
+.results .mainBox {
+	width:320px;
+	float:left;
+}
+.results .buyNowBtn{
+	float:right;
+	margin-top:90px;
+	padding:0 10px 0 0;
+}
+.results #SearchButton {
+	float:right;
+	padding:90px 10px 0 0;
+}
+#resultsContent {
+	float:left;
+	width:100%;
+	padding:0 0 0 60px;
+} 
+#resultsContent table {
+	width:570px;
+	font-size:12px;
+	float:left;
+}
+#resultsContent table table {
+	padding:0px;
+}
+#resultsContent table table table {
+	display:none;
+} 
+#resultsContent table table tbody {
+	display:block;
+	width:260px;
+	overflow:hidden;
+	padding-left:5px;
+}
+#resultsContent tr {
+	width:570px;
+	padding:0;
+}
+#resultsContent table td, #resultsContent table td div, #resultsContent tr div table{
+	width:270px;
+}
+.results #resultsContent tr div table tr {
+	display:block;
+	margin: 10px 0;
+	height:110px;
+	width:260px;
+	background: #fff url(../images/ecpWhiteBg.gif) repeat-x;
+	overflow:hidden;
+}
+.results #resultsContent tr div table tr.hide {
+	display:none;
+}
+#framesDirect {
+	width:270px;
+	float:left;
+}
+#framesDirect h3{
+	height:17px;
+	padding: 10px 5px 5px;
+	background: url(../images/resultHeader_small.gif) no-repeat;
+	width:260px;
+	color:#fff;
+	margin:0;
+	text-transform: uppercase;
+	font-size:13px;
+}
+#framesDirect .container{
+	width:260px;
+	padding: 12px 5px 10px;
+	background:#030202 url(../images/resultTableBg.gif) repeat-x;
+	}
+#framesDirect .entry{
+	height:100px;
+	width:240px;
+	padding: 5px 10px;
+	background: #fff url(../images/ecpWhiteBg.gif) repeat-x;
+}
+
+/*--No Results Returned--*/
+#noresults {
+	float:left;
+	padding-left:57px;
+	width:340px;
+	color: #fff;
+	font-weight:bold;
+}
+#noresults h4 {
+	font-size: 16px;
+	margin-bottom:10px;
+}
+
+/*--Results With Javascript--*/ 
+.jsStyle #resultsContent table td {
+	width:260px;
+	padding-right:8px;
+}
+.jsStyle #resultsContent td table td{
+	padding-left:20px;
+	padding-right:0px;
+}
+.jsStyle #resultsContent table .last {
+	width:120px;
+}
+.jsStyle #resultsContent table .first {
+	width:0px;
+	display:none;
+}
+.jsStyle #resultsContent table table {
+	background:#030202 url(../images/resultTableBg.gif) repeat-x;
+}
+.jsStyle #resultsContent span.strong {
+	font-weight:bold;
+	display:inline;
+}
+.jsStyle #resultsContent span{
+	display:block;
+}
+.MapIT, .PrintIT  {
+	display:block;
+	margin-top:4px;
+	height:18px;
+	width:55px;
+	text-indent:-5000px;
+	background: transparent url(../images/MapIt.gif) no-repeat;
+}
+.PrintIT {
+	margin-top:-12px;
+	background: transparent url(../images/Print.gif) no-repeat;
+}
+
+/*--Pagination Controls--*/
+#pagControls{
+	float:right;
+	height:40px;
+	width:600px;
+}
+#pagControls #pagNums {
+	float:left;
+	padding: 8px 10px;
+}
+#pagControls #pagNums a{
+	font-weight:bold;
+	font-size:14px;
+	color:#fff;
+	text-decoration:underline;
+	margin: 0 4px;
+}
+#pagControls #pagNums a.active, #pagControls #pagNums a:hover{
+	text-decoration:none;
+}
+#Wprev, #Wnext {
+	display:block;
+	float:left;
+	width:105px;
+	height:28px;
+	background: url(../images/wDriveWnext.gif) no-repeat;
+}
+#Wprev:hover, #Wnext:hover {
+	background-position: 0 -28px;
+}
+#Wprev {
+	background-image: url(../images/wDriveWprev.gif);
+}
+	
+/* ---------- Drivewear Widget ---------- */
+.WidgeAd p {
+	width:460px;
+}
+#WidgetBox {
+	float:left;
+	background: url(../images/widgetBg.jpg) 57px 0 no-repeat;
+	width:418px;
+	padding: 70px 400px 0px 77px;
+	height:328px;
+}
+#WidgetBox a {
+	display:block;
+	float:left;
+	width:300px;
+	height:27px;
+	color:#fff;
+}
+#ulShareLinks {
+	/*background: url(../images/bgShare.jpg) 57px 66px no-repeat;*/
+	clear: both;
+	float: left;
+	height: 236px;
+	padding: 66px 0 0 57px;
+	width: 360px;
+}
+#ulShareLinks li {
+	padding: 15px;
+}
+#ulShareLinks a {
+	display: block;
+	height: 22px;
+	text-indent: -90000px;
+}
+#dwFacebook {
+	background: url(../images/lnkFacebookDW.jpg) 0 0 no-repeat;
+	width: 153px;
+}
+#dwGoogle {
+	background: url(../images/lnkGoogle.jpg) 0 0 no-repeat;
+	width: 211px;
+}
+#dwMyspace {
+	background: url(../images/lnkMyspace.jpg) 0 0 no-repeat;
+	width: 271px;
+}
+#dwEmail {
+	background: url(../images/lnkEmail.jpg) 0 0 no-repeat;
+}
+.DrivewearWidget #ajaxContainer {
+	background: url(../images/bgDrivewearWidget.jpg) 0 1px no-repeat;
+	border-left: 1px solid #474747;
+	border-right: 1px solid #474747;
+	height: 731px;
+}
+/******************************
+*********** Akuma ************
+******************************/
+.Shield #drivewearNav, .ShieldDemo #drivewearNav{
+	width:960px;
+}
+.Shield {
+	background: #000 url(../images/akumaBg.jpg) center 0 no-repeat;
+}
+#ajaxContainer .shieldMain {
+	background: url(../images/akumaHeaderbg.jpg) 0 20px no-repeat;
+	height:933px;
+}
+.Shield #ajaxContainer {
+	height:933px;	
+}
+.ShieldDemo #ajaxContainer {
+	height:510px;
+	background-color:#000000;	
+}
+.shieldMain .header{
+	width:500px;
+	height:570px;
+}
+.shieldMain #shieldSideLink{
+	float:right;
+	padding-right:50px;
+}
+.shieldMain #shieldSideLink a{
+	display:block;
+	width:360px;
+	height:50px;
+	background:url(../images/getShieldPlaceholder.jpg) no-repeat;
+	text-indent:-5000px;
+}
+.shieldMain h1 {
+	background-image: url(../images/akumaPowerHeadline.gif);
+	height:82px;
+}
+.shieldMain p {
+	padding-right:400px;	
+}
+.shieldDemoLink {
+	float:left;
+	padding:0 400px 20px 47px;
+}
+.shieldDemoLink a{
+	display:block;
+	height:204px;
+	width:392px;
+	text-indent:-50000px;
+	background: url(../images/sheildLensDemo.gif) no-repeat;
+	cursor:pointer;
+}
+#akWeather {
+	float:left;
+	width: 903px;
+	height:118px;
+	color: #fff;
+	padding: 192px 0 30px 57px;
+	background: #000 url(../images/akumaWeatherIcons.jpg) 20px 20px no-repeat;
+}
+#akWeather div {
+	float:left;
+	width:247px;
+	padding: 0 25px;
+	overflow:hidden;
+}
+.shieldMain #akWeather p {
+	width:247px;
+	padding:0;
+	margin:0;
+}
+.shieldMain #akWeather h2 {
+	float:left;
+	width:200px;
+	height:17px;
+	text-indent:50000px;
+	background: url(../images/akH2Clear.gif) no-repeat;
+	padding:0;
+	margin:0;
+}
+#akWeather #mid h2 {
+	background-image: url(../images/akH2Mid.gif);
+}
+#akWeather #dark h2 {
+	background-image: url(../images/akH2Dark.gif);
+}
+
+/** Embed code **/
+#pnlEmbedWidget {
+	background: url(../images/bgShare.jpg) 0 0 no-repeat;
+	float: left;
+	height: 205px;
+	margin: 71px 0 0 15px;
+	padding: 10px;
+	width: 340px;
+}
+#pnlEmbedWidget a {
+	color: #fff;
+	text-decoration: none;
+}
+#imgYoung {
+	left: 209px;
+	position: relative;
+	top: 251px;
+}

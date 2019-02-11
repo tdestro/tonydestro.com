@@ -1,0 +1,341 @@
+#pnlOptimize h2, #pnlPreserve h2 {
+	position:relative;
+	top: 20px;
+	margin: 0 0 30px;
+}
+#pnlScholarships p {
+	width: 445px;
+}
+#pnlGetInvolved form{
+	margin:0px;
+	padding:0px;
+}
+#pnlOutstanding p.initial {
+	padding-top:3px;
+}
+.accordionItem {
+	cursor: pointer;
+}
+#visionScholarships #ulScholarships dd {
+	background-image: none;
+}
+#professionalResources #pnlHeader p {
+	margin-top: -5px;
+}
+#professionalResources #pnlResources p {
+	margin-top: 55px;
+	margin-bottom: 37px;
+}
+#frmResources li label {
+	margin-bottom: 6px;
+	font-size:14px;
+}
+#frmResources ul li {
+	margin-bottom: 21px;
+	padding:0px;
+}
+#pnlPartners p {
+	margin-top: 40px;
+}
+#pnlMainContent #pnlPartners ul {
+	color:#3068A7;
+	padding-left: 10px;
+	margin-left: 5px;
+	list-style: disc;
+}
+#professionalResources #pnlMainContent{
+	padding-bottom: 70px;
+}
+#pnlRequest fieldset, #pnlRequest form{
+	margin:0px;
+	padding:0px;
+}
+#pnlRequest fieldset h2#hReqCEM {
+	background:transparent url(../images/headlines/professionalResources/requestConsumerEducation.jpg) no-repeat scroll left top;
+	margin:0px 0px 0px 0px;
+	padding:30px 0px 0px 0px;
+}
+#pnlDCVR.panel {
+	width:524px;
+	padding-right: 7px;
+}
+div.panel p {
+	margin-top:0;
+	margin-bottom: 10px;
+	padding:0 0 0 0;
+}
+div#pnlGrants a{
+	position:relative;
+}
+div#pnlGrants a img{
+	position:relative;
+	top: 5px;
+}
+#ctl00 li.submit {
+	margin-top:-29px;
+}
+#aboutTheFund #pnlVideo {
+	background-position: 205px 96px;
+}
+#coRequestGrant {
+	width:908px;
+}
+a#pnlVideoBtn {
+	display: block;
+	height:180px;
+	width:295px;
+	text-indent: -3000px;
+	background-color: transparent;
+	position:relative;
+	top: -200px;
+	left: 5px;
+	outline: none;
+}
+#pnlLearnFlash, #pnlSeeYourBestFlash, #pnlMissSeeingFlash {
+	width:450px;
+	float:left;
+}
+
+/* VISION-SCHOLARSHIPS HEADLINES */
+
+h2#hVisionScholarships {
+	width: 200px;
+	height: 0px;
+	padding-top:30px;
+	background: transparent url(../images/headlines/visionScholarships/visionScholarships.jpg) no-repeat top left;
+	overflow: hidden;
+}
+h3#hScholarships {
+	width:143px;
+	height:0px;
+	padding-top:30px;
+	position:relative;
+	top: 10px;
+	background: transparent url(../images/headlines/visionScholarships/scholarships.jpg) no-repeat top left;
+	overflow: hidden;
+}
+h3#hOutstandingStudents {
+	width:242px;
+	height:0px;
+	padding-top:30px;
+	overflow: hidden;
+	position:relative;
+	top: 10px;
+	background: transparent url(../images/headlines/visionScholarships/outstandingStudents.jpg) no-repeat top left;
+}
+h2#hsecondartyHWS {
+	width: 140px;
+	height: 0px;
+	padding-top:23px;
+	margin-bottom:5px;
+	background: transparent url(../images/headlines/visionScholarships/howWeSupport.jpg) no-repeat top right;
+	overflow: hidden;
+}
+h2#hsecondartyHWE {
+	width:141px;
+	height:0px;
+	padding-top:18px;
+	margin-bottom: 10px;
+	background: transparent url(../images/headlines/visionScholarships/howWeEducate.jpg) no-repeat top right;
+	overflow: hidden;
+}
+
+/* PROFESSIONAL RESOURCES HEADLINES */
+
+h2#hReqCEM{
+	width:431px;
+	height:0px;
+	padding-top:30px;
+	margin-top:0px;
+	background: transparent url(../images/headlines/professionalResources/requestConsumerEducation.jpg) no-repeat top right;
+	overflow: hidden;
+}
+h3#hPartenersEducation{
+	width:229px;
+	height:0px;
+	padding-top:24px;
+	background: transparent url(../images/headlines/professionalResources/partnersInEducation.jpg) no-repeat top right;
+	overflow: hidden;
+}
+h2#hEducationalMaterials{
+	width:233px;
+	height:0px;
+	padding-top:24px;
+	position:relative;
+	top:25px;
+	margin-top: 0px;
+	background: transparent url(../images/headlines/professionalResources/educationalMaterials.jpg) no-repeat top right;
+	overflow: hidden;
+}
+h2#hProfessionalResources{
+	width:282px;
+	height:0px;
+	padding-top:23px;
+	background: transparent url(../images/headlines/professionalResources/resourcesForProfessionals.jpg) no-repeat top right;
+	overflow: hidden;
+}
+h3#hGrants{
+	width:75px;
+	height:0px;
+	padding-top:24px;
+	background: transparent url(../images/headlines/professionalResources/grants.jpg) no-repeat top right;
+	overflow: hidden;
+}
+h2#hsecondartyHWSpr {
+	width: 140px;
+	height: 0px;
+	padding-top:23px;
+	margin-bottom:5px;
+	background: transparent url(../images/headlines/professionalResources/howWeSupport.jpg) no-repeat top right;
+	overflow: hidden;
+}
+h2#hsecondartyHSI {
+	width: 174px;
+	height: 0px;
+	padding-top:22px;
+	background: transparent url(../images/headlines/professionalResources/healthySightInstitute.jpg) no-repeat top left;
+	background-position: 10px 0px;
+	overflow: hidden;
+}
+h3#NewsFeed {
+	width: 256px;
+	height: 0px;
+	padding-top:24px;
+	background: transparent url(../images/headlines/fundNews/TransitionsLatestNewsFeeds.jpg) no-repeat 0 0;
+	overflow: hidden;
+}
+/*	 News Sponser Headlines   */
+#pnlBCAB h3 {
+	width: 305px;
+	height: 0px;
+	padding-top:26px;
+	background: transparent url(../images/headlines/fundNews/ButlerCountyAssociationfortheBlind.jpg) no-repeat;
+	overflow: hidden;
+}
+#pnlCEC h3 {
+	width: 204px;
+	height: 0px;
+	padding-top:26px;
+	background: transparent url(../images/headlines/fundNews/CamdenEyeCenter.jpg) no-repeat;
+	overflow: hidden;
+}
+#pnlCPS h3 {
+	width: 271px;
+	height: 0px;
+	padding-top:26px;
+	background: transparent url(../images/headlines/fundNews/TheCenterForThePartiallySighted.jpg) no-repeat;
+	overflow: hidden;
+}
+#pnlCPSEI h3 {
+	width: 304px;
+	height: 0px;
+	padding-top:26px;
+	background: transparent url(../images/headlines/fundNews/CoalistionToPreventSportsEyeInjuries.jpg) no-repeat;
+	overflow: hidden;
+}
+#pnlDCVR h3 {
+	width: 304px;
+	height: 0px;
+	padding-top:26px;
+	background: transparent url(../images/headlines/fundNews/DeickeCenterForVisual-Rehabilitation.jpg) no-repeat;
+	overflow: hidden;
+}
+#pnlEVF h3 {
+	width: 199px;
+	height: 0px;
+	padding-top:26px;
+	background: transparent url(../images/headlines/fundNews/EssilorVisionFoundation.jpg) no-repeat;
+	overflow: hidden;
+}
+#pnlOrbis h3 {
+	width: 128px;
+	height: 0px;
+	padding-top:26px;
+	background: transparent url(../images/headlines/fundNews/ORBISCanada.jpg) no-repeat;
+	overflow: hidden;
+}
+#pnlPBF h3 {
+	width: 204px;
+	height: 0px;
+	padding-top:26px;
+	background: transparent url(../images/headlines/fundNews/PreventBlindnessFlorida.jpg) no-repeat;
+	overflow: hidden;
+}
+#pnlVHI h3 {
+	width: 252px;
+	height: 0px;
+	padding-top:26px;
+	background: transparent url(../images/headlines/fundNews/VisionHealthInternational.jpg) no-repeat;
+	overflow: hidden;
+}
+#pnlPBA h3 {
+	width: 210px;
+	height: 0px;
+	padding-top:26px;
+	background: transparent url(../images/headlines/fundNews/PreventBlindnessAmerica.jpg) no-repeat;
+	overflow: hidden;
+}
+#pnlCNIB h3 {
+	width: 50px;
+	height: 0px;
+	padding-top:26px;
+	background: transparent url(../images/headlines/fundNews/CNIB.jpg) no-repeat;
+	overflow: hidden;
+}
+#pnlEDF h3 {
+	width: 256px;
+	height: 0px;
+	padding-top:47px;
+	background: transparent url(../images/headlines/fundNews/FoundationDesMaladiesDe.jpg) no-repeat;
+	overflow: hidden;
+}	
+/* MISC */
+h2#hFundTestimonials {
+	background: transparent url(../images/headlines/misc/HSFL_Testimonial.jpg) right 24px no-repeat;
+	height: 0;
+	margin: 0;
+	overflow: hidden;
+	padding: 70px 0 0 328px;
+	width: 433px;	
+}
+
+h3#hTestimonials {
+	width: 107px;
+	height: 0px;
+	padding-top:21px;
+	background: transparent url(../images/headlines/misc/testimonials.jpg) no-repeat;
+	overflow: hidden;
+}	
+
+h2#hPrivacyStatement {
+	width: 168px;
+	height: 0px;
+	padding-top:24px;
+	background: transparent url(../images/headlines/misc/privacyStatement.jpg) no-repeat;
+	overflow: hidden;
+}	
+h2#hLegalNotice {
+	width: 345px;
+	height: 0px;
+	padding-top:26px;
+	background: transparent url(../images/headlines/misc/transitionsOpticalLegal.jpg) no-repeat;
+	overflow: hidden;
+}	
+#testimonials div#pnlHeader {
+	background-color: #f1f1f1;
+}	
+/* 			ABOUT THE FUND HEADLINES		 */
+h4#hGlare, #hCataracts, #hBlurredVision {
+	background: transparent url(../images/headlines/about/VisionGlare.gif) no-repeat scroll -52px 0;
+	height: 21px;
+	width: 112px;
+	text-indent:-5000px;
+	display:block;
+}	
+#pnlMissSeeing h4#hCataracts {
+	background: transparent url(../images/headlines/about/Cataracts.gif) no-repeat scroll 0 0;
+	width: 81px;
+}	
+h4#hBlurredVision {
+	background: transparent url(../images/headlines/about/BlurredVision.gif) no-repeat scroll 0 0;
+}	

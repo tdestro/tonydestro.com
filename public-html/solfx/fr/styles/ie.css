@@ -1,0 +1,10 @@
+#preloader {
+	position:relative;
+	top:-2px;
+}
+#ulNews li {
+	padding: 6px;
+}
+#ulNews li a {
+	margin-top: -3px;
+}

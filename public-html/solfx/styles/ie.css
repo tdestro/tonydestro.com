@@ -1,0 +1,30 @@
+#preloader {
+	position:relative;
+	top:-2px;
+}
+#ulNews li {
+	padding: 6px;
+}
+#ulNews li a {
+	margin-top: -3px;
+}
+#testimonialBtns a.lightbox {
+	background-image: url(../images/testimonailBlock.gif);
+}
+#content #popUpContent {
+	background-image: url(../images/testimonailPopbg.gif);
+}
+.Testimonials #popUpOverlay {
+	background:transparent url(../images/60.png);
+}
+.jsStyle #Applications #appPopUp {
+	background-image: url(../images/applicationsPopUp.gif);
+}
+#pnlEmbedWidget {
+	background: url(../images/bgShare.jpg) 0 0 no-repeat;
+	float: left;
+	height: 205px;
+	margin: 165px 0 0;
+	padding: 10px;
+	width: 340px;
+}

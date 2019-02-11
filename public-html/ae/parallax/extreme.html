@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+ 	<link rel="stylesheet" type="text/css" href="styles/styles.css?v=1"/>
+</head>
+<body>
+	
+   <div id="aeobtsflx-extreme" class="aeobtsflx-parallax aeobtsflx-extreme">
+   		<img class="aspect" src="images/aeobtsflx-extreme-bg.jpg">
+   	 	<ul id="aeobtsflx-scene" class="aeobtsflx-scene scene fill">
+      		<li class="layer expand-width" data-depth="1.00" ><div class="heading"></div></li>
+      		<li class="layer expand-width" data-depth="0.30"><div class="dock"></div></li>
+      		<li class="layer expand-width exit" data-depth="0.40">
+      			<div class="shop-callout">
+      				<img src="images/aeobtsflx-extreme-features.png"/>
+					<a href="#" class="button"><img src="images/aeobtsflx-extreme-shop-button.png"/></a>
+      			</div>
+      		</li>      
+    	</ul>
+  </div>
+  
+  <!-- Scripts -->
+  <script src="js/parallax.min.js"></script>
+  <script>
+
+  // Nothing new here...it's all in the CSS!
+  var scene = document.getElementById('aeobtsflx-scene');
+  var parallax = new Parallax(scene, {
+  calibrateX: false,
+  calibrateY: false,
+  invertX: false,
+  invertY: true,
+  limitX: 45,
+  limitY: 35,
+  scalarX: 6,
+  scalarY: 3,
+  originX: .5,
+  originY: .5
+});
+
+  </script>
+  
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
+ <script type="text/javascript" src="js/parallax.min.js"></script> 
+ <script type="text/javascript" src="js/raF.min.js"></script> 
+ <script type="text/javascript" src="js/jcanvas.min.js"></script> 
+ 
+ 
+ 
+ 
+</body>
+</html>
