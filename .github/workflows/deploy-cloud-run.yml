@@ -99,7 +99,6 @@ jobs:
             --concurrency=80
             --timeout=60s
             --service-account=${{ env.RUNTIME_SERVICE_ACCOUNT }}
-            --labels=managed-by=github-actions,cost-profile=minimal
 
       - name: Show service URL
         run: echo "${{ steps.deploy.outputs.url }}"
