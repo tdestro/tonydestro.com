@@ -48,6 +48,7 @@ def context(request: Request, **extra: object) -> dict[str, object]:
 
 
 @app.get("/healthz")
+@app.get("/health")
 def healthz() -> dict[str, str]:
     return {"status": "ok"}
 
