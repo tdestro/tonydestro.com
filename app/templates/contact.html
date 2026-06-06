@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block title %}Contact - {{ profile.name }}{% endblock %}
+
+{% block content %}
+<section class="page-header contact-header">
+  <p class="eyebrow">Contact</p>
+  <h1 class="display-lines">
+    <span class="display-line">Start a conversation.</span>
+  </h1>
+  <p>For engineering leadership, agentic AI systems, modernization work, architecture discussions, or product delivery, start here.</p>
+</section>
+
+<section class="section contact-grid">
+  {% for link in profile.links %}
+    <a class="contact-card" href="{{ link.url }}" rel="me noopener noreferrer">
+      <span>{{ link.label }}</span>
+      <strong>{{ link.display }}</strong>
+    </a>
+  {% endfor %}
+</section>
+{% endblock %}

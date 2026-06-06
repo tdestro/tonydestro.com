@@ -1,0 +1,43 @@
+<?xml version ="1.0"?>
+<meals width="473" height="286">
+<meal LowerLimitHours="4" LowerLimitMinutes="00" UpperLimitHours="10" UpperLimitMinutes="00" dir="breakfast/">
+<item zone="0" virtualGlobe="0" utcOffset="-9" href="breakfast-z0.png" hrefbt="homepageButtons.swf?meal=Breakfast-z0" cityName="Fairbanks" country=", Alaska"/>
+<item zone="1" virtualGlobe="0" utcOffset="-8" href="breakfast-z1.png" hrefbt="homepageButtons.swf?meal=Breakfast-z1" cityName="Portland" country=", Oregon"/>
+<item zone="2" virtualGlobe="1" utcOffset="-5" href="breakfast-z2.png" hrefbt="homepageButtons.swf?meal=Breakfast-z2" cityName="Sudbury" country=", Canada"/>
+<item zone="3" virtualGlobe="1" utcOffset="0" href="breakfast-z3.png" hrefbt="homepageButtons.swf?meal=Breakfast-z3" cityName="Windsor" country=", England"/>
+<item zone="4" virtualGlobe="2" utcOffset="1" href="breakfast-z4.png" hrefbt="homepageButtons.swf?meal=Breakfast-z4" cityName="Amsterdam" country=", The Netherlands"/>
+<item zone="5" virtualGlobe="2" utcOffset="3" href="breakfast-z5.png" hrefbt="homepageButtons.swf?meal=Breakfast-z5" cityName="Pskov" country=", Russia"/>
+<item zone="6" virtualGlobe="3" utcOffset="8" href="breakfast-z6.png" hrefbt="homepageButtons.swf?meal=Breakfast-z6" cityName="Changsha" country=", China"/>
+<item zone="7" virtualGlobe="3" utcOffset="12" href="breakfast-z7.png" hrefbt="homepageButtons.swf?meal=Breakfast-z7" cityName="Westport" country=", New Zealand"/>
+</meal>
+<meal LowerLimitHours="10" LowerLimitMinutes="00" UpperLimitHours="16" UpperLimitMinutes="00" dir="lunch/">
+<item zone="0" virtualGlobe="3" utcOffset="-10" href="lunch-z0.png"  hrefbt="homepageButtons.swf?meal=Lunch-z0" cityName="Honolulu" country=", Hawaii"/>
+<item zone="1" virtualGlobe="3" utcOffset="-7" href="lunch-z1.png"  hrefbt="homepageButtons.swf?meal=Lunch-z1" cityName="Salt Lake City" country=", Utah"/>
+<item zone="2" virtualGlobe="0" utcOffset="-4" href="lunch-z2.png"  hrefbt="homepageButtons.swf?meal=Lunch-z2" cityName="Rutland" country=", Vermont"/>
+<item zone="3" virtualGlobe="0" utcOffset="0" href="lunch-z3.png"  hrefbt="homepageButtons.swf?meal=Lunch-z3" cityName="Braga" country=", Portugal"/>
+<item zone="4" virtualGlobe="1" utcOffset="1" href="lunch-z4.png"  hrefbt="homepageButtons.swf?meal=Lunch-z4" cityName="Sonderborg" country=", Denmark"/>
+<item zone="5" virtualGlobe="1" utcOffset="7" href="lunch-z5.png"  hrefbt="homepageButtons.swf?meal=Lunch-z5" cityName="Krasnoyarsk" country=", Russia"/>
+<item zone="6" virtualGlobe="2" utcOffset="7" href="lunch-z6.png"  hrefbt="homepageButtons.swf?meal=Lunch-z6" cityName="Jakarta" country=", Indonesia"/>
+<item zone="7" virtualGlobe="2" utcOffset="10" href="lunch-z7.png"  hrefbt="homepageButtons.swf?meal=Lunch-z7" cityName="Victoria" country=", Australia"/>
+</meal>
+<meal LowerLimitHours="16" LowerLimitMinutes="00" UpperLimitHours="22" UpperLimitMinutes="00" dir="dinner/">
+<item zone="0" virtualGlobe="2" utcOffset="-9" href="dinner-z0.png"  hrefbt="homepageButtons.swf?meal=Dinner-z0" cityName="Anchorage" country=", Alaska"/>
+<item zone="1" virtualGlobe="2" utcOffset="-7" href="dinner-z1.png" hrefbt="homepageButtons.swf?meal=Dinner-z1" cityName="La Paz" country=", Mexico"/>
+<item zone="2" virtualGlobe="3" utcOffset="-5" href="dinner-z2.png" hrefbt="homepageButtons.swf?meal=Dinner-z2" cityName="Pittsburgh" country=", PA"/>
+<item zone="3" virtualGlobe="3" utcOffset="0" href="dinner-z3.png" hrefbt="homepageButtons.swf?meal=Dinner-z3" cityName="Dublin" country=", Ireland"/>
+<item zone="4" virtualGlobe="0" utcOffset="1" href="dinner-z4.png" hrefbt="homepageButtons.swf?meal=Dinner-z4" cityName="Krakow" country=", Poland"/>
+<item zone="5" virtualGlobe="0" utcOffset="5.5" href="dinner-z5.png" hrefbt="homepageButtons.swf?meal=Dinner-z5" cityName="Pune" country=", India"/>
+<item zone="6" virtualGlobe="1" utcOffset="8" href="dinner-z6.png" hrefbt="homepageButtons.swf?meal=Dinner-z6" cityName="Hong Kong" country=", China"/>
+<item zone="7" virtualGlobe="1" utcOffset="9" href="dinner-z7.png" hrefbt="homepageButtons.swf?meal=Dinner-z7" cityName="Ichon" country=", Korea"/>
+</meal>
+<meal LowerLimitHours="22" LowerLimitMinutes="00" UpperLimitHours="4" UpperLimitMinutes="00" dir="snack/">
+<item zone="0" virtualGlobe="1" utcOffset="-8" href="snack-z0.png" hrefbt="homepageButtons.swf?meal=Snack-z0" cityName="Vancover" country=" ,BC, Canada"/>
+<item zone="1" virtualGlobe="1" utcOffset="-7" href="snack-z1.png" hrefbt="homepageButtons.swf?meal=Snack-z1" cityName="Prescott" country=", Arizona"/>
+<item zone="2" virtualGlobe="2" utcOffset="-4.5" href="snack-z2.png" hrefbt="homepageButtons.swf?meal=Snack-z2" cityName="Cumana" country=", Venezuela"/>
+<item zone="3" virtualGlobe="2" utcOffset="0" href="snack-z3.png" hrefbt="homepageButtons.swf?meal=Snack-z3" cityName="Glasgow" country=", Scotland"/>
+<item zone="4" virtualGlobe="3" utcOffset="1" href="snack-z4.png" hrefbt="homepageButtons.swf?meal=Snack-z4" cityName="Calabria" country=", Italy"/>
+<item zone="5" virtualGlobe="3" utcOffset="5.5" href="snack-z5.png" hrefbt="homepageButtons.swf?meal=Snack-z5" cityName="Delhi" country=", India"/>
+<item zone="6" virtualGlobe="0" utcOffset="8" href="snack-z6.png" hrefbt="homepageButtons.swf?meal=Snack-z6" cityName="Hangzhou" country=", China"/>
+<item zone="7" virtualGlobe="0 " utcOffset="9" href="snack-z7.png" hrefbt="homepageButtons.swf?meal=Snack-z7" cityName="Sapporo" country=", Japan"/>
+</meal>
+</meals>

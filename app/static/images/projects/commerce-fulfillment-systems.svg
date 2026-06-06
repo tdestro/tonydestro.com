@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Commerce, fulfillment, and payment systems</title>
+  <desc id="desc">An editorial system diagram representing ecommerce checkout, package optimization, UPS fulfillment, Stripe, Shopify, Sylius, and PayPal integration work.</desc>
+  <defs>
+    <linearGradient id="redline" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#ff2b1f"/>
+      <stop offset="0.58" stop-color="#f4efe6"/>
+      <stop offset="1" stop-color="#d6aa58"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="26" stdDeviation="24" flood-color="#000" flood-opacity=".5"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="760" fill="#050504"/>
+  <path d="M0 122h1200M0 300h1200M0 478h1200M0 656h1200M152 0v760M384 0v760M616 0v760M848 0v760M1080 0v760" stroke="#f4efe6" stroke-opacity=".065"/>
+  <rect x="104" y="86" width="992" height="588" fill="#0d0c0a" stroke="#f4efe6" stroke-opacity=".16" filter="url(#shadow)"/>
+  <rect x="104" y="86" width="992" height="7" fill="url(#redline)"/>
+  <text x="144" y="164" fill="#f4efe6" font-family="Inter, Arial, sans-serif" font-size="52" font-weight="900">commerce / fulfillment</text>
+  <text x="146" y="205" fill="#91887b" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">DESTRO MACHINES SOURCE EVIDENCE</text>
+  <g fill="none" stroke="#ff2b1f" stroke-width="3" stroke-linecap="square" stroke-linejoin="round">
+    <path d="M204 342h184v122H204z"/>
+    <path d="M204 342l92-62 92 62M296 280v184M204 464l92 56 92-56"/>
+    <path d="M514 322h220v164H514z"/>
+    <path d="M542 364h164M542 404h118M542 444h144"/>
+    <path d="M846 314h150v182H846zM872 348h98M872 390h78M872 432h98"/>
+    <path d="M388 404h126M734 404h112"/>
+  </g>
+  <g font-family="Inter, Arial, sans-serif" font-weight="900" font-size="24">
+    <text x="216" y="576" fill="#f4efe6">boxpacker.go</text>
+    <text x="536" y="576" fill="#f4efe6">stripe + ups api</text>
+    <text x="856" y="576" fill="#f4efe6">shopify / sylius</text>
+  </g>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="18" font-weight="800">
+    <text x="144" y="635" fill="#d6aa58">Go</text>
+    <text x="206" y="635" fill="#91887b">3D packing</text>
+    <text x="354" y="635" fill="#91887b">checkout</text>
+    <text x="474" y="635" fill="#91887b">fulfillment</text>
+    <text x="642" y="635" fill="#91887b">payments</text>
+    <text x="780" y="635" fill="#91887b">shipping</text>
+  </g>
+</svg>

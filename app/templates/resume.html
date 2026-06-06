@@ -1,0 +1,128 @@
+{% extends "base.html" %}
+
+{% block title %}Resume - {{ profile.name }}{% endblock %}
+
+{% block content %}
+<section class="page-header">
+  <p class="eyebrow">Resume</p>
+  <h1 class="display-lines resume-title">
+    <span class="display-line"><span class="display-light">Principal</span></span>
+    <span class="display-line"><em>Software</em> <span class="display-heavy">Engineer</span></span>
+  </h1>
+  <p>{{ profile.summary }}</p>
+</section>
+
+<section class="section split">
+  <div>
+    <h2 class="display-lines">
+      <span class="display-line">Experience</span>
+    </h2>
+    <p class="muted">Principal-level engineering with a long range: architecture, implementation, delivery, modernization, and hands-on product work.</p>
+  </div>
+  <div class="timeline">
+    {% for item in experience %}
+      <article>
+        <div class="timeline-heading">
+          <div class="timeline-mark{% if item.logo_tone %} is-{{ item.logo_tone }}{% endif %}{% if not item.logo and not item.mark %} is-empty{% endif %}" aria-hidden="true">
+            {% if item.logo %}
+              <img src="{{ item.logo }}" alt="">
+            {% elif item.mark %}
+              <span>{{ item.mark }}</span>
+            {% endif %}
+          </div>
+          <div>
+            <div class="timeline-meta">
+              <span class="timeline-date">{{ item.period }}</span>
+              {% if item.context %}
+                <span class="timeline-context{% if item.context_tone %} is-{{ item.context_tone }}{% endif %}">{{ item.context }}</span>
+              {% endif %}
+            </div>
+            <h3>{{ item.title }}</h3>
+            {% if item.organization %}
+              <p class="timeline-org">{{ item.organization }}</p>
+            {% endif %}
+          </div>
+        </div>
+        <p>{{ item.summary }}</p>
+        <ul>
+          {% for highlight in item.highlights %}
+            <li>{{ highlight }}</li>
+          {% endfor %}
+        </ul>
+      </article>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="section split">
+  <div>
+    <h2 class="display-lines">
+      <span class="display-line">Education</span>
+      <span class="display-line">and <em>service</em></span>
+    </h2>
+    <p class="muted">Formal education and early web work that predate the professional timeline.</p>
+  </div>
+  <div class="timeline">
+    {% for item in profile.education %}
+      <article>
+        <div class="timeline-heading">
+          <div class="timeline-mark{% if item.logo_tone %} is-{{ item.logo_tone }}{% endif %}{% if not item.logo and not item.mark %} is-empty{% endif %}" aria-hidden="true">
+            {% if item.logo %}
+              <img src="{{ item.logo }}" alt="">
+            {% elif item.mark %}
+              <span>{{ item.mark }}</span>
+            {% endif %}
+          </div>
+          <div>
+            <span class="timeline-date">{{ item.period }}</span>
+            <h3>{{ item.school }}</h3>
+            <p class="timeline-org">{{ item.degree }}</p>
+          </div>
+        </div>
+        <ul>
+          {% for detail in item.details %}
+            <li>{{ detail }}</li>
+          {% endfor %}
+        </ul>
+      </article>
+    {% endfor %}
+    {% for item in profile.volunteering %}
+      <article>
+        <div class="timeline-heading">
+          <div class="timeline-mark{% if item.logo_tone %} is-{{ item.logo_tone }}{% endif %}{% if not item.logo and not item.mark %} is-empty{% endif %}" aria-hidden="true">
+            {% if item.logo %}
+              <img src="{{ item.logo }}" alt="">
+            {% elif item.mark %}
+              <span>{{ item.mark }}</span>
+            {% endif %}
+          </div>
+          <div>
+            <span class="timeline-date">{{ item.period }}</span>
+            <h3>{{ item.role }}</h3>
+            <p class="timeline-org">{{ item.organization }}</p>
+          </div>
+        </div>
+        <p>{{ item.summary }}</p>
+      </article>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-heading">
+    <div>
+      <p class="eyebrow">Representative work</p>
+      <h2 class="display-lines">
+        <span class="display-line">Selected examples</span>
+        <span class="display-line">across the <em>portfolio.</em></span>
+      </h2>
+    </div>
+    <a class="text-link" href="/projects">View all</a>
+  </div>
+  <div class="project-grid">
+    {% for project in projects %}
+      {% include "partials/project_card.html" %}
+    {% endfor %}
+  </div>
+</section>
+{% endblock %}

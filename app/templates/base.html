@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% block title %}{{ profile.name }} - {{ profile.title }}{% endblock %}</title>
+    <meta name="description" content="{{ profile.summary }}">
+    <meta property="og:title" content="{{ profile.name }} - {{ profile.title }}">
+    <meta property="og:description" content="{{ profile.summary }}">
+    <meta property="og:type" content="website">
+    <link rel="icon" href="{{ url_for('static', path='/favicon.svg') }}" type="image/svg+xml">
+    <link rel="preload" href="{{ url_for('static', path='/fonts/InstrumentSans-Variable.ttf') }}" as="font" type="font/ttf" crossorigin>
+    <link rel="preload" href="{{ url_for('static', path='/fonts/IBMPlexMono-SemiBold.ttf') }}" as="font" type="font/ttf" crossorigin>
+    <link rel="stylesheet" href="{{ url_for('static', path='/css/site.css') }}?v=site-redesign-20260601-1">
+    {% block head %}{% endblock %}
+  </head>
+  <body>
+    <a class="skip-link" href="#content">Skip to content</a>
+    <header class="site-header">
+      <a class="brand" href="/" aria-label="{{ profile.name }} home">
+        <span class="brand-copy">
+          <strong>Tony Destro</strong>
+          <small>{{ profile.title }}</small>
+        </span>
+      </a>
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="/projects" {% if path.startswith('/projects') %}aria-current="page"{% endif %}>Projects</a>
+        <a href="/resume" {% if path == '/resume' %}aria-current="page"{% endif %}>Resume</a>
+        <a class="nav-cta" href="/contact" {% if path == '/contact' %}aria-current="page"{% endif %}>Contact</a>
+      </nav>
+    </header>
+
+    <main id="content">
+      {% block content %}{% endblock %}
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-statement">
+        <span>Available for hard systems work</span>
+        <strong>Engineering leadership for AI, product platforms, cloud delivery, and distributed teams.</strong>
+      </div>
+      <div class="footer-identity">
+        <strong>Tony Destro</strong>
+        <span>{{ profile.title }}</span>
+      </div>
+      <div class="footer-links">
+        {% for link in profile.links %}
+          <a href="{{ link.url }}">{{ link.label }}</a>
+        {% endfor %}
+      </div>
+    </footer>
+    <script src="{{ url_for('static', path='/js/site.js') }}?v=hsfl-panorama-20260529-6"></script>
+    {% block scripts %}{% endblock %}
+  </body>
+</html>

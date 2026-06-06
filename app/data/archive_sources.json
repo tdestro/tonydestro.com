@@ -1,0 +1,58 @@
+[
+  {
+    "title": "Design Machine application comp",
+    "client": "Coca-Cola",
+    "format": "PSD-derived interface comp",
+    "image": "/static/images/archive/psd/coca-cola-design-machine.jpg",
+    "summary": "Recovered source comp for a campaign application surface that became interactive web work with front-end behavior and C# support."
+  },
+  {
+    "title": "77E Mall World campaign comp",
+    "client": "American Eagle Outfitters",
+    "format": "PSD-derived Flash campaign comp",
+    "image": "/static/images/archive/psd/ae-77e-mallworld.jpg",
+    "summary": "Recovered 77E design source tied to the retail campaign work that was programmed into media-heavy web and Flash-era experiences."
+  },
+  {
+    "title": "AiMySpace design refresh",
+    "client": "EDMC / Art Institutes",
+    "format": "PSD-derived social campaign comp",
+    "image": "/static/images/archive/psd/edmc-aimyspace-design.jpg",
+    "summary": "Recovered campaign layout from the EDMC social/video work: polls, video surfaces, maps, and back-end campaign functionality."
+  },
+  {
+    "title": "SolFX panorama source",
+    "client": "Transitions / SolFX",
+    "format": "Panorama asset source",
+    "image": "/static/images/archive/psd/solfx-panorama-source.jpg",
+    "summary": "Source imagery from the simulator era, used as the visual material behind interactive lens and product experiences."
+  },
+  {
+    "title": "Trivex e-learning shell",
+    "client": "Trivex",
+    "format": "Readable PSD export",
+    "image": "/static/images/archive/psd/trivex-elearning-psd.jpg",
+    "summary": "Readable Photoshop source exported directly from the recovered PSD, representing interactive learning UI implementation work."
+  },
+  {
+    "title": "Healthy Insights visual system",
+    "client": "Transitions",
+    "format": "Recovered design source",
+    "image": "/static/images/archive/psd/transitions-healthy-insights.jpg",
+    "summary": "Recovered visual system evidence for Transitions campaign work that moved from supplied creative into production web assets."
+  },
+  {
+    "title": "VSP ROI calculator header",
+    "client": "VSP",
+    "format": "Readable PSD export",
+    "image": "/static/images/archive/psd/vsp-roi-calculator-psd.jpg",
+    "summary": "Readable Photoshop source exported from the recovered ROI calculator PSD and used as evidence of calculator/interface build work."
+  },
+  {
+    "title": "AiMySpace media arts page",
+    "client": "EDMC / Art Institutes",
+    "format": "PSD export recovery",
+    "image": "/static/images/archive/psd/edmc-mediaarts-psd.jpg",
+    "summary": "Recovered PSD export from the EDMC media arts campaign family, tied to the social and video experiences already represented."
+  }
+]

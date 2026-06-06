@@ -1,0 +1,121 @@
+{
+  "name": "Tony Destro",
+  "title": "Principal Software Engineer / Agentic AI Engineering",
+  "location": "Greater Pittsburgh Region / United States",
+  "summary": "Principal software engineer with 20+ years across agentic AI engineering, technical leadership, full-stack product platforms, data-intensive systems, cloud delivery, ecommerce, mobile, embedded integrations, distributed delivery teams, and interactive web experiences.",
+  "positioning": "I design and build software where the hard parts meet: bounded AI workflows, cloud architecture, product constraints, data-heavy systems, and distributed teams. The work is practical, reviewable, and built to survive past the first release.",
+  "links": [
+    {
+      "label": "GitHub",
+      "url": "https://github.com/tdestro",
+      "display": "@tdestro"
+    },
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/anthony-destro-318b76b4/",
+      "display": "Anthony Destro"
+    },
+    {
+      "label": "Destro Machines",
+      "url": "https://www.destromachines.com/",
+      "display": "Company site"
+    }
+  ],
+  "capabilities": [
+    "Agentic AI engineering and bounded automation",
+    "AI-assisted review, analysis, and developer workflows",
+    "Technical strategy and architecture",
+    "Distributed delivery with Mexican and Ukrainian/Eastern Europe-based teams",
+    "Nearshore, offshore, and partner engineering coordination",
+    "Platform modernization",
+    "Cloud-native application delivery",
+    "Full-stack product engineering",
+    "Microservices and systems integration",
+    "Embedded, BLE, and mobile integration",
+    "Data migration and analytics workflows",
+    "Ecommerce and payment/shipping systems",
+    "Developer tooling and automation",
+    "Public systems and utility code",
+    "Data-heavy application workflows",
+    "Interactive front-end engineering"
+  ],
+  "focus_areas": [
+    {
+      "label": "Agentic AI",
+      "title": "Bounded AI workflows for engineering work.",
+      "summary": "LLM reasoning connected to source context, schema discovery, retrieval, SQL validation, and explicit execution limits."
+    },
+    {
+      "label": "Distributed teams",
+      "title": "Delivery across US, Mexican, and Ukrainian/Eastern Europe teams.",
+      "summary": "Hands-on technical leadership across internal engineers, Mexican collaborators, Ukrainian/Eastern Europe delivery partners, review, architecture, and agile execution."
+    },
+    {
+      "label": "Production systems",
+      "title": "AI, cloud, product, and data work shipped together.",
+      "summary": "FastAPI, .NET, React, Azure, SQL, CI/CD, identity, search, and operational tooling brought into one delivery path."
+    }
+  ],
+  "ai_history": {
+    "label": "AI timeline",
+    "title": "Practical AI workflow work was already in motion in 2023.",
+    "summary": "Private Python prototypes from September-November 2023 connected GPT-3.5 with browser automation, OAuth-backed email APIs, local workflow state, and PostgreSQL records.",
+    "facts": [
+      {
+        "label": "Timeframe",
+        "value": "Sep-Nov 2023"
+      },
+      {
+        "label": "Model era",
+        "value": "GPT-3.5 / Chat Completions"
+      },
+      {
+        "label": "Workflow stack",
+        "value": "Python, Playwright, OAuth/Gmail APIs, PostgreSQL"
+      }
+    ]
+  },
+  "distributed_delivery": [
+    {
+      "label": "Destro Machines",
+      "title": "Mexican engineering collaboration",
+      "summary": "Co-owned and led software delivery with Mexican engineering collaborators across SwimView, pool-deck data visualization, BLE/mobile integration, cloud services, and commerce/fulfillment systems."
+    },
+    {
+      "label": "ISACA",
+      "title": "Ukrainian and Eastern Europe delivery",
+      "summary": "Principal engineer and technical lead coordinating internal engineers with Ukrainian/Eastern Europe delivery partners across MAGI, CMMI systems, Kentico/Xperience, .NET/React delivery, Azure infrastructure, review, and agile execution."
+    }
+  ],
+  "education": [
+    {
+      "school": "Duquesne University",
+      "degree": "Bachelor's degree, Multimedia Technology",
+      "period": "2000 - 2004",
+      "logo": "/static/images/employers/duquesne.svg",
+      "details": [
+        "Completed a Multimedia Technology degree.",
+        "Completed most Computer Science B.A. coursework; remaining requirements were a few math credits.",
+        "Phi Kappa Theta, Pennsylvania Alpha Xi, Founder and Vice-President.",
+        "Freshman Orientation."
+      ]
+    }
+  ],
+  "volunteering": [
+    {
+      "organization": "Central Catholic High School",
+      "role": "Webmaster",
+      "period": "Aug 1998 - May 2000",
+      "logo": "/static/images/employers/central-catholic.svg",
+      "logo_tone": "dark",
+      "summary": "Built and maintained the school website with HTML and PHP."
+    },
+    {
+      "organization": "Duquesne University",
+      "role": "Designer / Developer",
+      "period": "Nov 2001 - Jul 2005",
+      "logo": "/static/images/employers/duquesne.svg",
+      "summary": "Won the World Famous Orientation Website Award twice from the National Orientation Director's Association."
+    }
+  ]
+}

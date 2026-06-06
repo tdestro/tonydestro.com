@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">MAGI agentic AI platform diagram</title>
+  <desc id="desc">A dark systems diagram showing MAGI coordinating source context, SQL validation, search, and review workflow.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#171512"/>
+      <stop offset="0.52" stop-color="#050504"/>
+      <stop offset="1" stop-color="#24100d"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#ff2b1f"/>
+      <stop offset="1" stop-color="#d6aa58"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="1 0 0 0 1 0 0.6 0 0 0.25 0 0 0.3 0 0.1 0 0 0 0.55 0"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <path d="M0 120h1200M0 240h1200M0 360h1200M0 480h1200M0 600h1200M0 720h1200M150 0v800M300 0v800M450 0v800M600 0v800M750 0v800M900 0v800M1050 0v800" stroke="#f4efe6" stroke-opacity="0.055"/>
+  <rect x="70" y="70" width="1060" height="660" fill="none" stroke="#f4efe6" stroke-opacity="0.18" stroke-width="2"/>
+  <rect x="70" y="70" width="330" height="5" fill="url(#accent)"/>
+  <g stroke="#f4efe6" stroke-opacity="0.24" stroke-width="3" fill="none">
+    <path d="M590 390 300 220"/>
+    <path d="M610 390 895 215"/>
+    <path d="M590 420 315 575"/>
+    <path d="M625 420 895 575"/>
+    <path d="M600 360V195"/>
+    <path d="M600 440v165"/>
+  </g>
+  <g filter="url(#glow)">
+    <circle cx="600" cy="400" r="118" fill="#11100e" stroke="url(#accent)" stroke-width="5"/>
+    <circle cx="600" cy="400" r="78" fill="none" stroke="#f4efe6" stroke-opacity="0.22" stroke-width="2"/>
+    <text x="600" y="386" fill="#f4efe6" font-family="Instrument Sans, Arial, sans-serif" font-size="58" font-weight="800" text-anchor="middle">MAGI</text>
+    <text x="600" y="430" fill="#d6aa58" font-family="IBM Plex Mono, Consolas, monospace" font-size="19" font-weight="600" text-anchor="middle">BOUNDED AGENTIC AI</text>
+  </g>
+  <g font-family="Instrument Sans, Arial, sans-serif">
+    <g>
+      <rect x="160" y="150" width="280" height="130" fill="#0d0c0a" stroke="#f4efe6" stroke-opacity="0.22" stroke-width="2"/>
+      <text x="190" y="207" fill="#f4efe6" font-size="32" font-weight="760">Source Context</text>
+      <text x="190" y="242" fill="#91887b" font-size="20">Azure DevOps + code paths</text>
+    </g>
+    <g>
+      <rect x="760" y="145" width="285" height="140" fill="#0d0c0a" stroke="#f4efe6" stroke-opacity="0.22" stroke-width="2"/>
+      <text x="790" y="205" fill="#f4efe6" font-size="32" font-weight="760">Schema Discovery</text>
+      <text x="790" y="240" fill="#91887b" font-size="20">Azure SQL metadata</text>
+    </g>
+    <g>
+      <rect x="175" y="515" width="285" height="135" fill="#0d0c0a" stroke="#f4efe6" stroke-opacity="0.22" stroke-width="2"/>
+      <text x="205" y="574" fill="#f4efe6" font-size="32" font-weight="760">Search Retrieval</text>
+      <text x="205" y="609" fill="#91887b" font-size="20">Indexed project knowledge</text>
+    </g>
+    <g>
+      <rect x="755" y="515" width="300" height="135" fill="#0d0c0a" stroke="#f4efe6" stroke-opacity="0.22" stroke-width="2"/>
+      <text x="785" y="574" fill="#f4efe6" font-size="32" font-weight="760">Review Workflow</text>
+      <text x="785" y="609" fill="#91887b" font-size="20">Explainable advisory output</text>
+    </g>
+    <g>
+      <rect x="455" y="92" width="290" height="80" fill="#14110e" stroke="#d6aa58" stroke-opacity="0.58" stroke-width="2"/>
+      <text x="600" y="143" fill="#d6aa58" font-family="IBM Plex Mono, Consolas, monospace" font-size="22" font-weight="600" text-anchor="middle">SQL VALIDATION</text>
+    </g>
+    <g>
+      <rect x="455" y="628" width="290" height="80" fill="#14110e" stroke="#ff2b1f" stroke-opacity="0.58" stroke-width="2"/>
+      <text x="600" y="679" fill="#ff8a82" font-family="IBM Plex Mono, Consolas, monospace" font-size="22" font-weight="600" text-anchor="middle">READ-ONLY BOUNDS</text>
+    </g>
+  </g>
+</svg>

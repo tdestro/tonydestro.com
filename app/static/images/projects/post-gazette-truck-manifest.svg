@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Post-Gazette truck delivery manifest system</title>
+  <desc id="desc">An editorial logistics-system visual representing truck manifests, depot reports, dispatch records, pallet sheets, and delivery route data.</desc>
+  <defs>
+    <linearGradient id="line" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#ff2b1f"/>
+      <stop offset=".55" stop-color="#f4efe6"/>
+      <stop offset="1" stop-color="#d6aa58"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="26" stdDeviation="24" flood-color="#000" flood-opacity=".5"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="760" fill="#050504"/>
+  <path d="M0 118h1200M0 298h1200M0 478h1200M0 658h1200M150 0v760M360 0v760M570 0v760M780 0v760M990 0v760" stroke="#f4efe6" stroke-opacity=".065"/>
+  <rect x="108" y="86" width="984" height="588" fill="#0d0c0a" stroke="#f4efe6" stroke-opacity=".16" filter="url(#shadow)"/>
+  <rect x="108" y="86" width="984" height="7" fill="url(#line)"/>
+  <text x="148" y="164" fill="#f4efe6" font-family="Inter, Arial, sans-serif" font-size="50" font-weight="900">delivery manifest system</text>
+  <text x="150" y="205" fill="#91887b" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">PITTSBURGH POST-GAZETTE / TRUCKEXPORT</text>
+  <g fill="none" stroke="#f4efe6" stroke-opacity=".85" stroke-width="3" stroke-linejoin="round">
+    <path d="M180 422h284v78H180zM216 422v-72h160l56 72"/>
+    <circle cx="242" cy="512" r="24"/>
+    <circle cx="402" cy="512" r="24"/>
+    <path d="M560 294h318M560 338h252M560 382h318M560 426h194M560 470h278"/>
+    <rect x="528" y="250" width="408" height="276" rx="4"/>
+  </g>
+  <g fill="none" stroke="#ff2b1f" stroke-width="4" stroke-linecap="square">
+    <path d="M246 346c58-76 148-110 270-102 110 8 184 52 222 132"/>
+    <path d="M246 346h50M496 244v52M738 376h50"/>
+  </g>
+  <g font-family="Inter, Arial, sans-serif" font-size="24" font-weight="900">
+    <text x="184" y="590" fill="#f4efe6">depot / dispatch / pallet sheets</text>
+    <text x="560" y="590" fill="#f4efe6">typed records + T4 report output</text>
+  </g>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="18" font-weight="800">
+    <text x="148" y="636" fill="#d6aa58">C#</text>
+    <text x="206" y="636" fill="#91887b">ASP.NET</text>
+    <text x="326" y="636" fill="#91887b">CSV</text>
+    <text x="390" y="636" fill="#91887b">T4 templates</text>
+    <text x="548" y="636" fill="#91887b">route detail</text>
+    <text x="704" y="636" fill="#91887b">distribution reports</text>
+  </g>
+</svg>

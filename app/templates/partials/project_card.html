@@ -1,0 +1,18 @@
+<article class="project-card" data-tags="{{ project.tags | join('||') }}">
+  <a href="/projects/{{ project.slug }}" aria-label="Open {{ project.title }}">
+    <figure class="project-card-media">
+      <img class="{% if project.image_fit == 'contain' %}contain-image{% endif %}" src="{{ project.images[0] if project.images else project.thumbnail }}" alt="{{ project.title }}" loading="lazy">
+      <figcaption></figcaption>
+    </figure>
+    <div class="project-card-body">
+      <span>{{ project.client }}</span>
+      <h3>{{ project.title }}</h3>
+      <p>{{ project.summary }}</p>
+      <div class="tag-row">
+        {% for tag in project.tags[:3] %}
+          <small>{{ tag }}</small>
+        {% endfor %}
+      </div>
+    </div>
+  </a>
+</article>

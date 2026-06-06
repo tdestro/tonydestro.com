@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">ServiceLink call center application</title>
+  <desc id="desc">An editorial enterprise application visual representing call center content, search, permissions, uploads, discussions, and API-backed management screens.</desc>
+  <defs>
+    <linearGradient id="accent" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#ff2b1f"/>
+      <stop offset=".54" stop-color="#f4efe6"/>
+      <stop offset="1" stop-color="#9aa687"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="26" stdDeviation="24" flood-color="#000" flood-opacity=".5"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="760" fill="#050504"/>
+  <path d="M0 122h1200M0 300h1200M0 478h1200M0 656h1200M150 0v760M390 0v760M630 0v760M870 0v760M1110 0v760" stroke="#f4efe6" stroke-opacity=".065"/>
+  <rect x="106" y="86" width="988" height="588" fill="#0d0c0a" stroke="#f4efe6" stroke-opacity=".16" filter="url(#shadow)"/>
+  <rect x="106" y="86" width="988" height="7" fill="url(#accent)"/>
+  <text x="146" y="164" fill="#f4efe6" font-family="Inter, Arial, sans-serif" font-size="52" font-weight="900">call center application</text>
+  <text x="148" y="205" fill="#91887b" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">SERVICELINK / LEVEL AGENCY / ASP.NET MVC</text>
+  <g fill="none" stroke="#f4efe6" stroke-opacity=".84" stroke-width="3" stroke-linejoin="round">
+    <rect x="168" y="282" width="304" height="250" rx="4"/>
+    <path d="M204 342h232M204 386h150M204 430h202M204 474h116"/>
+    <rect x="556" y="282" width="430" height="250" rx="4"/>
+    <path d="M594 336h140M594 378h300M594 420h228M594 462h268"/>
+    <circle cx="898" cy="336" r="18"/>
+  </g>
+  <g fill="none" stroke="#ff2b1f" stroke-width="4" stroke-linecap="square">
+    <path d="M472 382h84"/>
+    <path d="M766 274v-58h-448v66"/>
+    <path d="M320 216h446"/>
+    <path d="M764 216l-24-24M764 216l-24 24"/>
+  </g>
+  <g font-family="Inter, Arial, sans-serif" font-size="24" font-weight="900">
+    <text x="184" y="590" fill="#f4efe6">content / discussions / uploads</text>
+    <text x="580" y="590" fill="#f4efe6">search endpoints + permissions</text>
+  </g>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="18" font-weight="800">
+    <text x="146" y="636" fill="#d6aa58">C#</text>
+    <text x="204" y="636" fill="#91887b">ASP.NET MVC</text>
+    <text x="370" y="636" fill="#91887b">Entity Framework</text>
+    <text x="584" y="636" fill="#91887b">Razor</text>
+    <text x="676" y="636" fill="#91887b">jQuery</text>
+    <text x="772" y="636" fill="#91887b">JSON APIs</text>
+  </g>
+</svg>

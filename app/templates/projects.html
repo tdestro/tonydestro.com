@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+
+{% block title %}Projects - {{ profile.name }}{% endblock %}
+
+{% block content %}
+<section class="page-header portfolio-header">
+  <div class="portfolio-header-copy">
+    <p class="eyebrow">Portfolio</p>
+    <h1 class="display-lines portfolio-title">
+      <span class="display-line">Selected systems work.</span>
+    </h1>
+    <p>Agentic AI platforms, product systems, commerce, embedded integrations, modernization, and interactive front-end engineering.</p>
+  </div>
+  <div class="portfolio-showcase" aria-label="Featured project preview">
+    {% for project in projects[:3] %}
+      <a class="portfolio-showcase-item portfolio-showcase-item-{{ loop.index }}" href="/projects/{{ project.slug }}">
+        <figure>
+          <img class="{% if project.image_fit == 'contain' %}contain-image{% endif %}" src="{{ project.images[0] if project.images else project.thumbnail }}" alt="">
+        </figure>
+        <span>0{{ loop.index }} / {{ project.client }}</span>
+        <strong>{{ project.title }}</strong>
+      </a>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="section projects-index">
+  <div class="project-controls">
+    <div class="project-controls-meta">
+      <span>Index</span>
+      <strong>{{ projects | length }} selected projects</strong>
+    </div>
+    <div class="filter-bar" aria-label="Project filters">
+      <button class="filter-button active" type="button" data-filter="all">All</button>
+      {% for tag in ["AI", "Product", "Systems", "Interactive", "Ecommerce", "Embedded", "Modernization", "Full-stack"] %}
+        <button class="filter-button" type="button" data-filter="{{ tag }}">{{ tag }}</button>
+      {% endfor %}
+    </div>
+  </div>
+  <div class="project-grid" data-project-grid>
+    {% for project in projects %}
+      {% include "partials/project_card.html" %}
+    {% endfor %}
+  </div>
+</section>
+{% endblock %}

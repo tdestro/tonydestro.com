@@ -1,0 +1,674 @@
+[
+  {
+    "slug": "heinz-001",
+    "group": "heinz",
+    "title": "Interactive flash piece I programmed for the front page of Heinz.com using 3D libraries. I also wrote the backend in C#.",
+    "thumbnail": "portfolio_thumbs/heinz/heinzFrontPage.jpg",
+    "image": "portfolio_images/heinz/heinzFrontPage.jpg",
+    "demo": "heinz"
+  },
+  {
+    "slug": "heinz-002",
+    "group": "heinz",
+    "title": "I programmed, and assembled from designs/animations, this interactive map which showcases all of the Heinz brands and where they are sold.",
+    "thumbnail": "portfolio_thumbs/heinz/heinzBrandsMap.jpg",
+    "image": "portfolio_images/heinz/heinzBrandsMap.png",
+    "demo": ""
+  },
+  {
+    "slug": "heinz-003",
+    "group": "heinz",
+    "title": "I programmed, and assembled from designs/animations, this interactive piece that illustrates the history of the Heinz company.",
+    "thumbnail": "portfolio_thumbs/heinz/heinzHistory1.jpg",
+    "image": "portfolio_images/heinz/heinzHistory1.png",
+    "demo": ""
+  },
+  {
+    "slug": "heinz-004",
+    "group": "heinz",
+    "title": "I programmed, and assembled from designs/animations, this interactive piece that illustrates the history of the Heinz company.",
+    "thumbnail": "portfolio_thumbs/heinz/heinzHistory2.jpg",
+    "image": "portfolio_images/heinz/heinzHistory2.png",
+    "demo": ""
+  },
+  {
+    "slug": "heinz-005",
+    "group": "heinz",
+    "title": "I programmed, and assembled from designs/animations, this interactive Heinz History piece.",
+    "thumbnail": "portfolio_thumbs/heinz/heinzHistory3.jpg",
+    "image": "portfolio_images/heinz/heinzHistory3.png",
+    "demo": ""
+  },
+  {
+    "slug": "heinz-006",
+    "group": "heinz",
+    "title": "I programmed, and assembled from designs/animations, this interactive piece that illustrates the history of the Heinz company.",
+    "thumbnail": "portfolio_thumbs/heinz/heinzHistory4.jpg",
+    "image": "portfolio_images/heinz/heinzHistory4.png",
+    "demo": ""
+  },
+  {
+    "slug": "heinz-007",
+    "group": "heinz",
+    "title": "I programmed, and assembled from designs/animations, this interactive piece that illustrates the history of the Heinz company.",
+    "thumbnail": "portfolio_thumbs/heinz/heinzHistory5.jpg",
+    "image": "portfolio_images/heinz/heinzHistory5.png",
+    "demo": ""
+  },
+  {
+    "slug": "solfx-008",
+    "group": "solfx",
+    "title": "I programmed, and assembled from designs/animations, this interactive Akuma simulator.",
+    "thumbnail": "portfolio_thumbs/solfx/solfxakuma.jpg",
+    "image": "portfolio_images/solfx/solfxakuma.png",
+    "demo": "solfx/InteractiveDemo.aspx"
+  },
+  {
+    "slug": "solfx-009",
+    "group": "solfx",
+    "title": "I programmed, and assembled from designs/animations, this interactive Drivewear simulator.",
+    "thumbnail": "portfolio_thumbs/solfx/solfxdrivewear.jpg",
+    "image": "portfolio_images/solfx/solfxdrivewear.png",
+    "demo": "solfx/InteractiveDemo.aspx"
+  },
+  {
+    "slug": "solfx-010",
+    "group": "solfx",
+    "title": "I programmed, and assembled from designs/animations, this interactive simulator.",
+    "thumbnail": "portfolio_thumbs/solfx/SolFXDemo0.jpg",
+    "image": "portfolio_images/solfx/SolFXDemo0.png",
+    "demo": "solfx/InteractiveDemo.aspx"
+  },
+  {
+    "slug": "solfx-011",
+    "group": "solfx",
+    "title": "I programmed, and assembled from designs/animations, this interactive piece.",
+    "thumbnail": "portfolio_thumbs/solfx/SolFXDemoPage.jpg",
+    "image": "portfolio_images/solfx/solfxdemopage.png",
+    "demo": "solfx/InteractiveDemo.aspx"
+  },
+  {
+    "slug": "solfx-012",
+    "group": "solfx",
+    "title": "I programmed, and assembled from designs/animations, this interactive accordion menu.",
+    "thumbnail": "portfolio_thumbs/solfx/solfx_Header0.jpg",
+    "image": "portfolio_images/solfx/solfx_Header0.png",
+    "demo": ""
+  },
+  {
+    "slug": "solfx-013",
+    "group": "solfx",
+    "title": "I programmed, and assembled from designs/animations, this interactive accordion menu.",
+    "thumbnail": "portfolio_thumbs/solfx/solfx_Header1.jpg",
+    "image": "portfolio_images/solfx/solfx_Header1.png",
+    "demo": ""
+  },
+  {
+    "slug": "solfx-014",
+    "group": "solfx",
+    "title": "I programmed, and assembled from designs/animations, this interactive accordion menu",
+    "thumbnail": "portfolio_thumbs/solfx/solfx_Header2.jpg",
+    "image": "portfolio_images/solfx/solfx_Header2.png",
+    "demo": ""
+  },
+  {
+    "slug": "solfx-015",
+    "group": "solfx",
+    "title": "I programmed, and assembled from designs/animations, this interactive accordion menu.",
+    "thumbnail": "portfolio_thumbs/solfx/solfx_Header3.jpg",
+    "image": "portfolio_images/solfx/solfx_Header3.png",
+    "demo": ""
+  },
+  {
+    "slug": "solfx-016",
+    "group": "solfx",
+    "title": "I programmed, and assembled from designs/animations, this banner ad.",
+    "thumbnail": "portfolio_thumbs/solfx/solfxbell_300x250-1.jpg",
+    "image": "portfolio_images/solfx/solfxbell_300x250-1.jpg",
+    "demo": ""
+  },
+  {
+    "slug": "solfx-017",
+    "group": "solfx",
+    "title": "I programmed, and assembled from designs/animations, this banner ad.",
+    "thumbnail": "portfolio_thumbs/solfx/solfxbell_300x250-2.jpg",
+    "image": "portfolio_images/solfx/solfxbell_300x250-2.jpg",
+    "demo": ""
+  },
+  {
+    "slug": "solfx-018",
+    "group": "solfx",
+    "title": "I programmed, and assembled from designs/animations, this banner ad.",
+    "thumbnail": "portfolio_thumbs/solfx/solfxbell_300x250-3.jpg",
+    "image": "portfolio_images/solfx/solfxbell_300x250-3.jpg",
+    "demo": ""
+  },
+  {
+    "slug": "solfx-019",
+    "group": "solfx",
+    "title": "I programmed, and assembled from designs/animations, this banner ad.",
+    "thumbnail": "portfolio_thumbs/solfx/solfxbell_300x250-4.jpg",
+    "image": "portfolio_images/solfx/solfxbell_300x250-4.jpg",
+    "demo": ""
+  },
+  {
+    "slug": "solfx-020",
+    "group": "solfx",
+    "title": "I programmed, and assembled from designs/animations, this banner ad.",
+    "thumbnail": "portfolio_thumbs/solfx/solfxbell_300x250-5.jpg",
+    "image": "portfolio_images/solfx/solfxbell_300x250-5.jpg",
+    "demo": ""
+  },
+  {
+    "slug": "solfx-021",
+    "group": "solfx",
+    "title": "I programmed, and assembled from designs/animations, this banner ad.",
+    "thumbnail": "portfolio_thumbs/solfx/solfxbell_728x90-1.jpg",
+    "image": "portfolio_images/solfx/solfxbell_728x90-1.jpg",
+    "demo": ""
+  },
+  {
+    "slug": "solfx-022",
+    "group": "solfx",
+    "title": "I programmed, and assembled from designs/animations, this banner ad.",
+    "thumbnail": "portfolio_thumbs/solfx/solfxbell_728x90-2.jpg",
+    "image": "portfolio_images/solfx/solfxbell_728x90-2.jpg",
+    "demo": ""
+  },
+  {
+    "slug": "solfx-023",
+    "group": "solfx",
+    "title": "I programmed, and assembled from designs/animations, this banner ad.",
+    "thumbnail": "portfolio_thumbs/solfx/solfxbell_728x90-3.jpg",
+    "image": "portfolio_images/solfx/solfxbell_728x90-3.jpg",
+    "demo": ""
+  },
+  {
+    "slug": "solfx-024",
+    "group": "solfx",
+    "title": "I programmed, and assembled from designs/animations, this banner ad.",
+    "thumbnail": "portfolio_thumbs/solfx/solfxbell_728x90-4.jpg",
+    "image": "portfolio_images/solfx/solfxbell_728x90-4.jpg",
+    "demo": ""
+  },
+  {
+    "slug": "solfx-025",
+    "group": "solfx",
+    "title": "I programmed, and assembled from designs/animations, this interactive ad.",
+    "thumbnail": "portfolio_thumbs/solfx/solfxbell_728x90-5.jpg",
+    "image": "portfolio_images/solfx/solfxbell_728x90-5.jpg",
+    "demo": ""
+  },
+  {
+    "slug": "solfx-026",
+    "group": "solfx",
+    "title": "I programmed, and assembled from designs/animations, this interactive banner ad.",
+    "thumbnail": "portfolio_thumbs/solfx/solfxwidgie0.jpg",
+    "image": "portfolio_images/solfx/solfxwidgie0.png",
+    "demo": ""
+  },
+  {
+    "slug": "solfx-027",
+    "group": "solfx",
+    "title": "I programmed, and assembled from designs/animations, this interactive ad.",
+    "thumbnail": "portfolio_thumbs/solfx/solfxwidgie1.jpg",
+    "image": "portfolio_images/solfx/solfxwidgie1.png",
+    "demo": ""
+  },
+  {
+    "slug": "solfx-028",
+    "group": "solfx",
+    "title": "I programmed, and assembled from designs/animations, this interactive ad.",
+    "thumbnail": "portfolio_thumbs/solfx/solfxwidgie2.jpg",
+    "image": "portfolio_images/solfx/solfxwidgie2.png",
+    "demo": ""
+  },
+  {
+    "slug": "solfx-029",
+    "group": "solfx",
+    "title": "I programmed, and assembled from designs/animations, this interactive ad.",
+    "thumbnail": "portfolio_thumbs/solfx/solfxwidgie3.jpg",
+    "image": "portfolio_images/solfx/solfxwidgie3.png",
+    "demo": ""
+  },
+  {
+    "slug": "solfx-030",
+    "group": "solfx",
+    "title": "I programmed, and assembled from designs/animations, this banner ad.",
+    "thumbnail": "portfolio_thumbs/solfx/solfxgunbroker0.jpg",
+    "image": "portfolio_images/solfx/solfxgunbroker0.png",
+    "demo": ""
+  },
+  {
+    "slug": "solfx-031",
+    "group": "solfx",
+    "title": "I programmed, and assembled from designs/animations, this banner ad.",
+    "thumbnail": "portfolio_thumbs/solfx/solfxgunbroker1.jpg",
+    "image": "portfolio_images/solfx/solfxgunbroker1.png",
+    "demo": ""
+  },
+  {
+    "slug": "solfx-032",
+    "group": "solfx",
+    "title": "I programmed, and assembled from designs/animations, this banner ad.",
+    "thumbnail": "portfolio_thumbs/solfx/solfxgunbroker2.jpg",
+    "image": "portfolio_images/solfx/solfxgunbroker2.png",
+    "demo": ""
+  },
+  {
+    "slug": "solfx-033",
+    "group": "solfx",
+    "title": "I programmed, and assembled from designs/animations, this banner ad.",
+    "thumbnail": "portfolio_thumbs/solfx/solfxgunbroker4.jpg",
+    "image": "portfolio_images/solfx/solfxgunbroker4.png",
+    "demo": ""
+  },
+  {
+    "slug": "gigdig-034",
+    "group": "gigdig",
+    "title": "I programmed, and assembled from designs/animations, the front end of this iPhone App.",
+    "thumbnail": "portfolio_thumbs/gigdig/GigDig-1.jpg",
+    "image": "portfolio_images/gigdig/GigDig-1.png",
+    "demo": ""
+  },
+  {
+    "slug": "gigdig-035",
+    "group": "gigdig",
+    "title": "I programmed, and assembled from designs/animations, the front end of this iPhone App.",
+    "thumbnail": "portfolio_thumbs/gigdig/GigDig-2.jpg",
+    "image": "portfolio_images/gigdig/GigDig-2.png",
+    "demo": ""
+  },
+  {
+    "slug": "gigdig-036",
+    "group": "gigdig",
+    "title": "I programmed, and assembled from designs/animations, the front end of this iPhone App.",
+    "thumbnail": "portfolio_thumbs/gigdig/GigDig-3.jpg",
+    "image": "portfolio_images/gigdig/GigDig-3.png",
+    "demo": ""
+  },
+  {
+    "slug": "gigdig-037",
+    "group": "gigdig",
+    "title": "I programmed, and assembled from designs/animations, the front end of this iPhone App.",
+    "thumbnail": "portfolio_thumbs/gigdig/GigDig-4.jpg",
+    "image": "portfolio_images/gigdig/GigDig-4.png",
+    "demo": ""
+  },
+  {
+    "slug": "gigdig-038",
+    "group": "gigdig",
+    "title": "I programmed, and assembled from designs/animations, the front end of this iPhone App.",
+    "thumbnail": "portfolio_thumbs/gigdig/GigDig-5.jpg",
+    "image": "portfolio_images/gigdig/GigDig-5.png",
+    "demo": ""
+  },
+  {
+    "slug": "gigdig-039",
+    "group": "gigdig",
+    "title": "I programmed, and assembled from designs/animations, the front end of this iPhone App.",
+    "thumbnail": "portfolio_thumbs/gigdig/GigDig-6.jpg",
+    "image": "portfolio_images/gigdig/GigDig-6.png",
+    "demo": ""
+  },
+  {
+    "slug": "gigdig-040",
+    "group": "gigdig",
+    "title": "I programmed, and assembled from designs/animations, the front end of this iPhone App.",
+    "thumbnail": "portfolio_thumbs/gigdig/GigDig-7.jpg",
+    "image": "portfolio_images/gigdig/GigDig-7.png",
+    "demo": ""
+  },
+  {
+    "slug": "gigdig-041",
+    "group": "gigdig",
+    "title": "I programmed, and assembled from designs/animations, the front end of this iPhone App.",
+    "thumbnail": "portfolio_thumbs/gigdig/GigDig-8.jpg",
+    "image": "portfolio_images/gigdig/GigDig-8.png",
+    "demo": ""
+  },
+  {
+    "slug": "gigdig-042",
+    "group": "gigdig",
+    "title": "I programmed, and assembled from designs/animations, the front end of this iPhone App.",
+    "thumbnail": "portfolio_thumbs/gigdig/GigDig-9.jpg",
+    "image": "portfolio_images/gigdig/GigDig-9.png",
+    "demo": ""
+  },
+  {
+    "slug": "gigdig-043",
+    "group": "gigdig",
+    "title": "I programmed, and assembled from designs/animations, the front end of this iPhone App.",
+    "thumbnail": "portfolio_thumbs/gigdig/GigDig-10.jpg",
+    "image": "portfolio_images/gigdig/GigDig-10.png",
+    "demo": ""
+  },
+  {
+    "slug": "transitions-044",
+    "group": "transitions",
+    "title": "I programmed this interactive piece from a provided prototype animation for the front of Transitions.com",
+    "thumbnail": "portfolio_thumbs/transitions/transitions0.jpg",
+    "image": "portfolio_images/transitions/transitions0.jpg",
+    "demo": ""
+  },
+  {
+    "slug": "transitions-045",
+    "group": "transitions",
+    "title": "I programmed this interactive glasses comparison from provided designs/animations.",
+    "thumbnail": "portfolio_thumbs/transitions/transitions1.jpg",
+    "image": "portfolio_images/transitions/transitions1.png",
+    "demo": ""
+  },
+  {
+    "slug": "transitions-046",
+    "group": "transitions",
+    "title": "I programmed, and assembled from designs/animations, this interactive piece.",
+    "thumbnail": "portfolio_thumbs/transitions/transitions2.jpg",
+    "image": "portfolio_images/transitions/transitions2.png",
+    "demo": ""
+  },
+  {
+    "slug": "transitions-047",
+    "group": "transitions",
+    "title": "I programmed this interactive piece from a provided prototype animation for the front of transitions.com",
+    "thumbnail": "portfolio_thumbs/transitions/transitions3.jpg",
+    "image": "portfolio_images/transitions/transitions3.png",
+    "demo": ""
+  },
+  {
+    "slug": "transitions-048",
+    "group": "transitions",
+    "title": "I programmed, and assembled from designs/animations, this interactive piece.",
+    "thumbnail": "portfolio_thumbs/transitions/transitions4.jpg",
+    "image": "portfolio_images/transitions/transitions4.png",
+    "demo": ""
+  },
+  {
+    "slug": "transitions-049",
+    "group": "transitions",
+    "title": "I programmed, and assembled from designs/animations, this interactive piece.",
+    "thumbnail": "portfolio_thumbs/transitions/transitions5.jpg",
+    "image": "portfolio_images/transitions/transitions5.jpg",
+    "demo": ""
+  },
+  {
+    "slug": "edmc-050",
+    "group": "edmc",
+    "title": "I programmed, and assembled from designs/animations, the interactive portions of this Art Institutes myspace page. I wrote the backend code for the poll.",
+    "thumbnail": "portfolio_thumbs/edmc/edmcmyspace2009.jpg",
+    "image": "portfolio_images/edmc/edmcmyspace2009.png",
+    "demo": ""
+  },
+  {
+    "slug": "edmc-051",
+    "group": "edmc",
+    "title": "I programmed, and assembled from designs/animations, the interactive portions of this Art Institutes myspace page, including the map and video player. I wrote the backend code for the contact page.",
+    "thumbnail": "portfolio_thumbs/edmc/edmcmyspace2010.jpg",
+    "image": "portfolio_images/edmc/edmcmyspace2010.png",
+    "demo": ""
+  },
+  {
+    "slug": "edmc-052",
+    "group": "edmc",
+    "title": "I programmed, and assembled from designs/animations, this interactive piece.",
+    "thumbnail": "portfolio_thumbs/edmc/edmcaimedia.jpg",
+    "image": "portfolio_images/edmc/edmcaimedia.png",
+    "demo": ""
+  },
+  {
+    "slug": "ae-053",
+    "group": "ae",
+    "title": "I maintained and updated this interactive piece and video player for American Eagle Outfitters.",
+    "thumbnail": "portfolio_thumbs/ae/ae0.jpg",
+    "image": "portfolio_images/ae/ae0.png",
+    "demo": ""
+  },
+  {
+    "slug": "ae-054",
+    "group": "ae",
+    "title": "I maintained and updated this interactive piece and audio player for American Eagle Outfitters.",
+    "thumbnail": "portfolio_thumbs/ae/ae1.jpg",
+    "image": "portfolio_images/ae/ae1.png",
+    "demo": ""
+  },
+  {
+    "slug": "ae-055",
+    "group": "ae",
+    "title": "I maintained and updated this interactive piece and video player for American Eagle Outfitters.",
+    "thumbnail": "portfolio_thumbs/ae/ae2.jpg",
+    "image": "portfolio_images/ae/ae2.png",
+    "demo": ""
+  },
+  {
+    "slug": "ae-056",
+    "group": "ae",
+    "title": "I programmed, and assembled from designs/animations, this interactive map for Aerie.",
+    "thumbnail": "portfolio_thumbs/ae/ae3.jpg",
+    "image": "portfolio_images/ae/ae3.png",
+    "demo": ""
+  },
+  {
+    "slug": "hswfycalc-057",
+    "group": "hswfycalc",
+    "title": "I programmed, and assembled from designs/animations, this interactive piece.",
+    "thumbnail": "portfolio_thumbs/hswfycalc/hswfycalc1.jpg",
+    "image": "portfolio_images/hswfycalc/hswfycalc1.png",
+    "demo": ""
+  },
+  {
+    "slug": "hswfycalc-058",
+    "group": "hswfycalc",
+    "title": "I programmed, and assembled from designs/animations, this interactive piece.",
+    "thumbnail": "portfolio_thumbs/hswfycalc/hswfycalc2.jpg",
+    "image": "portfolio_images/hswfycalc/hswfycalc2.jpg",
+    "demo": ""
+  },
+  {
+    "slug": "hswfycalc-059",
+    "group": "hswfycalc",
+    "title": "I programmed, and assembled from designs/animations, this interactive piece.",
+    "thumbnail": "portfolio_thumbs/hswfycalc/hswfycalc3.jpg",
+    "image": "portfolio_images/hswfycalc/hswfycalc3.jpg",
+    "demo": ""
+  },
+  {
+    "slug": "hswfycalc-060",
+    "group": "hswfycalc",
+    "title": "I programmed, and assembled from designs/animations, this interactive piece.",
+    "thumbnail": "portfolio_thumbs/hswfycalc/hswfycalc4.jpg",
+    "image": "portfolio_images/hswfycalc/hswfycalc4.jpg",
+    "demo": ""
+  },
+  {
+    "slug": "hswfycalc-061",
+    "group": "hswfycalc",
+    "title": "I programmed, and assembled from designs/animations, this interactive piece.",
+    "thumbnail": "portfolio_thumbs/hswfycalc/hswfycalc5.jpg",
+    "image": "portfolio_images/hswfycalc/hswfycalc5.jpg",
+    "demo": ""
+  },
+  {
+    "slug": "hsc-062",
+    "group": "hsc",
+    "title": "I programmed, and assembled from designs/animations, this interactive piece.",
+    "thumbnail": "portfolio_thumbs/hsc/hsc0.jpg",
+    "image": "portfolio_images/hsc/hsc0.png",
+    "demo": ""
+  },
+  {
+    "slug": "hsc-063",
+    "group": "hsc",
+    "title": "I programmed, and assembled from designs/animations, this interactive piece.",
+    "thumbnail": "portfolio_thumbs/hsc/hsc1.jpg",
+    "image": "portfolio_images/hsc/hsc1.png",
+    "demo": ""
+  },
+  {
+    "slug": "hsc-064",
+    "group": "hsc",
+    "title": "I programmed, and assembled from designs/animations, this interactive piece.",
+    "thumbnail": "portfolio_thumbs/hsc/hsc2.jpg",
+    "image": "portfolio_images/hsc/hsc2.png",
+    "demo": ""
+  },
+  {
+    "slug": "hsc-065",
+    "group": "hsc",
+    "title": "I programmed, and assembled from designs/animations, this interactive piece.",
+    "thumbnail": "portfolio_thumbs/hsc/hsc3.jpg",
+    "image": "portfolio_images/hsc/hsc3.png",
+    "demo": ""
+  },
+  {
+    "slug": "hsc-066",
+    "group": "hsc",
+    "title": "I programmed, and assembled from designs/animations, this interactive piece.",
+    "thumbnail": "portfolio_thumbs/hsc/hsc4.jpg",
+    "image": "portfolio_images/hsc/hsc4.png",
+    "demo": ""
+  },
+  {
+    "slug": "hsc-067",
+    "group": "hsc",
+    "title": "I programmed, and assembled from designs/animations, this interactive piece.",
+    "thumbnail": "portfolio_thumbs/hsc/hsc5.jpg",
+    "image": "portfolio_images/hsc/hsc5.png",
+    "demo": ""
+  },
+  {
+    "slug": "hsc-068",
+    "group": "hsc",
+    "title": "I programmed, and assembled from designs/animations, this interactive piece.",
+    "thumbnail": "portfolio_thumbs/hsc/hsc6.jpg",
+    "image": "portfolio_images/hsc/hsc6.png",
+    "demo": ""
+  },
+  {
+    "slug": "hsc-069",
+    "group": "hsc",
+    "title": "I programmed, and assembled from designs/animations, this interactive piece.",
+    "thumbnail": "portfolio_thumbs/hsc/hsc7.jpg",
+    "image": "portfolio_images/hsc/hsc7.png",
+    "demo": ""
+  },
+  {
+    "slug": "hsc-070",
+    "group": "hsc",
+    "title": "I programmed, and assembled from designs/animations, this interactive piece.",
+    "thumbnail": "portfolio_thumbs/hsc/hsc8.jpg",
+    "image": "portfolio_images/hsc/hsc8.png",
+    "demo": ""
+  },
+  {
+    "slug": "hsc-071",
+    "group": "hsc",
+    "title": "I programmed, and assembled from designs/animations, this interactive piece.",
+    "thumbnail": "portfolio_thumbs/hsc/hsc9.jpg",
+    "image": "portfolio_images/hsc/hsc9.png",
+    "demo": ""
+  },
+  {
+    "slug": "hsc-072",
+    "group": "hsc",
+    "title": "I programmed, and assembled from designs/animations, this interactive piece.",
+    "thumbnail": "portfolio_thumbs/hsc/hsc10.jpg",
+    "image": "portfolio_images/hsc/hsc10.png",
+    "demo": ""
+  },
+  {
+    "slug": "hsc-073",
+    "group": "hsc",
+    "title": "I programmed, and assembled from designs/animations, this interactive piece.",
+    "thumbnail": "portfolio_thumbs/hsc/hsc11.jpg",
+    "image": "portfolio_images/hsc/hsc11.png",
+    "demo": ""
+  },
+  {
+    "slug": "hsc-074",
+    "group": "hsc",
+    "title": "I programmed, and assembled from designs/animations, this interactive piece.",
+    "thumbnail": "portfolio_thumbs/hsc/hsc12.jpg",
+    "image": "portfolio_images/hsc/hsc12.png",
+    "demo": ""
+  },
+  {
+    "slug": "hsfl-075",
+    "group": "hsfl",
+    "title": "I programmed, and assembled from designs/animations, this 3D simulation utilizing panoramas.",
+    "thumbnail": "portfolio_thumbs/hsfl/hsfl0.jpg",
+    "image": "portfolio_images/hsfl/hsfl0.png",
+    "demo": ""
+  },
+  {
+    "slug": "hsfl-076",
+    "group": "hsfl",
+    "title": "I programmed, and assembled from designs/animations, this interactive piece.",
+    "thumbnail": "portfolio_thumbs/hsfl/hsfl1.jpg",
+    "image": "portfolio_images/hsfl/hsfl1.png",
+    "demo": ""
+  },
+  {
+    "slug": "bratz-077",
+    "group": "bratz",
+    "title": "I programmed, and assembled from designs/animations, this interactive piece.",
+    "thumbnail": "portfolio_thumbs/bratz/bratz0.jpg",
+    "image": "portfolio_images/bratz/bratz0.png",
+    "demo": ""
+  },
+  {
+    "slug": "bratz-078",
+    "group": "bratz",
+    "title": "I programmed, and assembled from designs/animations, this interactive piece.",
+    "thumbnail": "portfolio_thumbs/bratz/bratz1.jpg",
+    "image": "portfolio_images/bratz/bratz1.png",
+    "demo": ""
+  },
+  {
+    "slug": "dean-079",
+    "group": "dean",
+    "title": "I programmed, and assembled from designs/animations, this map which showcases all the Dean brands and where they are sold.",
+    "thumbnail": "portfolio_thumbs/dean/deanbrands.jpg",
+    "image": "portfolio_images/dean/deanbrands.png",
+    "demo": ""
+  },
+  {
+    "slug": "bbw-080",
+    "group": "bbw",
+    "title": "I programmed, and assembled from designs/animations, the interactive menus on this page.",
+    "thumbnail": "portfolio_thumbs/bbw/bbwsleep.jpg",
+    "image": "portfolio_images/bbw/bbwsleep.png",
+    "demo": ""
+  },
+  {
+    "slug": "coke-081",
+    "group": "coke",
+    "title": "I programmed, and assembled from designs/animations, this agency finder for Coca Cola. I also maintained and updated the C# backend.",
+    "thumbnail": "portfolio_thumbs/coke/cokeagencywidget.jpg",
+    "image": "portfolio_images/coke/cokeagencywidget.png",
+    "demo": ""
+  },
+  {
+    "slug": "vsp-082",
+    "group": "vsp",
+    "title": "I programmed, and assembled from designs this interactive video player.",
+    "thumbnail": "portfolio_thumbs/vsp/vspvid.jpg",
+    "image": "portfolio_images/vsp/vspvid.png",
+    "demo": ""
+  },
+  {
+    "slug": "studentsuccess-083",
+    "group": "studentsuccess",
+    "title": "I programmed, and assembled from designs this interactive video player.",
+    "thumbnail": "portfolio_thumbs/studentsuccess/studentsuccess0.jpg",
+    "image": "portfolio_images/studentsuccess/studentsuccess0.png",
+    "demo": ""
+  },
+  {
+    "slug": "sheetz-084",
+    "group": "sheetz",
+    "title": "I programmed and assembled this Realistic Job Preview for Sheetz kiosks.",
+    "thumbnail": "portfolio_thumbs/sheetz/sheetz0.jpg",
+    "image": "portfolio_images/sheetz/sheetz0.png",
+    "demo": ""
+  }
+]

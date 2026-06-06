@@ -1,0 +1,172 @@
+[
+  {
+    "period": "Apr 2022 - Present",
+    "title": "Principal Software Engineer",
+    "organization": "ISACA",
+    "logo": "/static/images/employers/isaca.svg",
+    "summary": "Principal engineer and technical lead across CMMI product systems, appraisal tooling, agentic AI review platforms, Kentico/Xperience delivery, Azure-hosted application infrastructure, and Ukrainian/Eastern Europe-based offshore delivery coordination.",
+    "highlights": [
+      "Led MAGI, an internal FastAPI platform for advisory, explainable, read-only analysis over CMMI Appraisal System data using Azure SQL schema discovery, Azure DevOps source context, Azure OpenAI, SQL validation, and bounded execution.",
+      "Built MAGI deployment architecture for Azure App Service, Azure SQL, Azure AI Search, Azure OpenAI/APIM, Key Vault, ACR, managed identity, SAML/Kentico role access, and Azure DevOps pipelines.",
+      "Developed the CMMI Model Viewer stack with .NET 10 API/domain services, React 19/Vite SPA, SAML integration, Azure Blob media storage, Key Vault-backed secrets, Terraform-managed Azure infrastructure, and environment-specific deployment workflows.",
+      "Modernized the CMMI Website on Kentico Xperience 13/.NET 8 with shared Kentico customizations, generated content models, custom listing widgets, TOTP/QR utilities, Survey Tool API integration, Cypress coverage, and Azure slot/webjob deployment automation.",
+      "Maintained and improved cross-system engineering surfaces across appraisal-system, cmmi-identity, core-api, course-roster, cmmi-cca, Stamper, CmmiWebsite, MAGI, and cmmi-model-viewer, including code coverage, package updates, deployment fixes, and identity integration work.",
+      "Served as mentor and technical lead for 4-5 engineers while coordinating internal engineers and Ukrainian/Eastern Europe-based offshore teams across delivery, review, and agile ceremonies."
+    ]
+  },
+  {
+    "period": "Feb 2017 - Apr 2022",
+    "title": "Senior Software Engineer",
+    "organization": "ISACA",
+    "logo": "/static/images/employers/isaca.svg",
+    "summary": "Senior full-stack engineer on CMMI appraisal, course, website, and data systems across .NET, SQL Server, JavaScript, Azure, Docker, and CI/CD workflows.",
+    "highlights": [
+      "Built and maintained the CMMI Appraisal System across internal, external, and public web surfaces, including ASP.NET Core services, SQL Server-backed distributed cache, HTML email workflows, webpack-built front ends, Cypress coverage, and Dockerized local development.",
+      "Worked on appraisal workflow coverage for benchmark, evaluation, and sustainment appraisal paths across internal reviewer, external user, and public-facing application surfaces.",
+      "Delivered Course Roster functionality with EF migrations, API/web separation, webpack front-end builds, environment-specific CMMI base URLs, and Cypress integration tests.",
+      "Worked across supporting CMMI data and integration services including kentico-salesforce-functions, AssociateExamsIngest, LitmosConnectAssociateExams, V2-Appraisal-Marks-Stand-Alone, V2UpgradeTrainingIngest, core-api, and cmmi-identity.",
+      "Designed and implemented data transition strategies from multiple older CMMI platforms into newer systems.",
+      "Pioneered Go-based microservice architecture work and contributed to the CMMI Institute website rollout on Kentico."
+    ]
+  },
+  {
+    "period": "Sep 2015 - Present",
+    "title": "Co-Owner",
+    "organization": "Destro Machines LLC",
+    "logo": "/static/images/employers/destro-machines.png",
+    "summary": "Co-owner and software lead across Swim View, pool-deck data visualization, mobile software, BLE firmware, cloud services, ecommerce systems, and Mexican engineering collaboration.",
+    "highlights": [
+      "Led a three-engineer effort with Mexican engineering collaboration to build Swim View, a .NET, C#, React, and Redux application that visualizes data gathered from swimming pool decks via Swim Tower products.",
+      "Developed BLE accessory firmware in C, iPhone and iPad applications, and an App Engine backend.",
+      "Authored a custom Go ecommerce platform integrating Stripe and UPS, including UPS API integration and a 3D bin-packing heuristic.",
+      "Published public supporting artifacts around 3D bin packing, Arduino/Nordic board recovery, quadrature decoder testing, and ecommerce ecosystem research.",
+      "Designed high-precision clock synchronization logic for BLE device alignment using drift and offset bounding.",
+      "Built iOS data visualization tooling for a swimming smart meter using d3.js."
+    ]
+  },
+  {
+    "period": "Sep 2015 - Nov 2016",
+    "title": "Software Engineer",
+    "organization": "Level Agency",
+    "logo": "/static/images/employers/level-agency.png",
+    "logo_tone": "dark",
+    "summary": "Maintained and optimized in-house .NET C# MVC applications and supported web development delivery.",
+    "highlights": [
+      "Inherited and improved a slow .NET C# MVC application for Service Link call-center operations.",
+      "Maintained internal MVC systems and supported the broader web development team."
+    ]
+  },
+  {
+    "period": "May 2013 - May 2015",
+    "title": "System Analyst III",
+    "organization": "Pittsburgh Post-Gazette",
+    "logo": "/static/images/employers/post-gazette.jpg",
+    "summary": "Modernized circulation reporting and contributed to CMS-backed mobile and desktop publishing systems.",
+    "highlights": [
+      "Revamped PG Delivery, Dispatch, and Depot circulation reporting from VAX/VMS into a C# and AngularJS system spanning thousands of pages.",
+      "Supported printing and delivery workflows for newspapers including the Post-Gazette, New York Times, and Wall Street Journal across Pennsylvania.",
+      "Published the truckexport reporting-engine work as a concrete example of the C# circulation reporting modernization path.",
+      "Built a C# integration to move photos from Photoshelter into the Libercus CMS.",
+      "Helped overhaul mobile and desktop websites into the Libercus CMS and maintained Joomla-based sports writer blogs."
+    ]
+  },
+  {
+    "period": "Apr 2011 - Mar 2013",
+    "title": "Development Team Lead",
+    "organization": "THIS IS RED",
+    "logo": "/static/images/employers/this-is-red.jpg",
+    "summary": "Technical lead across touch panels, client websites, mobile platforms, hosting, and campaign systems.",
+    "highlights": [
+      "Built applications with Objective-C, Flash, HTML5, jQuery, PHP, CSS, and C#.",
+      "Managed hosting and web server configuration across Linux, Windows, macOS, and AWS.",
+      "Contributed to Transitions Healthy Insights, Transitions SolFX, and MCG Jazz."
+    ]
+  },
+  {
+    "period": "Oct 2007 - Apr 2011",
+    "title": "Development Team Lead",
+    "organization": "sunKING Digital",
+    "logo": "/static/images/employers/sunking.png",
+    "summary": "Led development across brand websites, campaign microsites, Flash, PHP, C#, JavaScript, and hosting infrastructure.",
+    "highlights": [
+      "Developed an interactive Heinz.com front page using Papervision 3D.",
+      "Configured Linux, Windows, macOS, and AWS hosting environments.",
+      "Delivered work for Heinz.com, American Eagle Outfitters, Art Institutes, Paramount on Lake Eola, Transitions.com, and SolFX.com."
+    ]
+  },
+  {
+    "period": "Aug 2007",
+    "title": "Developer",
+    "organization": "Perficient Digital",
+    "logo": "/static/images/employers/perficient.png",
+    "summary": "Built internationalized interactive web work for the Bratz dolls website.",
+    "highlights": [
+      "Developed the Bratz interactive website across a dozen languages."
+    ]
+  },
+  {
+    "period": "Aug 2006 - Apr 2007",
+    "title": "Software Engineer",
+    "organization": "PGi",
+    "logo": "/static/images/employers/pgi.jpg",
+    "summary": "Worked on the Netspoke web conferencing product.",
+    "highlights": [
+      "Developed and maintained existing web conferencing product functionality."
+    ]
+  },
+  {
+    "period": "Apr 2006 - Aug 2006",
+    "title": "Developer",
+    "organization": "Quest Fore",
+    "logo": "/static/images/employers/quest-fore.jpg",
+    "summary": "Built training websites using streaming video and web technologies.",
+    "highlights": [
+      "Developed training websites with HTML, CSS, JavaScript, PHP, and streaming video.",
+      "Supported projects including Heinz Ketchup University, Aptech, NAFCU Services Corporation, US Filter, and Invivodata."
+    ]
+  },
+  {
+    "period": "Dec 2005 - Mar 2006",
+    "title": "Developer",
+    "organization": "fivestar*",
+    "logo": "/static/images/employers/fivestar.png",
+    "summary": "Developed websites and kiosk presentations.",
+    "highlights": [
+      "Built web and kiosk presentation work for Visa and Sheetz."
+    ]
+  },
+  {
+    "period": "Jan 2005 - Nov 2005",
+    "title": "Developer and Designer",
+    "organization": "Commersel Studios",
+    "logo": "/static/images/employers/commersel.gif",
+    "summary": "Built CMS-backed websites and training simulations.",
+    "highlights": [
+      "Developed websites using CommerSel's content management system.",
+      "Built UNIX security training simulations for CMU Software Engineering Institute.",
+      "Worked on projects for Oakley, CCAC, FrameworksIT, PA Cleanways, Ford Properties, City Charter High School, and Pittsburgh Tissue Engineering Initiative."
+    ]
+  },
+  {
+    "period": "Aug 2004",
+    "title": "Designer",
+    "organization": "BarkleyREI",
+    "logo": "/static/images/employers/barkleyrei.png",
+    "summary": "Maintained and developed CMS-backed websites for educational and institutional clients.",
+    "highlights": [
+      "Worked on sites for Vanderbilt University, Pennsylvania Film Office, Northeastern Illinois University, Cornell University, Greater Philadelphia Cultural Alliance, and the Commonwealth of Pennsylvania."
+    ]
+  },
+  {
+    "period": "Apr 1999 - Nov 1999",
+    "title": "Technical Writer",
+    "organization": "ProTech Enterprise IT Training & Consulting",
+    "logo": "/static/images/employers/protech.png",
+    "context": "Still in high school",
+    "context_tone": "early",
+    "summary": "Authored elearning materials on UNIX, VAX/VMS, TCP/IP, and related systems.",
+    "highlights": [
+      "Produced technical training material for enterprise IT topics."
+    ]
+  }
+]

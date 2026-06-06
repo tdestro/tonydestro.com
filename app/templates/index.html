@@ -1,0 +1,143 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="hero hero-home hero-home-v2">
+  <div class="hero-visuals" aria-hidden="true">
+    <figure class="hero-work hero-work-main">
+      <img src="{{ url_for('static', path='/images/portfolio/destro-machines-swimeter.png') }}" alt="">
+    </figure>
+    <figure class="hero-work hero-work-secondary">
+      <img src="{{ url_for('static', path='/images/projects/magi-agentic-ai-platform.svg') }}" alt="">
+    </figure>
+    <figure class="hero-work hero-work-tertiary">
+      <img src="{{ url_for('static', path='/images/portfolio/heinz/heinzBrandsMap.png') }}" alt="">
+    </figure>
+  </div>
+  <div class="hero-copy">
+    <p class="eyebrow">Principal software engineer</p>
+    <h1 class="hero-identity" aria-label="Tony Destro">
+      <span class="identity-name">
+        <span class="identity-first">Tony</span>
+        <span class="identity-last">Destro</span>
+      </span>
+    </h1>
+    <p class="hero-position">Agentic AI systems, product platforms, and distributed engineering delivery.</p>
+    <p class="hero-lede">{{ profile.positioning }}</p>
+    <div class="hero-actions">
+      <a class="button primary" href="/projects">View work</a>
+      <a class="button secondary" href="#delivery">Delivery model</a>
+      <a class="button secondary" href="/resume">Read resume</a>
+    </div>
+  </div>
+  <div class="hero-meta" aria-label="Portfolio summary">
+    <span>Agentic AI engineering</span>
+    <span>Destro Machines / Mexico</span>
+    <span>ISACA / Ukrainian + Eastern Europe teams</span>
+  </div>
+</section>
+
+<section class="section agentic-section agentic-section-v2">
+  <div class="agentic-intro">
+    <p class="eyebrow">Agentic AI engineering</p>
+    <h2 class="display-lines">
+      <span class="display-line">AI work that belongs</span>
+      <span class="display-line">inside production software.</span>
+    </h2>
+    <p>I build bounded AI workflows that read code, inspect schemas, validate data access, and produce reviewable answers. The point is not a chat surface. The point is engineering leverage with constraints, traceability, and deployment discipline.</p>
+  </div>
+  <div class="focus-grid" aria-label="Agentic engineering focus areas">
+    {% for focus in profile.focus_areas %}
+      <article class="focus-card">
+        <span>{{ focus.label }}</span>
+        <h3>{{ focus.title }}</h3>
+        <p>{{ focus.summary }}</p>
+      </article>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="section distributed-section" id="delivery">
+  <div>
+    <p class="eyebrow">Delivery model</p>
+    <h2 class="display-lines">
+      <span class="display-line">Hands-on leadership across</span>
+      <span class="display-line">Mexico and Eastern Europe.</span>
+    </h2>
+  </div>
+  <div class="delivery-grid" aria-label="Distributed delivery experience">
+    {% for item in profile.distributed_delivery %}
+      <article class="delivery-card">
+        <span>{{ item.label }}</span>
+        <h3>{{ item.title }}</h3>
+        <p>{{ item.summary }}</p>
+      </article>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="section intro-band">
+  <div>
+  <p class="eyebrow">Engineering range</p>
+    <h2 class="display-lines">
+      <span class="display-line">Architecture, code, product,</span>
+      <span class="display-line">and the final user experience.</span>
+    </h2>
+  </div>
+  <p>My work moves between system design and the finished interface: agentic AI platforms, Destro Machines product software with Mexican engineering collaboration, ISACA delivery with Ukrainian and Eastern Europe partners, embedded integrations, ecommerce, cloud delivery, and media-heavy front ends.</p>
+</section>
+
+<section class="section split capability-section">
+  <div>
+    <p class="eyebrow">What I do</p>
+    <h2 class="display-lines">
+      <span class="display-line">Technical leadership</span>
+      <span class="display-line">with <em>production instincts.</em></span>
+    </h2>
+  </div>
+  <ol class="capability-list">
+    {% for capability in profile.capabilities %}
+      <li>{{ capability }}</li>
+    {% endfor %}
+  </ol>
+</section>
+
+<section class="section">
+  <div class="section-heading">
+    <div>
+      <p class="eyebrow">Selected work</p>
+      <h2 class="display-lines">
+        <span class="display-line">Systems with real constraints,</span>
+        <span class="display-line">not portfolio filler.</span>
+      </h2>
+    </div>
+    <a class="text-link" href="/projects">All projects</a>
+  </div>
+  <div class="project-grid">
+    {% for project in featured_projects %}
+      {% include "partials/project_card.html" %}
+    {% endfor %}
+  </div>
+</section>
+
+<section class="section resume-strip">
+  <div>
+    <p class="eyebrow">Current level</p>
+    <h2 class="display-lines">
+      <span class="display-line">Senior enough to set direction.</span>
+      <span class="display-line">Close enough to ship the work.</span>
+    </h2>
+  </div>
+  <div class="timeline compact">
+    {% for item in experience[:4] %}
+      <article>
+        <span class="timeline-date">{{ item.period }}</span>
+        <h3>{{ item.title }}</h3>
+        {% if item.organization %}
+          <p class="timeline-org">{{ item.organization }}</p>
+        {% endif %}
+        <p>{{ item.summary }}</p>
+      </article>
+    {% endfor %}
+  </div>
+</section>
+{% endblock %}

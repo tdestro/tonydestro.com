@@ -1,0 +1,531 @@
+[
+  {
+    "slug": "magi-agentic-ai-platform",
+    "title": "MAGI Agentic AI Engineering Platform",
+    "client": "ISACA / CMMI",
+    "role": "Principal engineer and technical lead",
+    "summary": "Internal FastAPI platform for advisory, explainable, read-only analysis over CMMI Appraisal System data, built around bounded agentic AI workflows, code context, SQL validation, Azure OpenAI, and Ukrainian/Eastern Europe delivery coordination.",
+    "impact": [
+      "Led MAGI as an agentic AI platform that combines Azure SQL schema discovery, Azure DevOps source context, Azure OpenAI, SQL validation, and bounded execution for explainable appraisal-system analysis.",
+      "Designed the deployment architecture across Azure App Service, Azure SQL, Azure AI Search, Azure OpenAI/APIM, Key Vault, ACR, managed identity, SAML/Kentico role access, and Azure DevOps pipelines.",
+      "Coordinated internal engineers with Ukrainian/Eastern Europe-based offshore contributors across architecture, review, implementation, and agile delivery.",
+      "Kept the AI workflow advisory and read-only by design, with explicit validation and execution boundaries instead of unbounded automation."
+    ],
+    "technologies": ["FastAPI", "Azure OpenAI", "Azure AI Search", "Azure SQL", "Azure DevOps", "SAML", "Key Vault", "Agentic AI"],
+    "tags": ["AI", "Agentic Engineering", "Cloud", "Systems", "Leadership"],
+    "thumbnail": "/static/images/projects/magi-agentic-ai-platform.svg",
+    "images": [
+      "/static/images/projects/magi-agentic-ai-platform.svg"
+    ],
+    "evidence": [
+      {
+        "label": "Delivery model",
+        "value": "Internal ISACA platform led with Ukrainian/Eastern Europe-based offshore coordination."
+      },
+      {
+        "label": "System frame",
+        "value": "Agentic AI framed as bounded analysis, retrieval, code context, schema discovery, and SQL-validation infrastructure rather than chat-only prompting."
+      }
+    ],
+    "image_fit": "contain",
+    "priority": 0,
+    "featured": true
+  },
+  {
+    "slug": "early-generative-ai-workflow-prototypes",
+    "title": "Early Generative AI Workflow Prototypes",
+    "client": "Private R&D",
+    "role": "AI automation engineer",
+    "summary": "Python prototypes from September-November 2023 showing GPT-3.5 integrated with browser automation, OAuth-backed email APIs, local workflow state, and PostgreSQL records.",
+    "impact": [
+      "Built practical LLM-backed automation in 2023 using GPT-3.5 as one component inside a larger workflow rather than as a standalone chat demo.",
+      "Connected Python, Playwright browser control, OAuth/Gmail API access, local state files, and PostgreSQL-backed records into repeatable private prototypes.",
+      "Used extracted page context, prompt boundaries, generated short task-specific text, and programmatic UI actions to test how AI could fit into workflow automation.",
+      "Kept the private context out of the public portfolio while keeping the engineering pattern clear: model output, workflow state, API access, and browser actions working together."
+    ],
+    "technologies": ["Python", "OpenAI GPT-3.5", "Playwright", "OAuth", "Gmail API", "PostgreSQL", "Browser Automation"],
+    "tags": ["AI", "Automation", "Python", "Workflow"],
+    "thumbnail": "/static/images/projects/early-generative-ai-workflow-prototypes.svg",
+    "images": [
+      "/static/images/projects/early-generative-ai-workflow-prototypes.svg"
+    ],
+    "evidence": [
+      {
+        "label": "Timeframe",
+        "value": "Core Python prototypes created and modified across September-November 2023."
+      },
+      {
+        "label": "Technical pattern",
+        "value": "LLM-generated task text, browser automation, OAuth-backed email API access, local JSON state, and PostgreSQL workflow records."
+      },
+      {
+        "label": "Privacy boundary",
+        "value": "Private context and secrets are intentionally excluded."
+      }
+    ],
+    "image_fit": "contain",
+    "priority": 1,
+    "featured": true
+  },
+  {
+    "slug": "destro-machines-swimview",
+    "title": "Destro Machines SwimView Platform",
+    "client": "Destro Machines LLC",
+    "role": "Co-owner and software lead",
+    "summary": "Swim View and supporting software for pool-deck performance data: web application, mobile tooling, BLE device integration, cloud backend, analytics workflows, and Mexican engineering collaboration.",
+    "impact": [
+      "Led a three-engineer effort with Mexican engineering collaboration to build Swim View, a .NET, C#, React, and Redux application that visualizes data gathered from swimming pool decks via Swim Tower products.",
+      "Developed BLE accessory firmware in C, iPhone and iPad application work, App Engine backend services, and d3.js visualization for swimming smart-meter data.",
+      "Designed a high-precision BLE time synchronization mechanism using drift and offset bounding to align iPhone/iPad clocks with device time.",
+      "Transitioned the project cleanly to another developer after completing the core software contributions."
+    ],
+    "technologies": ["C#", ".NET", "React", "Redux", "C", "BLE", "iOS", "App Engine", "d3.js"],
+    "tags": ["Product", "Platform", "Data Visualization"],
+    "thumbnail": "/static/images/portfolio/destro-machines-swimeter.png",
+    "images": [
+      "/static/images/portfolio/destro-machines-swimeter.png"
+    ],
+    "links": [
+      {
+        "label": "Destro Machines",
+        "url": "https://www.destromachines.com/"
+      },
+      {
+        "label": "SwiMeter2.0",
+        "url": "https://www.destromachines.com/products/swimeter2-0"
+      },
+      {
+        "label": "SwimView",
+        "url": "https://swimview.destromachines.com/"
+      }
+    ],
+    "image_fit": "contain",
+    "priority": 1,
+    "featured": true
+  },
+  {
+    "slug": "commerce-fulfillment-systems",
+    "title": "Commerce, Fulfillment, and Payment Systems",
+    "client": "Destro Machines commerce",
+    "role": "Commerce systems engineer",
+    "summary": "Destro Machines commerce work: custom Go packing logic, Stripe and UPS checkout integration, Shopify storefront work, Mexican engineering collaboration, and payment-platform research around Sylius and PayPal.",
+    "impact": [
+      "Built a custom Go ecommerce platform for Destro Machines that connected payment, fulfillment, and shipping decisions into one product purchase flow.",
+      "Authored boxpacker, a Go implementation of 3D bin-packing and shipment optimization logic used to reason about package selection, dimensional constraints, and UPS fulfillment costs.",
+      "Implemented Shopify storefront work through the Destro-Machines/dmshopify repository, including Dawn-derived theme updates and storefront styling integration.",
+      "Worked through payment ecosystem details using PayPalPlugin, Sylius, Payum, php-ups-api, Guzzle, and SyliusDocker forks as supporting research for checkout, refund, shipping, and platform integration decisions."
+    ],
+    "technologies": ["Go", "Stripe", "UPS API", "Shopify", "Liquid", "Sylius", "PayPal", "PHP", "Composer", "Guzzle"],
+    "tags": ["Ecommerce", "Systems", "Integration", "Product"],
+    "thumbnail": "/static/images/projects/commerce-fulfillment-systems.svg",
+    "images": [
+      "/static/images/projects/commerce-fulfillment-systems.svg"
+    ],
+    "links": [
+      {
+        "label": "Destro Machines",
+        "url": "https://www.destromachines.com/"
+      },
+      {
+        "label": "boxpacker",
+        "url": "https://github.com/tdestro/boxpacker"
+      },
+      {
+        "label": "dmshopify",
+        "url": "https://github.com/Destro-Machines/dmshopify"
+      },
+      {
+        "label": "PayPalPlugin",
+        "url": "https://github.com/Destro-Machines/PayPalPlugin"
+      },
+      {
+        "label": "php-ups-api",
+        "url": "https://github.com/tdestro/php-ups-api"
+      }
+    ],
+    "evidence": [
+      {
+        "label": "Related repositories",
+        "value": "boxpacker, dmshopify, PayPalPlugin, php-ups-api, SyliusDocker"
+      },
+      {
+        "label": "Contribution",
+        "value": "Commerce and integration work connected to Destro Machines, with ecosystem forks and research treated as supporting context."
+      }
+    ],
+    "image_fit": "contain",
+    "priority": 2,
+    "featured": true
+  },
+  {
+    "slug": "embedded-device-recovery-lab",
+    "title": "Embedded Recovery and Sensor Validation Lab",
+    "client": "Public hardware utilities",
+    "role": "Embedded systems investigator",
+    "summary": "Hardware-adjacent engineering around board recovery, Nordic quadrature-decoder validation, angular velocity calculation, BLE-adjacent device work, and practical field debugging.",
+    "impact": [
+      "Published arduino-nano-33-iot-unbrick, a documented SWD bootloader recovery path using an Arduino programmer, SD-card firmware loading, and direct Nano 33 IoT recovery wiring.",
+      "Built nrf_qdec_tester around Nordic SDK QDEC behavior, report periods, sample periods, pulse windows, and angular velocity calculations for sensor validation.",
+      "Used qdectest and related hardware experiments to validate low-level device behavior rather than relying only on polished application work.",
+      "Shows the device-level debugging and sensor reasoning behind the polished product work."
+    ],
+    "technologies": ["C", "Arduino", "Nordic SDK", "SWD", "BLE", "QDEC", "Firmware", "Hardware debugging"],
+    "tags": ["Embedded", "Systems", "Tooling", "Product"],
+    "thumbnail": "/static/images/projects/embedded-recovery-lab.svg",
+    "images": [
+      "/static/images/projects/embedded-recovery-lab.svg"
+    ],
+    "links": [
+      {
+        "label": "arduino-nano-33-iot-unbrick",
+        "url": "https://github.com/tdestro/arduino-nano-33-iot-unbrick"
+      },
+      {
+        "label": "nrf_qdec_tester",
+        "url": "https://github.com/tdestro/nrf_qdec_tester"
+      },
+      {
+        "label": "qdectest",
+        "url": "https://github.com/tdestro/qdectest"
+      }
+    ],
+    "evidence": [
+      {
+        "label": "Related work",
+        "value": "arduino-nano-33-iot-unbrick, nrf_qdec_tester, qdectest, SwimView"
+      },
+      {
+        "label": "Contribution",
+        "value": "Embedded investigation, recovery workflow documentation, and product-adjacent hardware debugging."
+      }
+    ],
+    "image_fit": "contain",
+    "priority": 3,
+    "featured": true
+  },
+  {
+    "slug": "american-eagle-interactive",
+    "title": "American Eagle Interactive Campaigns",
+    "client": "American Eagle Outfitters",
+    "role": "Interactive engineer",
+    "summary": "Media-heavy shopping and campaign experiences built with JavaScript, canvas, video, and animation-heavy front-end work.",
+    "impact": [
+      "Implemented interactive campaign surfaces from design and motion direction.",
+      "Built canvas and JavaScript behavior for embedded retail experiences.",
+      "Maintained video/audio-heavy UI in brand campaign contexts."
+    ],
+    "technologies": ["JavaScript", "Canvas", "Animation", "Video"],
+    "tags": ["Front-end", "Interactive", "Retail"],
+    "thumbnail": "/static/images/thumbs/ae/ae0.jpg",
+    "images": [
+      "/static/images/archive/psd/ae-77e-mallworld.jpg",
+      "/static/images/portfolio/ae/ae0.png",
+      "/static/images/portfolio/ae/ae1.png",
+      "/static/images/portfolio/ae/ae2.png",
+      "/static/images/portfolio/ae/ae3.png"
+    ],
+    "featured": true
+  },
+  {
+    "slug": "heinz-brand-experiences",
+    "title": "Heinz Brand Experiences",
+    "client": "Heinz",
+    "role": "Interactive and back-end engineer",
+    "summary": "Interactive brand map, company history experiences, and homepage work combining animated front-end implementation with C# back-end support.",
+    "impact": [
+      "Built interactive brand and history experiences from supplied creative assets.",
+      "Implemented production front-end behavior for consumer brand surfaces.",
+      "Supported the back-end layer behind campaign functionality."
+    ],
+    "technologies": ["JavaScript", "C#", "ASP.NET", "Animation"],
+    "tags": ["Full-stack", "Interactive", "Brand"],
+    "thumbnail": "/static/images/thumbs/heinz/heinzFrontPage.jpg",
+    "images": [
+      "/static/images/portfolio/heinz/heinzFrontPage.jpg",
+      "/static/images/portfolio/heinz/heinzBrandsMap.png",
+      "/static/images/portfolio/heinz/heinzHistory1.png",
+      "/static/images/portfolio/heinz/heinzHistory2.png",
+      "/static/images/portfolio/heinz/heinzHistory3.png"
+    ],
+    "priority": 4,
+    "featured": true
+  },
+  {
+    "slug": "solfx-drivewear",
+    "title": "SolFX and Drivewear Simulators",
+    "client": "SolFX",
+    "role": "Interactive engineer",
+    "summary": "Interactive lens simulators, ads, widgets, and campaign pages assembled from design, animation, and product media assets.",
+    "impact": [
+      "Built rich product simulators and supporting campaign UI.",
+      "Delivered multiple ad formats and widgets from the same creative system.",
+      "Worked across front-end interaction and ASP.NET-backed campaign surfaces."
+    ],
+    "technologies": ["JavaScript", "ASP.NET", "Interactive media", "Advertising units"],
+    "tags": ["Interactive", "Product", "Campaign"],
+    "thumbnail": "/static/images/thumbs/solfx/solfxdrivewear.jpg",
+    "images": [
+      "/static/images/archive/psd/solfx-panorama-source.jpg",
+      "/static/images/portfolio/solfx/solfxdrivewear.png",
+      "/static/images/portfolio/solfx/solfxakuma.png",
+      "/static/images/portfolio/solfx/SolFXDemo0.png",
+      "/static/images/portfolio/solfx/solfxdemopage.png",
+      "/static/images/portfolio/solfx/solfxwidgie0.png"
+    ],
+    "featured": true
+  },
+  {
+    "slug": "gigdig-mobile",
+    "title": "GigDig iPhone App",
+    "client": "GigDig",
+    "role": "Mobile front-end engineer",
+    "summary": "Front-end implementation work for an iPhone application with a screen-heavy product flow and custom interface design.",
+    "impact": [
+      "Implemented mobile UI surfaces from designed screens.",
+      "Handled application interaction states across a multi-screen product flow.",
+      "Translated static design assets into usable mobile behavior."
+    ],
+    "technologies": ["iOS", "Mobile UI", "Front-end implementation"],
+    "tags": ["Mobile", "Product", "UI"],
+    "thumbnail": "/static/images/thumbs/gigdig/GigDig-3.jpg",
+    "images": [
+      "/static/images/portfolio/gigdig/GigDig-1.png",
+      "/static/images/portfolio/gigdig/GigDig-2.png",
+      "/static/images/portfolio/gigdig/GigDig-3.png",
+      "/static/images/portfolio/gigdig/GigDig-4.png",
+      "/static/images/portfolio/gigdig/GigDig-5.png",
+      "/static/images/portfolio/gigdig/GigDig-10.png"
+    ],
+    "featured": true
+  },
+  {
+    "slug": "transitions-optical",
+    "title": "Transitions Optical Interactive Work",
+    "client": "Transitions",
+    "role": "Interactive engineer",
+    "summary": "Interactive comparison and campaign pieces built from prototype animation, supplied designs, and product imagery.",
+    "impact": [
+      "Converted motion prototypes into production web interactions.",
+      "Built product comparison experiences around visual state changes.",
+      "Integrated product imagery into campaign-ready pages."
+    ],
+    "technologies": ["JavaScript", "Animation", "Interactive product UI"],
+    "tags": ["Interactive", "Product", "Brand"],
+    "thumbnail": "/static/images/thumbs/transitions/transitions5.jpg",
+    "images": [
+      "/static/images/archive/psd/transitions-healthy-insights.jpg",
+      "/static/images/portfolio/transitions/transitions0.jpg",
+      "/static/images/portfolio/transitions/transitions1.png",
+      "/static/images/portfolio/transitions/transitions2.png",
+      "/static/images/portfolio/transitions/transitions3.png",
+      "/static/images/portfolio/transitions/transitions4.png",
+      "/static/images/portfolio/transitions/transitions5.jpg"
+    ],
+    "featured": true
+  },
+  {
+    "slug": "hsc-media-gallery",
+    "title": "HSC Interactive Media Gallery",
+    "client": "HSC",
+    "role": "Interactive engineer",
+    "summary": "Large visual interface set for interactive media and campaign surfaces, represented through selected screenshots.",
+    "impact": [
+      "Built and assembled interactive front-end pieces from visual designs.",
+      "Handled many related visual states and page surfaces.",
+      "Delivered production-ready media interfaces under demanding browser and campaign constraints."
+    ],
+    "technologies": ["JavaScript", "Interactive media", "Browser compatibility"],
+    "tags": ["Front-end", "Interactive", "Campaign"],
+    "thumbnail": "/static/images/thumbs/hsc/hsc0.jpg",
+    "images": [
+      "/static/images/portfolio/hsc/hsc0.png",
+      "/static/images/portfolio/hsc/hsc1.png",
+      "/static/images/portfolio/hsc/hsc2.png",
+      "/static/images/portfolio/hsc/hsc3.png",
+      "/static/images/portfolio/hsc/hsc4.png",
+      "/static/images/portfolio/hsc/hsc10.png"
+    ],
+    "featured": true
+  },
+  {
+    "slug": "edmc-social-media",
+    "title": "EDMC Social and Video Experiences",
+    "client": "EDMC / Art Institutes",
+    "role": "Full-stack interactive engineer",
+    "summary": "Interactive social media and video work, including polls, maps, video players, and contact-page back-end support.",
+    "impact": [
+      "Implemented interactive front-end portions of social campaign pages.",
+      "Built back-end functionality for poll and contact workflows.",
+      "Integrated video and map experiences into campaign pages."
+    ],
+    "technologies": ["JavaScript", "C#", "ASP.NET", "Video"],
+    "tags": ["Full-stack", "Interactive", "Campaign"],
+    "thumbnail": "/static/images/thumbs/edmc/edmcmyspace2010.jpg",
+    "images": [
+      "/static/images/archive/psd/edmc-aimyspace-design.jpg",
+      "/static/images/archive/psd/edmc-mediaarts-psd.jpg",
+      "/static/images/portfolio/edmc/edmcmyspace2009.png",
+      "/static/images/portfolio/edmc/edmcmyspace2010.png",
+      "/static/images/portfolio/edmc/edmcaimedia.png"
+    ],
+    "featured": false
+  },
+  {
+    "slug": "healthy-sight-fund",
+    "title": "Healthy Sight Fund Panorama Work",
+    "client": "Healthy Sight Fund",
+    "role": "Interactive engineer",
+    "summary": "A Flash-era Papervision panorama and vision-simulation module rebuilt as a modern JavaScript experience from original interactive assets.",
+    "impact": [
+      "Built immersive panorama-style interactions from supplied media and Papervision 3D scene files.",
+      "Recreated mouse-driven camera easing, scene changes, foreground planes, and eye-health overlay effects in JavaScript.",
+      "Worked through the constraints of browser plug-ins, video assets, and immersive interaction patterns."
+    ],
+    "technologies": ["ActionScript", "Flash", "Papervision 3D", "Collada", "Three.js", "JavaScript"],
+    "tags": ["Interactive", "Flash", "3D"],
+    "thumbnail": "/static/images/thumbs/hsfl/hsfl0.jpg",
+    "images": [
+      "/static/images/archive/hsfl/panorama/shell/NoFlashHeader.jpg",
+      "/static/images/portfolio/hsfl/hsfl0.png",
+      "/static/images/portfolio/hsfl/hsfl1.png"
+    ],
+    "evidence": [
+      {
+        "label": "Original assets",
+        "value": "FLA, SWF, ActionScript, Papervision, Collada, and image assets"
+      },
+      {
+        "label": "Primary module",
+        "value": "PanoramaModule.as"
+      },
+      {
+        "label": "Scene assets",
+        "value": "4 panorama DAE scenes plus foreground PNG planes"
+      }
+    ],
+    "featured": false
+  },
+  {
+    "slug": "coca-cola-agency-widget",
+    "title": "Coca-Cola Agency Widget",
+    "client": "Coca-Cola",
+    "role": "Full-stack engineer",
+    "summary": "Agency finder widget with interactive front-end implementation and C# back-end maintenance.",
+    "impact": [
+      "Implemented the widget interface from creative direction.",
+      "Maintained supporting C# back-end code.",
+      "Integrated a small product workflow into a brand campaign surface."
+    ],
+    "technologies": ["JavaScript", "C#", "ASP.NET"],
+    "tags": ["Full-stack", "Widget", "Brand"],
+    "thumbnail": "/static/images/thumbs/coke/cokeagencywidget.jpg",
+    "images": [
+      "/static/images/archive/psd/coca-cola-design-machine.jpg",
+      "/static/images/portfolio/coke/cokeagencywidget.png"
+    ],
+    "featured": false
+  },
+  {
+    "slug": "sheetz-realistic-job-preview",
+    "title": "Sheetz Realistic Job Preview",
+    "client": "Sheetz",
+    "role": "Interactive engineer",
+    "summary": "Kiosk-oriented realistic job preview work from the earlier interactive portfolio.",
+    "impact": [
+      "Built interactive kiosk-facing experience surfaces.",
+      "Translated campaign and training material into a usable digital interface."
+    ],
+    "technologies": ["Interactive media", "Kiosk UI"],
+    "tags": ["Interactive", "Kiosk", "Training"],
+    "thumbnail": "/static/images/thumbs/sheetz/sheetz0.jpg",
+    "images": [
+      "/static/images/portfolio/sheetz/sheetz0.png"
+    ],
+    "featured": false
+  },
+  {
+    "slug": "post-gazette-truck-manifest",
+    "title": "Post-Gazette Truck Delivery Manifest System",
+    "client": "Pittsburgh Post-Gazette",
+    "role": "C# reporting and logistics systems engineer",
+    "summary": "A truck delivery manifest and reporting system for Post-Gazette newspaper distribution operations, with generated output spanning hundreds of printable report pages.",
+    "impact": [
+      "Built the C# / ASP.NET reporting workflow used in Post-Gazette distribution operations.",
+      "Worked with manifest generation, depot and dispatch views, pallet sheets, route detail records, draw totals, CSV translation files, and operational report output large enough to generate hundreds of printable pages.",
+      "Used T4 templates and typed record parsers to generate multiple report surfaces from distribution data.",
+      "Represents logistics software work outside campaign/front-end projects: operational data, reporting, and delivery workflow support."
+    ],
+    "technologies": ["C#", "ASP.NET", "T4 Templates", "CSV", "Reporting", "Logistics workflows"],
+    "tags": ["Systems", "Modernization", "Reporting", "Logistics"],
+    "thumbnail": "/static/images/projects/post-gazette-truck-manifest-report.svg",
+    "images": [
+      "/static/images/projects/post-gazette-truck-manifest-report.svg",
+      "/static/images/projects/post-gazette-truck-manifest.svg"
+    ],
+    "links": [
+      {
+        "label": "GitHub Profile",
+        "url": "https://github.com/tdestro"
+      },
+      {
+        "label": "truckexport",
+        "url": "https://github.com/tdestro/truckexport"
+      }
+    ],
+    "evidence": [
+      {
+        "label": "Related repository",
+        "value": "truckexport"
+      },
+      {
+        "label": "Report scale",
+        "value": "Manifest visual derived from a 21.5 MB generated Manifest.html: 2,717 page-break markers, 121,690 rows, and street-level route details redacted for public display."
+      },
+      {
+        "label": "Contribution",
+        "value": "A specific logistics/reporting system for the Post-Gazette, not a generic code sample."
+      }
+    ],
+    "image_fit": "contain",
+    "priority": 4,
+    "featured": true
+  },
+  {
+    "slug": "servicelink-call-center-app",
+    "title": "ServiceLink Call Center Application",
+    "client": "ServiceLink / Level Agency",
+    "role": "Legacy .NET performance and stabilization engineer",
+    "summary": "A Level Agency-era .NET MVC system used by a roughly 55-person ServiceLink call center. I was dropped into the existing application to diagnose and improve severe performance problems under real operational load.",
+    "impact": [
+      "Inherited an existing ASP.NET MVC / Entity Framework application whose database was being overwhelmed by call-center usage.",
+      "Analyzed workflows around categorized knowledge content, discussions, content templates, content items, assets, permissions, printers, sharing, upload handling, and searchable management screens.",
+      "Diagnosed the core performance pattern: lazy-loaded EF entities, unbounded admin queries, and view-layer relationship traversal producing excessive SQL traffic during normal agent workflows.",
+      "Used the existing codebase to identify what the business needed while avoiding the architecture patterns that made the system slow."
+    ],
+    "technologies": ["C#", "ASP.NET MVC", "Entity Framework", "Razor", "jQuery", "Bootstrap", "JSON APIs", "SQL Server"],
+    "tags": ["Enterprise", "Full-stack", "Call Center", "Legacy Modernization"],
+    "thumbnail": "/static/images/projects/servicelink-call-center.svg",
+    "images": [
+      "/static/images/projects/servicelink-call-center.svg"
+    ],
+    "links": [
+      {
+        "label": "service-link-dot-net",
+        "url": "https://github.com/tdestro/service-link-dot-net"
+      }
+    ],
+    "evidence": [
+      {
+        "label": "Related repository",
+        "value": "service-link-dot-net"
+      },
+      {
+        "label": "Contribution",
+        "value": "Presented as inherited legacy-system diagnosis and performance stabilization work, not as original authorship or a modern architecture pattern."
+      }
+    ],
+    "image_fit": "contain",
+    "priority": 5,
+    "featured": true
+  }
+]

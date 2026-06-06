@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Post-Gazette truck manifest report stack</title>
+  <desc id="desc">A landscape, source-derived visual of the recovered truck_manifest generated output, showing a truck manifest sheet, a large page stack, and output-scale counts.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#171512"/>
+      <stop offset="0.56" stop-color="#050504"/>
+      <stop offset="1" stop-color="#24100d"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#ff2b1f"/>
+      <stop offset="0.58" stop-color="#f4efe6"/>
+      <stop offset="1" stop-color="#d6aa58"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="24" stdDeviation="22" flood-color="#000000" flood-opacity="0.52"/>
+    </filter>
+    <filter id="soft-shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#000000" flood-opacity="0.32"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="760" fill="url(#bg)"/>
+  <path d="M0 95h1200M0 250h1200M0 405h1200M0 560h1200M0 715h1200M150 0v760M360 0v760M570 0v760M780 0v760M990 0v760" stroke="#f4efe6" stroke-opacity="0.055"/>
+  <rect x="72" y="58" width="1056" height="644" fill="none" stroke="#f4efe6" stroke-opacity="0.16"/>
+  <rect x="72" y="58" width="1056" height="7" fill="url(#accent)"/>
+
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="104" y="124" fill="#d6aa58" font-size="18" font-weight="700" letter-spacing="0.5">PITTSBURGH POST-GAZETTE / TRUCKEXPORT</text>
+    <text x="104" y="178" fill="#f4efe6" font-size="52" font-weight="900">Manifest output</text>
+    <text x="104" y="218" fill="#91887b" font-size="21" font-weight="700">Recovered C# / ASP.NET / T4 report generation.</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="718" y="138" width="342" height="462" rx="3" fill="#d6cec1" opacity="0.78" transform="rotate(7.5 889 369)"/>
+    <rect x="704" y="130" width="342" height="462" rx="3" fill="#ded6ca" opacity="0.82" transform="rotate(6.4 875 361)"/>
+    <rect x="690" y="121" width="342" height="462" rx="3" fill="#e4ddd2" opacity="0.86" transform="rotate(5.4 861 352)"/>
+    <rect x="676" y="113" width="342" height="462" rx="3" fill="#ebe4d9" opacity="0.9" transform="rotate(4.4 847 344)"/>
+    <rect x="662" y="105" width="342" height="462" rx="3" fill="#f0e9df" opacity="0.93" transform="rotate(3.4 833 336)"/>
+    <rect x="648" y="98" width="342" height="462" rx="3" fill="#f4eee5" opacity="0.95" transform="rotate(2.4 819 329)"/>
+    <rect x="634" y="91" width="342" height="462" rx="3" fill="#f8f2ea" opacity="0.97" transform="rotate(1.4 805 322)"/>
+    <rect x="620" y="84" width="342" height="462" rx="3" fill="#fbf7ef" opacity="0.98" transform="rotate(0.6 791 315)"/>
+    <path d="M696 573c86 20 223 24 365 2" fill="none" stroke="#efe7dc" stroke-width="18" stroke-linecap="round" opacity="0.52"/>
+    <path d="M704 591c83 18 217 20 344 0" fill="none" stroke="#d4c8b8" stroke-width="9" stroke-linecap="round" opacity="0.7"/>
+    <rect x="584" y="76" width="342" height="462" rx="3" fill="#fffdf7"/>
+    <rect x="584" y="76" width="342" height="5" fill="url(#accent)"/>
+    <rect x="607" y="102" width="296" height="418" fill="none" stroke="#111111" stroke-opacity="0.14"/>
+
+    <g font-family="Arial, Helvetica, sans-serif" fill="#111111">
+      <text x="732" y="124" text-anchor="middle" font-size="9">001</text>
+      <text x="732" y="165" text-anchor="middle" font-size="43" font-weight="700">001</text>
+      <text x="732" y="197" text-anchor="middle" font-size="24">Truck 108</text>
+      <text x="732" y="236" text-anchor="middle" font-size="14">Post Gazette</text>
+      <text x="732" y="260" text-anchor="middle" font-size="13">Manifest for Saturday, September 13, 2014</text>
+      <text x="732" y="287" text-anchor="middle" font-size="13">MT WASHINGTON GREENTREE</text>
+      <text x="732" y="318" text-anchor="middle" font-size="13">Grand totals for Trip</text>
+
+      <rect x="636" y="330" width="192" height="91" fill="none" stroke="#111111" stroke-width="1.4"/>
+      <rect x="636" y="330" width="192" height="18" fill="#f0eee8"/>
+      <path d="M636 348h192M636 366h192M636 384h192M636 402h192M713 330v91M758 330v91M786 330v91M812 330v91" stroke="#111111" stroke-opacity="0.42"/>
+      <text x="643" y="343" font-size="9" font-weight="700">Products For Trip# 001</text>
+      <text x="752" y="343" font-size="8" font-style="italic" text-anchor="end">Bundle</text>
+      <text x="779" y="343" font-size="8" font-style="italic" text-anchor="end">Draw</text>
+      <text x="807" y="343" font-size="8" font-style="italic" text-anchor="end">Bundles</text>
+      <text x="823" y="343" font-size="8" font-style="italic" text-anchor="end">Odds</text>
+
+      <text x="643" y="361" font-size="9">PPG-200</text>
+      <text x="752" y="361" font-size="9" text-anchor="end">50</text>
+      <text x="779" y="361" font-size="9" text-anchor="end">894</text>
+      <text x="807" y="361" font-size="9" text-anchor="end">17</text>
+      <text x="823" y="361" font-size="9" text-anchor="end">44</text>
+      <text x="643" y="379" font-size="9">IBD-965</text>
+      <text x="752" y="379" font-size="9" text-anchor="end">40</text>
+      <text x="779" y="379" font-size="9" text-anchor="end">6</text>
+      <text x="807" y="379" font-size="9" text-anchor="end">0</text>
+      <text x="823" y="379" font-size="9" text-anchor="end">6</text>
+      <text x="643" y="397" font-size="9">NYT-960</text>
+      <text x="752" y="397" font-size="9" text-anchor="end">25</text>
+      <text x="779" y="397" font-size="9" text-anchor="end">29</text>
+      <text x="807" y="397" font-size="9" text-anchor="end">1</text>
+      <text x="823" y="397" font-size="9" text-anchor="end">4</text>
+      <text x="643" y="415" font-size="9">WSJ-962</text>
+      <text x="752" y="415" font-size="9" text-anchor="end">20</text>
+      <text x="779" y="415" font-size="9" text-anchor="end">239</text>
+      <text x="807" y="415" font-size="9" text-anchor="end">11</text>
+      <text x="823" y="415" font-size="9" text-anchor="end">19</text>
+
+      <text x="732" y="452" text-anchor="middle" font-size="11">Route detail sample / 56 drops</text>
+      <path d="M620 469h224" stroke="#111111" stroke-width="1"/>
+      <g font-size="8">
+        <text x="622" y="487">5</text><text x="655" y="487">0116-0409</text><text x="715" y="487">GAB N EAT</text><text x="811" y="487" text-anchor="end">PPG 6</text>
+        <path d="M620 497h224" stroke="#111111" stroke-opacity="0.18"/>
+        <text x="622" y="513">10</text><text x="655" y="513">0250-0056</text><text x="715" y="513">HOLIDAY INN</text><text x="811" y="513" text-anchor="end">PPG 25</text>
+      </g>
+    </g>
+  </g>
+
+  <g filter="url(#soft-shadow)" font-family="Arial, Helvetica, sans-serif">
+    <rect x="104" y="278" width="438" height="296" rx="4" fill="#11100e" stroke="#f4efe6" stroke-opacity="0.18"/>
+    <rect x="104" y="278" width="438" height="5" fill="#ff2b1f"/>
+    <text x="130" y="328" fill="#f4efe6" font-size="26" font-weight="800">One visible sheet from</text>
+    <text x="130" y="368" fill="#d6aa58" font-size="30" font-weight="900">hundreds of printable pages</text>
+    <text x="130" y="416" fill="#91887b" font-size="16">Recovered output includes route pages,</text>
+    <text x="130" y="442" fill="#91887b" font-size="16">depot reports, dispatch records,</text>
+    <text x="130" y="468" fill="#91887b" font-size="16">pallet sheets, and drop-level totals.</text>
+
+    <g font-size="20" font-weight="800">
+      <rect x="130" y="502" width="178" height="52" fill="rgba(244,239,230,0.06)" stroke="#f4efe6" stroke-opacity="0.14"/>
+      <text x="150" y="524" fill="#d6aa58">21.5 MB</text>
+      <text x="150" y="544" fill="#91887b" font-size="13">Manifest.html</text>
+      <rect x="326" y="502" width="188" height="52" fill="rgba(244,239,230,0.06)" stroke="#f4efe6" stroke-opacity="0.14"/>
+      <text x="346" y="524" fill="#d6aa58">2,717</text>
+      <text x="346" y="544" fill="#91887b" font-size="13">page-break markers</text>
+    </g>
+  </g>
+
+  <g filter="url(#soft-shadow)" font-family="Arial, Helvetica, sans-serif">
+    <rect x="128" y="594" width="980" height="76" rx="4" fill="#0d0c0a" stroke="#f4efe6" stroke-opacity="0.16"/>
+    <g font-size="15" font-weight="700">
+      <text x="160" y="624" fill="#d6aa58">29,135 tables</text>
+      <text x="160" y="648" fill="#91887b">generated report structure</text>
+      <text x="390" y="624" fill="#d6aa58">121,690 rows</text>
+      <text x="390" y="648" fill="#91887b">route, drop, and product output</text>
+      <text x="646" y="624" fill="#d6aa58">184 trip total blocks</text>
+      <text x="646" y="648" fill="#91887b">Products For Trip# sections</text>
+      <text x="902" y="624" fill="#d6aa58">public redaction</text>
+      <text x="902" y="648" fill="#91887b">street-level detail removed</text>
+    </g>
+  </g>
+</svg>
