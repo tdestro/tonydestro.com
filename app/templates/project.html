@@ -70,7 +70,7 @@
 <section id="heinz-world" class="section heinz-world-section" aria-label="Discover the World of Heinz">
   <div class="heinz-original-site" data-heinz-rebuilt-shell>
     <a class="heinz-original-logo" href="#" aria-label="Heinz home">
-      <img src="{{ url_for('static', path='/images/archive/heinz-worldcarousel/html/logo.png') }}" alt="Heinz">
+      <img src="{{ static_url('/images/archive/heinz-worldcarousel/html/logo.png') }}" alt="Heinz">
     </a>
     <nav class="heinz-original-nav" aria-label="Heinz primary navigation">
       <a class="active" href="#">Home</a>
@@ -84,16 +84,16 @@
       </label>
     </nav>
     <div class="heinz-original-title">
-      <img src="{{ url_for('static', path='/images/archive/heinz-worldcarousel/html/discovertitle.png') }}" alt="Discover the World of Heinz">
+      <img src="{{ static_url('/images/archive/heinz-worldcarousel/html/discovertitle.png') }}" alt="Discover the World of Heinz">
       <p>Serving up quality, taste, convenience and innovation like no other food company on Earth.</p>
     </div>
     <div
       class="heinz-original-carousel"
       data-heinz-world
       data-endpoint="/flash/worldcarousel/worldcarousel.aspx"
-      data-earth-countries-map="{{ url_for('static', path='/images/archive/heinz-worldcarousel/earth-countries.svg') }}"
-      data-moon-map="{{ url_for('static', path='/images/archive/heinz-worldcarousel/moon-lroc-color-512.jpg') }}"
-      data-overlay-map="{{ url_for('static', path='/images/archive/heinz-worldcarousel/overlay-open.png') }}"
+      data-earth-countries-map="{{ static_url('/images/archive/heinz-worldcarousel/earth-countries.svg') }}"
+      data-moon-map="{{ static_url('/images/archive/heinz-worldcarousel/moon-lroc-color-512.jpg') }}"
+      data-overlay-map="{{ static_url('/images/archive/heinz-worldcarousel/overlay-open.png') }}"
       aria-label="Heinz world carousel"
     >
       <canvas class="heinz-world-canvas" data-heinz-canvas aria-hidden="true"></canvas>
@@ -103,7 +103,7 @@
         <img
           class="heinz-world-panel-logo"
           data-heinz-panel-logo
-          src="{{ url_for('static', path='/images/archive/heinz-worldcarousel/logos/5.png') }}"
+          src="{{ static_url('/images/archive/heinz-worldcarousel/logos/5.png') }}"
           alt=""
         >
         <div class="heinz-world-actions">
@@ -127,7 +127,7 @@
         <a href="#">Global Websites</a>
         <a href="#">Contact</a>
       </nav>
-      <img src="{{ url_for('static', path='/images/archive/heinz-worldcarousel/html/smallheinzlogo_10-08.png') }}" alt="Heinz">
+      <img src="{{ static_url('/images/archive/heinz-worldcarousel/html/smallheinzlogo_10-08.png') }}" alt="Heinz">
       <nav class="heinz-original-footer-secondary" aria-label="Heinz footer secondary">
         <a href="#">Site Map</a>
         <a href="#">Privacy/Legal Policy</a>
@@ -157,7 +157,7 @@
 <section id="healthy-sight-panorama" class="section hsfl-panorama-section" aria-label="Healthy Sight Fund panorama">
   <div class="hsfl-original-site">
     <header class="hsfl-original-header">
-      <img src="{{ url_for('static', path='/images/archive/hsfl/panorama/shell/homeLogo.png') }}" alt="Healthy Sight Fund">
+      <img src="{{ static_url('/images/archive/hsfl/panorama/shell/homeLogo.png') }}" alt="Healthy Sight Fund">
       <nav class="hsfl-corp-nav" aria-label="Healthy Sight Fund utility navigation">
         <a href="#">Home</a>
         <a href="#">News</a>
@@ -174,7 +174,7 @@
     <div
       class="hsfl-stage-shell"
       data-hsfl-panorama
-      data-asset-base="{{ url_for('static', path='/images/archive/hsfl/panorama') }}"
+      data-asset-base="{{ static_url('/images/archive/hsfl/panorama') }}"
       aria-label="Healthy Sight Fund panorama module"
     >
       <canvas class="hsfl-panorama-canvas" data-hsfl-canvas aria-hidden="true"></canvas>
@@ -209,7 +209,7 @@
       </div>
     </div>
     <footer class="hsfl-original-footer">
-      <img src="{{ url_for('static', path='/images/archive/hsfl/panorama/shell/footerLogo.jpg') }}" alt="Transitions">
+      <img src="{{ static_url('/images/archive/hsfl/panorama/shell/footerLogo.jpg') }}" alt="Transitions">
       <p>&copy; 2009 Transitions Optical, Inc.</p>
     </footer>
   </div>
@@ -254,9 +254,9 @@
 
 {% block scripts %}
   {% if project.slug == "heinz-brand-experiences" %}
-    <script type="module" src="{{ url_for('static', path='/js/heinz-world.js') }}?v=heinz-world-20260529-calmer-weather-1"></script>
+    <script type="module" src="{{ static_url('/js/heinz-world.js') }}?v=heinz-world-20260529-calmer-weather-1"></script>
   {% endif %}
   {% if project.slug == "healthy-sight-fund" %}
-    <script type="module" src="{{ url_for('static', path='/js/healthy-sight-panorama.js') }}?v=hsfl-panorama-20260530-buttons-1"></script>
+    <script type="module" src="{{ static_url('/js/healthy-sight-panorama.js') }}?v=hsfl-panorama-20260530-buttons-1"></script>
   {% endif %}
 {% endblock %}

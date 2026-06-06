@@ -37,6 +37,13 @@ if HEINZ_LEGACY_MENU_DIR.exists():
 templates = Jinja2Templates(directory=BASE_DIR / "templates")
 
 
+def static_url(path: str) -> str:
+    return f"/static/{path.lstrip('/')}"
+
+
+templates.env.globals["static_url"] = static_url
+
+
 def context(request: Request, **extra: object) -> dict[str, object]:
     data: dict[str, object] = {
         "request": request,
